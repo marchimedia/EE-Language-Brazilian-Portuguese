@@ -23,7 +23,7 @@ $lang = array(
 
 'manual' => 'Manual',
 
-'no_addon_extensions_search_results' => 'Nenhuma <b>Extensão Adicional</b> encontrada',
+'no_addon_extensions_search_results' => 'Não encontramos nenhuma <b>Extensão Adicional</b> ',
 
 'no_addon_search_results' => 'Nenhum <b>Adicional</b> Encontrado',
 
@@ -57,7 +57,7 @@ $lang = array(
 
 'addons_not_installed' => 'Adicionais Não Instalados',
 
-'existing_consent_request' => 'Os seguintes adicioanais não foram instalados devido a uma Solicitação de Consentimento que o adicional está tentando criar:',
+'existing_consent_request' => 'Os seguintes adicionais não foram instalados devido a uma Solicitação de Consentimento que este adicional está tentando criar:',
 
 'contact_developer' => 'Por favor entre em contato com o desenvolvedor para assistência.',
 
@@ -69,7 +69,7 @@ $lang = array(
 
 'addons_updated_desc' => 'Os seguintes adicionais foram atualizados: ',
 
-'btn_save_settings' => 'Salvar Ajustes',
+'btn_save_settings' => 'Salvar Configurações',
 
 'custom_limit' => 'limite customizado',
 
@@ -137,7 +137,7 @@ $lang = array(
 
 'extensions_disabled_desc' => 'As extensões foram desativadas.',
 
-'extensions_disabled_warning' => 'Para poder instalar este adicional, você precisa ativar as extensões. Você deseja ativar as extensões?',
+'extensions_disabled_warning' => 'Para poder instalar este software adicional, você precisa ativar as extensões. Você deseja ativar as extensões?',
 
 'extensions_enabled' => 'Extensões Ativadas',
 
@@ -157,7 +157,7 @@ $lang = array(
 
 'modules' => 'Módulos',
 
-'no_extension_id' => 'Nenhuma Extansão Especificada',
+'no_extension_id' => 'Nenhuma Extensão foi Definida',
 
 'none' => 'Nenhum',
 

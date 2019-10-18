@@ -8,13 +8,13 @@ $lang = array(
 
 'attachment_problem' => 'Houve um problema ao anexar seu arquivo.',
 
-'attachment_unavailable' => 'Para que anexos sejam enviados, é necessário que seja definido um local de upload.',
+'attachment_unavailable' => 'Para que anexos sejam enviados, é necessário que seja definido um local para upload dos arquivos anexados.',
 
 'attachment_warning' => 'Anexos <strong>não são sakvos</strong> pelo ExpressionEngine, e devem ser salvos localmente.',
 
 'batchmode_disabled' => 'O Modo em Lote está desativado',
 
-'batchmode_ready_to_begin' => 'A rotina de e-mail irá começar em cinco segundos',
+'batchmode_ready_to_begin' => 'A rotina de envio de e-mail será iniciada em cinco segundos',
 
 'batchmode_warning' => 'Não mexa no seu navegador até que o processo esteja completamente finalizado!',
 
@@ -38,7 +38,7 @@ $lang = array(
 
 'delete_question' => 'Tem certeza que deseja excluir permanentemente o(s) e-mail(s) especificado(s)?',
 
-'dummy_location' => 'O e-mail saia para: %s',
+'dummy_location' => 'O e-mail foi para: %s',
 
 'email_date' => 'Dados Enviados',
 
@@ -82,7 +82,7 @@ $lang = array(
 
 'message' => 'Mensagem',
 
-'no_cached_email' => 'Nenhum <b>e-mail em cached</b> foi encontrado.',
+'no_cached_email' => 'Nenhum <b>e-mail em cache</b> foi encontrado.',
 
 'no_email_matching_criteria' => 'Não existem endereços de e-mail que correspondam aos critérios que você selecionou',
 

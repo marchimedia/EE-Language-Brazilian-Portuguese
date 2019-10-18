@@ -34,13 +34,13 @@ $lang = array(
 
 'channel_no_action_found' => 'Não foi possível carregar os recursos necessários para criar o formulário da publicação',
 
-'channel_no_preview_template' => 'Um template de prévia não foi especificado em sua tag',
+'channel_no_preview_template' => 'Um template de pré-visualização não foi especificado em sua tag',
 
 'channel_not_specified' => 'Você deve definir um canal para poder usar o formulário da publicação.',
 
-'channel_set_duplicates_error' => 'Importação Criará Duplicatas',
+'channel_set_duplicates_error' => 'A Importação Criará Duplicatas',
 
-'channel_set_duplicates_error_desc' => 'Este conjunto de canal utiliza nomes que já existem em seu site. Por favor renomeie os seguintes itens.',
+'channel_set_duplicates_error_desc' => 'Este conjunto de canal utiliza nomes já existentes em seu site. Por favor renomeie os seguintes itens.',
 
 'channel_set_imported' => 'Canal Importado',
 
@@ -52,7 +52,7 @@ $lang = array(
 
 'channel_set_upload_error' => 'Não foi possível Importar o Canal',
 
-'channel_set_upload_error_desc' => 'Não foi possível importar o canal, por favor tenha certeza que sua pasta de cache possui permissões de gravação.',
+'channel_set_upload_error_desc' => 'Não foi possível importar o canal, por favor tenha certeza que sua pasta de cache possui permissões para gravação.',
 
 'channel_set_invalid' => 'Não é um conjunto de canal válido. O arquivo channel_set.json não foi localizado.',
 
@@ -80,7 +80,7 @@ $lang = array(
 
 'custom_fields_for' => 'Campos Customizados para %s',
 
-'duplicate_tab_name' => 'Uma aba com este nome já existe.',
+'duplicate_tab_name' => 'Já existe uma aba com este nome.',
 
 'edit_form_layout' => 'Editar Layout de Publicação',
 
@@ -106,7 +106,7 @@ $lang = array(
 
 'field_groups' => 'Grupos de Campos',
 
-'field_groups_desc' => 'Designe um ou mais grupos de campos à este canal.',
+'field_groups_desc' => 'Atribua um ou mais grupos de campos à este canal.',
 
 'fields_desc' => 'Atribua um ou mais campos neste canal.',
 
@@ -160,7 +160,7 @@ $lang = array(
 
 
 /* Criar / Editar Canal */
-'category_groups_not_found' => 'Nenhum <b>grupo de categorias</b> encontrado',
+'category_groups_not_found' => 'Não foi encontrado nenhum <b>grupo de categorias</b>',
 
 'channel_created' => 'Canal Criado',
 
@@ -174,7 +174,7 @@ $lang = array(
 
 'channel_max_entries' => 'Quantidade máxima de publicações',
 
-'channel_max_entries_desc' => 'Deixe em branco para quantidade ilimitada &infin;.',
+'channel_max_entries_desc' => 'Deixe em branco para ilimitado &infin;.',
 
 'channel_not_created' => 'Não foi possível Criar o Canal',
 
@@ -270,7 +270,7 @@ $lang = array(
 
 'comment_expiration' => 'Expiração de Comentários',
 
-'comment_expiration_desc' => 'Tempo em dias após o conteúdo ser publicado, onde passado esse tempo comentários não serão mais aceitos.</em><br /><em>Deixe em branco para que não haja expiração de tempo.',
+'comment_expiration_desc' => 'Tempo em dias após o conteúdo ser publicado - e uma vez passado esse tempo, comentários não serão mais aceitos.</em><br /><em>Deixe em branco para que não haja expiração de tempo.',
 
 'comment_form' => 'Formulário de Comentários',
 
@@ -294,15 +294,15 @@ $lang = array(
 
 'default_category' => 'Categoria',
 
-'default_category_desc' => 'Categoria atribuída a todos os <b>novos</b> publicações neste canal.',
+'default_category_desc' => 'Categoria atribuída às <b>novas</b> publicações neste canal.',
 
 'default_status' => 'Status',
 
-'default_status_desc' => 'Status atribuído para todos os <b>novos</b> publicações neste canal.',
+'default_status_desc' => 'Status atribuído para às <b>novas</b> publicações neste canal.',
 
 'default_title' => 'Título Gerado',
 
-'default_title_desc' => 'Título atribuído para todos os <b>novos</b> publicações neste canal.',
+'default_title_desc' => 'Título atribuído para às <b>novas</b> publicações neste canal.',
 
 'enable_author_notification' => 'Ativar avisos para o autor?',
 
@@ -322,7 +322,7 @@ $lang = array(
 
 'extra_publish_controls' => 'Mostrar controles extras de publicação?',
 
-'extra_publish_controls_desc' => 'Quando ativado, um segundo controle de controles de publicação irá ser mostrado na parte superior do formulário de publicação deste canal.',
+'extra_publish_controls_desc' => 'Quando ativado, um segundo conjunto de controles da publicação será exibido na parte superior do formulário de publicação deste canal.',
 
 'html_formatting' => 'Formatação <abbr title="Linguagem de Marcação HiperTexto">HTML</abbr> ',
 
@@ -338,11 +338,11 @@ $lang = array(
 
 'max_versions' => 'Quantidade máxima de versões por publicação',
 
-'max_versions_desc' => 'O número máximo de revisões que serão salvas de cada publicação.',
+'max_versions_desc' => 'O número máximo de revisões de cada publicação, que serão salvas.',
 
 'moderate_comments' => 'Moderar comentários?',
 
-'moderate_comments_desc' => 'Quando ativado, os comentários enviados serão inseridos em um queue de moderação, e deve ser aprovado por um Super Admin ou outro grupo de membros com permissões de moderação.',
+'moderate_comments_desc' => 'Quando ativado, os comentários enviados serão inseridos em uma fila de moderação, e deverão ser aprovados por um Super Admin ou outro grupo de membros com permissões de moderação.',
 
 'notifications' => 'Notificações',
 
@@ -354,9 +354,9 @@ $lang = array(
 
 'require_email_desc'=> 'Quando ativado, um membro deve fornecer um endereço de E-mail válido para poder postar comentários nas publicações deste canal.',
 
-'require_membership' => 'Necessário ser Membro?',
+'require_membership' => 'É necessário ser Membro?',
 
-'require_membership_desc' => 'Quando ativado, apenas membros registrados podem postar comentários nas publicações deste canal.',
+'require_membership_desc' => 'Quando ativado, apenas membros registrados poderão postar comentários nas publicações deste canal.',
 
 'rss_feed' => 'Feed <abbr title="Really Simple Syndication">RSS</abbr> ',
 
@@ -376,7 +376,7 @@ $lang = array(
 
 'title_field_label' => 'Rótulo do campo Título',
 
-'title_field_label_desc' => 'Altera o rótulo do campo Título no formulário de Publicação para este canal.',
+'title_field_label_desc' => 'Altera o rótulo do campo Título, no formulário de Publicação para este canal.',
 
 'url_path_settings' => 'Configurações de <abbr title="Unified Resource Locator">URL</abbr> e Caminho',
 
@@ -392,7 +392,7 @@ $lang = array(
 
 
 /* Categorias */
-'cat_field_ajax_reorder_fail' => 'Atenção: Falha ao salvar a ordem dos campos de categorias',
+'cat_field_ajax_reorder_fail' => 'Atenção: Houve uma falha ao salvar a ordem dos campos de categorias',
 
 'cat_field_ajax_reorder_fail_desc' => 'Falhamos em salvar a ordem dos campos de categoria. Atualize a página e tenha certeza que você está logado no sistema.',
 
@@ -414,7 +414,7 @@ $lang = array(
 
 'category' => 'Categoria',
 
-'category_ajax_reorder_fail' => 'Atenção: Falha em salvar a ordem das categorias',
+'category_ajax_reorder_fail' => 'Atenção: Falha ao salvar a ordem das categorias',
 
 'category_ajax_reorder_fail_desc' => 'Falhamos ao tentar salvar sua nova ordem de categorias. Atualize a página e tenha certeza que você está logado no sistema..',
 

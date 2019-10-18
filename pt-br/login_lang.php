@@ -3,7 +3,7 @@
 $lang = array(
 
 /* Log-in */
-'credential_missmatch' => 'O nome ou senha estão errados',
+'credential_missmatch' => 'O nome ou a senha estão incorretos',
 
 'locked' => 'Travado',
 
@@ -13,7 +13,7 @@ $lang = array(
 
 'no_email' => 'Você deve fornecer seu endereço de e-mail.',
 
-'no_password' => 'O campo senha é obrigatório',
+'no_password' => 'O campo da senha é obrigatório',
 
 'no_username' => 'O campo do nome de usuário é obrigatório',
 

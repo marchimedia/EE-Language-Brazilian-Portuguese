@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'action_can_not_be_undone' => 'Esta ação não podera ser desfeita',
+'action_can_not_be_undone' => 'Esta ação não poderá ser desfeita',
 
 'activate_thread' => 'Ativar Assunto',
 
@@ -606,7 +606,7 @@ $lang = array(
 
 'thread_delete_info' => 'Todos os posts neste tópico serão excluídos permanentemente!',
 
-'thread_delete_warning' => 'Tem certeza que deseja excluir esse tópico inteiro permanentemente?',
+'thread_delete_warning' => 'Tem certeza que deseja excluir permanentemente esse tópico inteiro?',
 
 'thread_no_exists' => 'O tópico especificado não existe',
 
@@ -624,7 +624,7 @@ $lang = array(
 
 'too_many_attachments' => 'Você possui permissão para anexar apenas %x arquivos por post.',
 
-'too_many_name_results' => 'O nome que você enviou é similar ao nome de mais de um usuário.  Por favor refine seus critérios.',
+'too_many_name_results' => 'O nome que você enviou é similar ao nome de outro usuário.  Por favor refine seus critérios.',
 
 'topic_heading' => 'Título do Tópico',
 
@@ -666,7 +666,7 @@ $lang = array(
 
 'total_votes' => 'Total de Votos:',
 
-'unable_to_recieve_attach' => 'não é possível aceitar anexos de arquivo neste momento',
+'unable_to_recieve_attach' => 'Não é possível aceitar anexos de arquivo neste momento',
 
 'unignore_member' => 'Parar de Ignorar Membro',
 
@@ -712,7 +712,7 @@ $lang = array(
 
 'you_have_voted' => 'Você já votou nesta enquete',
 
-'you_may_rename' => 'Você pode opcionalmente, renomear este tópico',
+'you_may_rename' => 'Você pode, opcionalmente, renomear este tópico',
 
 'your_account' => 'Sua Conta',
 

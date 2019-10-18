@@ -96,7 +96,7 @@ $lang = array(
 
 'invalid_element' => 'Elemento não encontrado ou inválido - &lt;member&gt; era esperado',
 
-'invalid_path' => 'CAMINHO INVALIDO! O Arquivo não existe: ',
+'invalid_path' => 'CAMINHO INVÁLIDO! O Arquivo não existe: ',
 
 'invalid_tag' => 'Tag XML Inválida!',
 
@@ -152,7 +152,7 @@ $lang = array(
 
 'password_warning' => 'Alerta de Senha',
 
-'password_warning_blurb' => 'Se uma senha não foi fornecida, seus membros importados precisrão utilizar o link do recurso "Senha Esquecida" para efetuar o login. Também, se suas configurações de encriptação do ExpressionEngine (sha1/md5) não corresponderem ao tipo de encriptação dos seus dados importados, as senhas não funcionarão e os membros afetados precisarão usar o link do recurso "Esqueci a Senha" da mesma maneira. Senhas do tipo="text" serão encriptadas para você durante a importação.',
+'password_warning_blurb' => 'Se você não fornecer uma senha, seus membros importados precisrão utilizar o link do recurso "Senha Esquecida" para efetuar o login. Também, se suas configurações de encriptação do ExpressionEngine (sha1/md5) não corresponderem ao tipo de encriptação dos seus dados importados, as senhas não funcionarão e os membros afetados precisarão usar o link do recurso "Esqueci a Senha" da mesma maneira. Senhas do tipo="text" serão encriptadas para você durante a importação.',
 
 'plaintext_passwords' => 'As senhas estão em texto puro',
 
@@ -192,7 +192,7 @@ $lang = array(
 
 'xml_file_loc_blurb' => 'O local do arquivo deve ser relativo à sua pasta do painel de controlde do seu site. Ex: ../membros.xml, se inserido na pasta raiz do site.',
 
-'xml_imported' => 'Dados XML de Membros foram importados',
+'xml_imported' => 'Os dados XML dos Membros foram importados',
 
 'your_data' => 'Seus Dados',
 

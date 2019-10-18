@@ -92,7 +92,7 @@ $lang = array(
 Os seguintes arquivos foram afetados:
 {changed}
 
-Se você efetuou estas alterações, por favor aceite as modificações na homepage do seu painel de controle. Se você não aletrou estes arquivos, isso pode indicar uma tenativa de hacking. Verifique os arquivos para qualquer conteúdo suspeito (JavaScript ou iFrames) e veja: '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
+Se você efetuou estas alterações, por favor aceite as modificações na homepage do seu painel de controle. Se você não alterou estes arquivos, isso pode indicar uma tentativa de hacking. Verifique seus arquivos em busca de qualquer conteúdo suspeito (JavaScript ou iFrames) e veja: '.DOC_URL.'troubleshooting/error_messages/expressionengine_has_detected_the_modification_of_a_core_file.html',
 
 'checksum_email_subject' => 'Um arquivo principal do sistema foi modificado em seu site.',
 
@@ -110,7 +110,7 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 
 'general_error' => 'Os seguintes erros foram encontrados',
 
-'generic_fatal_error' => 'Algo aconteceu de errado e esta URL não pode ser processada neste momento.',
+'generic_fatal_error' => 'Algo deu errado e esta URL não pode ser processada neste momento.',
 
 'invalid_action' => 'A ação que você solicitou é inválida.',
 
@@ -120,7 +120,7 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 
 'missing_mime_config' => 'Não foi possível importar sua lista segura de tipos MIME: o arquivo %s não existe ou não pode ser lido.',
 
-'new_version_error' => 'Aconteceu um erro inesperado ao tentar baixar a versão atual do ExpressionEngine. Veja este <a href="%s" rel="external noreferrer">guia para resolução de problemas</a> para maiores informações.',
+'new_version_error' => 'Aconteceu um erro inesperado ao tentar baixar a versão atual do ExpressionEngine. Veja este <a href="%s" rel="external noreferrer">guia para resolução de problemas</a>, para maiores informações.',
 
 'nonexistent_page' => 'A página que você solicitou não foi encontrada',
 
@@ -156,7 +156,7 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 
 'error_fix_syntax' => 'Por favor corrija a sintaxe no seu template.',
 
-'error_invalid_conditional' => 'Você tem uma condicional inválida em seu template. Por favor revise  suas condicionais por strings não fechadas, operadores inválidos, um } perdido ou um {/if} perdido.',
+'error_invalid_conditional' => 'Você tem uma condicional inválida em seu template. Por favor revise suas condicionais por strings não-fechadas, operadores inválidos, um } perdido ou um {/if} perdido.',
 
 'error_layout_too_late' => 'A tag do plugin ou módulo antes da declaração do layout. Por favor mova a tag do layout para o topo do seu template.',
 
@@ -176,19 +176,19 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 /* E-mail */
 'error_sending_email' => 'Não foi possível enviar e-mail neste momento.',
 
-'forgotten_email_sent' => 'Se este endereço de e-mail estiver associado com uma conta, as instruções para resetar sua senha foram enviadas por e-mail.',
+'forgotten_email_sent' => 'Se este endereço de e-mail estiver associado com uma conta, as instruções para resetar sua senha foram enviadas para esse e-mail.',
 
 'no_email_found' => 'O endereço de e-mail que você forneceu não foi localizado no banco de dados.',
 
-'password_has_been_reset' => 'Sua senha foi resetada e uma nova foi enviada por e-mail para você.',
+'password_has_been_reset' => 'Sua senha foi resetada e uma nova foi enviada para você, por e-mail.',
 
-'password_reset_flood_lock' => 'Você tentou resetar sua senha muitas vezes hoje. Por favor verifique sua caixa de entrada e pastas de spam para solicitações anteriores, ou enntre em contato com o administrador do site.',
+'password_reset_flood_lock' => 'Você tentou resetar sua senha muitas vezes hoje. Por favor verifique sua caixa de entrada e pastas de spam para solicitações anteriores, ou entre em contato com o administrador do site.',
 
 'your_new_login_info' => 'Informações de Login',
 
 
 /* Timezone */
-'invalid_date_format' => 'O formato de dados que você forneceu é inválido.',
+'invalid_date_format' => 'O formato de data que você forneceu é inválido.',
 
 'invalid_timezone' => 'O fuso de horário que você forneceu é inválido.',
 

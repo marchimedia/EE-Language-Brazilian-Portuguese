@@ -2,15 +2,15 @@
 
 $lang = array(
 
-'imglib_copy_error' => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor tenha certeza que sua pasta de arquivos possui permissões de escrita.',
+'imglib_copy_error' => 'encontramos um erro ao tentar substituir o arquivo. Por favor tenha certeza que sua pasta de arquivos possui permissões de escrita.',
 
 'imglib_copy_failed' => 'A rotina de copiar imagem falhou.',
 
 'imglib_gd_required' => 'A biblioteca de imagens GD é necessária para este recurso.',
 
-'imglib_gd_required_for_props' => 'Seu servidor deve suportar a biblioteca de imagens GD para poder determinar as propriedades da imagem.',
+'imglib_gd_required_for_props' => 'Seu servidor precisa ter suporte à biblioteca de imagens GD para poder determinar as propriedades da imagem.',
 
-'imglib_gif_not_supported' => 'Imagens GIF não são suportadas devido à restrições de licenciamento. Você pode ter que usar imagens JPG ou PNG ao invés disso.',
+'imglib_gif_not_supported' => 'Imagens GIF não são suportadas devido à restrições de licenciamento. Você terá que usar imagens JPG ou PNG.',
 
 'imglib_image_process_failed' => 'O processamento de imagem falhou. Por favor verifique se seu servidor suporta o protocolo escolhido e que o caminho para sua biblioteca de imagens está correto.',
 

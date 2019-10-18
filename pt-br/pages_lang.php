@@ -32,7 +32,7 @@ $lang = array(
 
 'filter_channels' => 'filtrar canais',
 
-'invalid_page_name' => 'Nome Inválido de Página fornecido',
+'invalid_page_name' => 'Foi fornecido um nome inválido de Página',
 
 'invalid_page_num_segs' => 'Você excedeu o número de segmentos de URI na URL das páginas',
 
@@ -66,7 +66,7 @@ $lang = array(
 
 'pages_configuration' => 'Configuração Módulo',
 
-'pages_deleted_desc' => 'A seguinte URL de página foi excluída',
+'pages_deleted_desc' => 'As seguintes URLs de páginas foram excluídas',
 
 'pages_display_on_homepage' => 'Mostrar as URIs na Homepage do Módulo',
 

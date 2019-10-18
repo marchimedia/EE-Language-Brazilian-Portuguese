@@ -4,7 +4,7 @@ $lang = array(
 
 'add_site' => 'Site Adicionado',
 
-'btn_site_limit_reached' => 'Foi atingido o limite de Sites',
+'btn_site_limit_reached' => 'O limite de Sites foi alcançado',
 
 'cannot_remove_site_1' => 'Você não pode remover o site <b>%s</b>.',
 
@@ -16,7 +16,7 @@ $lang = array(
 
 'create_site_success' => 'Site Criado',
 
-'create_site_success_desc' => 'O site <b>%s</b> foi criada.',
+'create_site_success_desc' => 'O site <b>%s</b> foi criado.',
 
 'description_desc' => 'Um breve descritivo deste site.',
 
@@ -50,7 +50,7 @@ $lang = array(
 
 'site_limit_reached' => 'Alcançado o Limite de Sites',
 
-'site_limit_reached_desc' => 'O Gerenciador de Sites permite que você gerencie sites adicionais a partir de uma única instalação do ExpressionEngine. Você atingiu este limite.</p><p>Você pode <a href="%s" rel="external">adquiir licenças adicionais de sites adicionais</a> em expressionengine.com.',
+'site_limit_reached_desc' => 'O Gerenciador de Sites permite que você gerencie sites adicionais a partir de uma única instalação do ExpressionEngine. Você atingiu este limite.</p><p>Você pode <a href="%s" rel="external">adquirir licenças adicionais de sites adicionais</a> em expressionengine.com.',
 
 'site_online' => 'Website online?',
 

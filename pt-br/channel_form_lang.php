@@ -8,7 +8,7 @@ $lang = array(
 
 'channel_form_invalid_guest_member_id' => 'O id de membro fornecido para uso de envios de visitantes é inválido.',
 
-'channel_form_no_channel' => 'Não foi definido nenhum canal.',
+'channel_form_no_channel' => 'Nenhum canal foi definido.',
 
 'channel_form_require_entry' => 'Você deve especificar uma publicação válida para a edição.',
 

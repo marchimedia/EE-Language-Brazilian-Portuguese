@@ -6,9 +6,9 @@ $lang = array(
 
 'db_column_definition_required' => 'Uma definição de coluna é necessária para esta operação.',
 
-'db_column_name_required' => 'O nome de uma coluna é necessária para essa operação.',
+'db_column_name_required' => 'O nome de uma coluna é necessário para essa operação.',
 
-'db_del_must_use_where' => 'As exclusões não são permitidas a menos que elas contenham uma cláusula "where" ou "like".',
+'db_del_must_use_where' => 'As exclusões não são permitidas, a menos que elas contenham uma cláusula "where" ou "like".',
 
 'db_error_heading' => 'Ocorreu um Erro no Banco de Dados',
 
@@ -18,13 +18,13 @@ $lang = array(
 
 'db_invalid_cache_path' => 'O caminho para o cache que você forneceu não é válido ou não possui permissões de escrita.',
 
-'db_invalid_connection_str' => 'Não foi possível determinar as configurações baseadas no string de conexão que que você enviou.',
+'db_invalid_connection_str' => 'Não foi possível determinar as configurações baseadas no string de conexão que que você forneceu.',
 
 'db_invalid_query' => 'O query que você enviou nào é válido.',
 
 'db_must_set_table' => 'Você deve definir a tabela do banco de dados que será utilizada com o seu query.',
 
-'db_must_use_index' => 'Você deve definir um índice para combinar specify an index to match on for batch updates.',
+'db_must_use_index' => 'Você deve definir um índice para combinar nas atualizações em lote.',
 
 'db_must_use_set' => 'Você deve usar o método "set" para atualizar uma publicação.',
 

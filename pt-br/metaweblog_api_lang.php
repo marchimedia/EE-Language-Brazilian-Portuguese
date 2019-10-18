@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'closed' => 'Não-Publicado',
+'closed' => 'Offline',
 
 'configuration_created' => 'Configuração Criada',
 
@@ -70,7 +70,7 @@ $lang = array(
 
 'metaweblog_excerpt_field' => 'Prévia da busca',
 
-'metaweblog_excerpt_field_desc' => 'Campo usado para a prévia da busca.',
+'metaweblog_excerpt_field_desc' => 'Campo utilizado para a prévia da busca.',
 
 'metaweblog_keywords_field' => 'Palavras-chave',
 
@@ -82,7 +82,7 @@ $lang = array(
 
 'metaweblog_more_field_desc' => 'Campo usado para mais.',
 
-'metaweblog_parse_type' => 'Usar preferências-padrão de formatação de texto?',
+'metaweblog_parse_type' => 'Usar preferências-padrão para a formatação de texto?',
 
 'metaweblog_parse_type_desc' => 'Quando ativado, o conteúdo será enviado com a formatação de texto do campo customizado intacta.',
 

@@ -6,7 +6,7 @@ $lang = array(
 
 'directory' => 'Pasta:',
 
-'directory_no_access' => 'Você não têm acesso à pasta especificada para este campo',
+'directory_no_access' => 'Você não têm acesso à pasta definida para este campo',
 
 'file_undo_remove' => 'Desfazer Remoção',
 
@@ -36,7 +36,7 @@ $lang = array(
 
 'rel_ft_channels' => 'Canais para Relacionar',
 
-'rel_ft_channels_desc' => 'Quais canais podem obter conteúdo relacionado.',
+'rel_ft_channels_desc' => 'Quais canais poderão obter conteúdo relacionado.',
 
 'rel_ft_include' => 'Incluir nesta seleção',
 
@@ -81,7 +81,7 @@ $lang = array(
 
 'duration_ft_minutes' => 'Minutos',
 
-'duration_ft_placeholder' => 'Duração de %s (ou %s)',
+'duration_ft_placeholder' => 'Duração em %s (ou %s)',
 
 'duration_ft_seconds' => 'Segundos',
 
@@ -102,27 +102,64 @@ $lang = array(
 
 'file_ft_content_type' => 'Tipos de Arquivo Permitidos',
 
-'file_ft_content_type_desc' => 'Tipos de arquivos que podem ser subidos a partir deste campo.',
+'file_ft_content_type_desc' => 'Tipos de arquivos que poderão ser subidos a partir deste campo.',
 
-'file_ft_limit' => 'Limite dos Arquivos Existentes',
+'file_ft_images_only' => 'apenas Imagens',
 
-'file_ft_limit_desc' => 'Quantidade máxima de arquivos a serem exibidos no drop down.<br><i>Deixe em branco para exibir todos os arquivos.</i>',
+'file_ft_limit' => 'Limite de arquivos existentes',
 
-'file_ft_no_upload_directories' => 'Atualmente não existem pastas de upload disponíveis. Por favor <a href="%s">adicione uma ou mais pastas para upload</a> para usar o tipo de campo Arquivo.',
+'file_ft_limit_desc' => 'Número máximo de arquivos a serem exibidos no drop down.<br><i>Deixe em branco para mostrar todos os arquivos.</i>',
+
+'file_ft_no_upload_directories' => 'Atualmente não existem pastas de upload disponíveis. Por favor <a href="%s">adicione uma ou mais pastas de upload</a> para serem utilizadas no campo Arquivo.',
 
 'file_ft_select_existing' => 'Selecione um arquivo existente',
 
-'file_ft_show_files' => 'Mostrar arquivos existentes?',
+'file_ft_show_files' => 'Exibir arquivos existentes?',
 
-'file_ft_show_files_desc' => 'Quando ativado, um drop down com os arquivos existentes serão exibidos aos autores.',
+'file_ft_show_files_desc' => 'Quando ativado, um drop down com os arquivos existentes serão exibidos para os autores.',
 
-'file_ft_upload_directories' => 'Subir Pastas',
+'file_ft_upload_directories' => 'Pastas de Upload',
 
+/* Arquivo Drag and Drop */
 
-/* Grade */
+'file_dnd_choose_directory' => 'Por favor selecione uma pasta',
+
+'file_dnd_choose_directory_btn' => 'Selecione um Diretório',
+
+'file_dnd_choose_directory_before_uploading' => 'Você deve selecionar uma pasta para subir seus arquivos',
+
+'file_dnd_choose_directory_btn' => 'Selecionar Pasta',
+
+'file_dnd_choose_existing' => 'Selecionar Existente',
+
+'file_dnd_dismiss' => 'Agora não',
+
+'file_dnd_drop_file' => 'Arraste o Arquivo Aqui para Upload',
+
+'file_dnd_drop_files' => 'Arraste Arquivo(s) Aqui para Upload',
+
+'file_dnd_file_name' => 'Nome do Arquivo',
+
+'file_dnd_filter_directories' => 'filtrar pastas',
+
+'file_dnd_images_only' => 'Este campo aceita apenas imagens.',
+
+'file_dnd_progress' => 'Progresso',
+
+'file_dnd_resolve_conflict' => 'Resolver Conflitos',
+
+'file_dnd_single_file_allowed' => 'Este campo pode conter apenas um arquivo',
+
+'file_dnd_unexpected_error' => 'Erro inesperado. Verifique seu tamanho de post_max_size nas suas configurações de PHP.',
+
+'file_dnd_uploading_to' => 'subindo para %s',
+
+'file_dnd_upload_new' => 'Subir Novo',
+
+/* Grid */
 'grid_add_field' => 'adicionar novo campo',
 
-'grid_add_some_data' => 'Você ainda não adicionou nenhuma linha de dados. <a href="#" class="grid_link_add">Adicionar alguns dados?</a>',
+'grid_add_some_data' => 'Você não adicionou nenhuma linha de dados ainda. <a href="#" class="grid_link_add">Adicionar alguns dados?</a>',
 
 'grid_allow_reorder' => 'Permitir reordenamento de linhas?',
 
@@ -130,13 +167,13 @@ $lang = array(
 
 'grid_col_instr' => 'Instruções',
 
-'grid_col_label' => 'Rótulo na Página Publicar',
+'grid_col_label' => 'Rótulo de Publicação',
 
-'grid_col_name' => 'Nome do Campo',
+'grid_col_name' => 'Nome do campo',
 
-'grid_col_name_reserved' => 'Esta coluna está usando um nome de coluna resrvado para outras funcionalidades de template.',
+'grid_col_name_reserved' => 'Esta coluna está utilizando um nome de coluna reservado para outras funcionalidades de template.',
 
-'grid_col_options' => 'São estes dados',
+'grid_col_options' => 'São esses dados',
 
 'grid_col_type' => 'Tipo de Dados?',
 
@@ -146,39 +183,39 @@ $lang = array(
 
 'grid_col_width_percent' => 'Percentual.',
 
-'grid_config_desc' => 'Quais dados você deseja coletar?',
+'grid_config_desc' => 'Quais dados você deseja colecionar?',
 
 'grid_copy_field' => 'copiar campo',
 
 'grid_date_localized' => 'Localizado?',
 
-'grid_duplicate_col_label' => 'Os rótulos dos campos da coluna devem ser únicos.',
+'grid_duplicate_col_label' => 'Os rótulos das Colunas do campo devem ser únicos.',
 
-'grid_duplicate_col_name' => 'Os nomes dos campos da coluna devem ser únicos.',
+'grid_duplicate_col_name' => 'Os nomes das Colunas do campo devem ser únicos.',
 
 'grid_expand_field' => 'expandir campo',
 
 'grid_field_required' => 'Este campo é obrigatório',
 
-'grid_fields' => 'Campos da Grade',
+'grid_fields' => 'Campos Grid',
 
-'grid_in_this_field' => 'É este campo',
+'grid_in_this_field' => 'Neste campo',
 
 'grid_in_this_field_desc' => 'Tornar este campo obrigatório ou localizável.',
 
-'grid_limit_input' => 'Limitar entrada?',
+'grid_limit_input' => 'Limitar inserções?',
 
-'grid_max_rows' => 'Qtde. Máxima de Linhas',
+'grid_max_rows' => 'Quantidade máxima de linhas',
 
-'grid_max_rows_desc' => 'Defina a quantidade máxima de linhas de dados que esta grade irá possuir',
+'grid_max_rows_desc' => 'Defina a quantidade máxima de linhas de dados que este grid irá aceitar',
 
-'grid_min_rows' => 'Qtde. Mínima de Linhas',
+'grid_min_rows' => 'Mínimo de Linhas',
 
-'grid_min_rows_desc' => 'Defina a quantidade mínima de linhas de dados que esta grade irá possuir',
+'grid_min_rows_desc' => 'Defina a quantidade mínima de linhas de dados que este grid irá aceitar',
 
 'grid_order_by' => 'Ordenar por',
 
-'grid_output_format' => 'Formatação da Saída?',
+'grid_output_format' => 'Formatação de Saída?',
 
 'grid_remove_field' => 'remover campo',
 
@@ -186,12 +223,17 @@ $lang = array(
 
 'grid_show' => 'Mostrar',
 
-'grid_show_fmt_btns' => 'Mostrar opções de formatação?',
+'grid_show_fmt_btns' => 'Mostrar botões de formatação?',
 
 'grid_text_direction' => 'Direção do Texto?',
 
-'grid_validation_error' => 'Houve um problema com um ou mais campos da Grade',
+'grid_validation_error' => 'Ocorreu um problema com um ou mais campos de Grid',
 
+/* Arquivo grid */
+
+'file_grid_setup' => 'Configurações do Arquivo de Grid',
+
+'file_grid_maximum_rows_hit' => 'Subir tantos arquivos irá exceder o limute máximo de linhas definidas de dados de %s',
 
 /* URL */
 'url_ft_allowed_url_schemes' => 'Esquemas de URL Permitidos',

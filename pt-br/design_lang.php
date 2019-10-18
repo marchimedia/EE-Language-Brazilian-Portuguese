@@ -8,7 +8,7 @@ $lang = array(
 
 'allowed_member_groups' => 'Grupos de membros permitidos',
 
-'allowed_member_groups_desc' => 'Os seguintes grupos de usuários possuem permissão para acessar este template.',
+'allowed_member_groups_desc' => 'Os seguintes grupos de usuários possuem permissões para acessar este template.',
 
 'allowed_member_groups_super_admin' => 'Super Administradores <b>sempre</b> possuem permissões.',
 
@@ -38,9 +38,9 @@ $lang = array(
 
 'create_new_template_group' => 'Criar um Novo Grupo de Templates',
 
-'create_partial' => 'Criar Partial',
+'create_partial' => 'Criar Parcial',
 
-'create_template_group_error' => 'Não foi possível Criar Grupo de Templates',
+'create_template_group_error' => 'Não foi possível Criar o Grupo de Templates',
 
 'create_template_group_error_desc' => 'Não conseguimos criar este grupo, por favor revise e corrija os erros abaixo. ',
 
@@ -80,7 +80,7 @@ $lang = array(
 
 'duplicate_existing_template_desc' => 'Será criado um template com todo o código encontrado no template a ser copiado.',
 
-'duplicate_group' => 'Duplicar grupo existente?',
+'duplicate_group' => 'Duplicar um grupo existente?',
 
 'duplicate_group_desc' => 'Será criado com todos os templates encontrados no grupo copiado.',
 
@@ -102,9 +102,9 @@ $lang = array(
 
 'edit_template_partial_error_desc' => 'Não conseguimos atualizar este parcial, por favor revise e corrija os erros abaixo. ',
 
-'edit_template_partial_success' => 'Parcial de Template Atualizado',
+'edit_template_partial_success' => 'Parcial de Template Atualizada',
 
-'edit_template_partial_success_desc' => 'O parcial de template <b>%s</b> foi atualizado.',
+'edit_template_partial_success_desc' => 'A parcial de template <b>%s</b> foi atualizada.',
 
 'edit_template_variable' => 'Editar Variável de Template',
 
@@ -120,7 +120,7 @@ $lang = array(
 
 'enable_caching' => 'Ativar Cache?',
 
-'enable_caching_desc' => 'Quando ativado, o ExpressionEngine irá colocar em cache este.',
+'enable_caching_desc' => 'Quando ativado, o ExpressionEngine irá colocar este template em cache.',
 
 'enable_http_authentication' => 'Ativar Autenticação HTTP?',
 
@@ -132,7 +132,7 @@ $lang = array(
 
 'enable_php' => 'Permitir PHP?',
 
-'enable_php_desc' => 'Quando ativado,você pode utilizar PHP padrão com este template. <a href="'.DOC_URL.'templates/php.html" rel="external">Leia sobre as implicações antes de ativar</a>.',
+'enable_php_desc' => 'Quando ativado,você poderá utilizar PHP padrão com este template. <a href="'.DOC_URL.'templates/php.html" rel="external">Leia sobre as implicações antes de ativar</a>.',
 
 'enable_template_variable_on_all_sites' => 'Ativar em todos os sites?',
 
@@ -142,7 +142,7 @@ $lang = array(
 
 'error_export' => 'Não foi possível Exportar',
 
-'error_export_no_templates' => 'Nenhum template encontrado, por favor crie um template antes de exportar.',
+'error_export_no_templates' => 'Nenhum template foi encontrado, por favor crie um template antes de exportar.',
 
 'error_no_template' => 'Não existem Templates.',
 
@@ -154,7 +154,7 @@ $lang = array(
 
 'export_variables' => 'Exportar Variáveis',
 
-'group_not_found' => 'Nenhum grupo de templates encontrado',
+'group_not_found' => 'Nenhum grupo de templates foi encontrado',
 
 'hit_counter' => 'Contar Hits',
 
@@ -176,7 +176,7 @@ $lang = array(
 
 'name_desc' => 'Sem espaços. Underlines e hífens são permitidos.',
 
-'no_access_redirect' => 'Redirecionamento dos Sem Acesso',
+'no_access_redirect' => 'Redirecionamento dos Sem Permissão de Acesso',
 
 'no_access_redirect_desc' => 'Pagina para onde os usuários sem autorização serão redirecionados.',
 
@@ -192,7 +192,7 @@ $lang = array(
 
 'only' => '<strong>apenas</strong>',
 
-'parse_stage' => 'Estágio de Parsing',
+'parse_stage' => 'Estágio de Parsing PHP',
 
 'parse_stage_desc' => 'Quando definido para <b>saída</b>, o PHP será parseado após o template.',
 
@@ -238,9 +238,9 @@ $lang = array(
 
 'template_member_groups' => 'Grupos de Membros Permitidos',
 
-'template_member_groups_desc' => 'Usuários nestes grupos de membros podem criar, editar ou excluir templates neste grupo de templates.',
+'template_member_groups_desc' => 'Usuários nestes grupos de membros poderão criar, editar ou excluir templates neste grupo de templates.',
 
-'template_name_taken' => 'O nome de template que você enviou já está em uso',
+'template_name_taken' => 'O nome de template que você forneceu já está em uso',
 
 'template_notes' => 'Notas do Template',
 
@@ -260,7 +260,7 @@ $lang = array(
 
 'template_routes' => 'Rotas de Template',
 
-'template_settings_and_access' => 'Configurações de Template &amp; Acesso',
+'template_settings_and_access' => 'Configurações do Template &amp; Acesso',
 
 'template_type' => 'Tipo',
 
@@ -312,7 +312,7 @@ $lang = array(
 
 'content' => 'Content',
 
-'email_message_templates' => 'E-mail Templates',
+'email_message_templates' => 'Templates de Mensagens de E-mail',
 
 'enable_template' => 'Ativar template?',
 
@@ -388,7 +388,7 @@ $lang = array(
 
 'clear_revision_history' => 'Limpar Histórico de Revisões',
 
-'clear_revision_history_info' => 'Zerar o histórico de revisões dos seguintes template:',
+'clear_revision_history_info' => 'Zerar o histórico de revisões dos seguintes templates:',
 
 'close_window' => 'Fechar Janela',
 
@@ -430,7 +430,7 @@ $lang = array(
 
 'duplicate_snippet_name' => 'O nome do Snippet já está em uso',
 
-'duplicate_var_name' => 'Uma Variável Geral com este nome já existe.',
+'duplicate_var_name' => 'Já existe uma Variável Geral com este nome.',
 
 'edit_group_order' => 'Editar Ordem do Grupo',
 
@@ -448,7 +448,7 @@ $lang = array(
 
 'enable_template_routes' => 'Ativar Rotas de Templates',
 
-'enable_template_routes_exp' => 'Desativar as rotas de templates também irá remober as opções de roteamento do painel de acesso e os templates ficarão acessíveis apenas a partir da URL padrão de grupo/template.',
+'enable_template_routes_exp' => 'Ao desativar as rotas de templates, você também removerá as opções de roteamento do painel de acesso e os templates ficarão acessíveis apenas a partir da URL padrão de grupo/template.',
 
 'export_as' => 'Exportar arquivos como',
 
@@ -486,7 +486,7 @@ $lang = array(
 
 'global_variable_syntax' => 'Sintaxe da Variável',
 
-'global_variables_explanation' => 'Você pode definir suas próprias variáveis e então adicioná-las em qualquer um dos seus templates.',
+'global_variables_explanation' => 'Você poderá definir suas próprias variáveis e então adicioná-las em qualquer um dos seus templates.',
 
 'group_name' => 'Nome do Grupo',
 
@@ -544,7 +544,7 @@ $lang = array(
 
 'no_results' => 'A palavra que que você forneceu não foi encontrado em nenhum dos seus templates.',
 
-'no_templates_found' => 'Nenhum <b>Template</b> encontrado.',
+'no_templates_found' => 'Nenhum <b>Template</b> foi encontrado.',
 
 'no_user_templates_found' => 'Nenhum <b>Template</b> foi encontrado. Veja <a href="%s" title="Documentação" rel="external">a documentação</a>.',
 
@@ -574,7 +574,7 @@ $lang = array(
 
 'refresh_in_minutes' => 'Em minutos',
 
-'require_logged_in' => 'Ë necessário que usuários estejam logados para visualizar esta página?',
+'require_logged_in' => 'Ë necessário que usuários estejam logados para conseguirem visualizar esta página?',
 
 'revision_history' => 'Ver Histórico de Revisões',
 
@@ -596,7 +596,7 @@ $lang = array(
 
 'save_tmpl_files' => 'Salvar Templates como Arquivos',
 
-'save_tmpl_files_exp' => 'Salva templates como arquivos no seu servidor. Clique em Ajuda para maiores informações.',
+'save_tmpl_files_exp' => 'Salva as templates como arquivos no seu servidor. Clique em Ajuda, para maiores informações.',
 
 'save_tmpl_revisions' => 'Salvar Revisões de Templates',
 
@@ -606,7 +606,7 @@ $lang = array(
 
 'search_terms' => 'Termos da Busca:',
 
-'security_warning' => 'Nota: Permitir PHP nos templates implica em problemas de segurança. Por favor consulte <a href="%s" title="Documentação" rel="external">a documentação</a>.',
+'security_warning' => 'Nota: Permitir PHP nos templates implicará em problemas de segurança. Por favor consulte <a href="%s" title="Documentação" rel="external">a documentação</a>.',
 
 'selected_templates' => 'Selecionar Templates',
 
@@ -620,7 +620,7 @@ $lang = array(
 
 'show_all_variables' => 'Todas %d variáveis',
 
-'site_404_exp' => 'Determina que template deve ser exibido quando alguém tenta acessar uma URL inválida. Nota: Se você escolher \'Nenhuma\', seu canal padrão será exibido quando uma URL inválida for requisitada.',
+'site_404_exp' => 'Determina qual template deverá ser exibido quando alguém tentar acessar uma URL inválida. Nota: Se você escolher \'Nenhum\', seu canal padrão será exibido quando uma URL inválida for requisitada.',
 
 'small' => 'Pequena',
 
@@ -638,7 +638,7 @@ $lang = array(
 
 'snippets' => 'Snippets',
 
-'snippets_explanation' => 'Snippets são úteis quando você ptrecisa reutilizar partes de um template ou partes de tags. Para conteúdo estático qua não inclui as tags do ExpressionEngine, variáveis ou PHP, considere as <a href =\'%s\'>Variáveis Gerais</a>.',
+'snippets_explanation' => 'Snippets são úteis quando você precisar reutilizar partes de um template ou partes de tags. Para conteúdo estático que não inclua as tags do ExpressionEngine, variáveis ou PHP, considere as <a href =\'%s\'>Variáveis Gerais</a>.',
 
 'static' => 'Estático',
 
@@ -652,7 +652,7 @@ $lang = array(
 
 'sync_completed' => 'Os Templates no banco de dados foram sincronizados aos arquivos.',
 
-'sync_not_allowed_1' => 'No momento o recurso de salvar templates como arquivos de texto não está ativado ',
+'sync_not_allowed_1' => 'O recurso de salvar templates como arquivos de texto não está ativado em ',
 
 'sync_not_allowed_2' => 'preferências gerais de template.',
 
@@ -664,7 +664,7 @@ $lang = array(
 
 'system_offline' => 'Sistema Offline ',
 
-'tag_class_error' => 'Tag inválida (não funciona plugin ou módule)',
+'tag_class_error' => 'Tag inválida (não funciona o plugin ou o módulo)',
 
 'tag_docs_link_error' => 'Por favor consulte a <a href="%s">documentação do módulo</a> se você experimentar problemas.',
 
@@ -712,11 +712,11 @@ $lang = array(
 
 'template_preferences_manager' => 'Gerenciar Preferências de Template',
 
-'template_rev_msg' => 'Aviso: Ao salvar suas revisões você utiliza um grande espaço no seu banco de dados, então encorajamos você a definir os limites abaixo.',
+'template_rev_msg' => 'Aviso: Ao salvar suas revisões você utilizará um grande espaço no seu banco de dados, então encorajamos você a definir os limites abaixo.',
 
 'template_route' => 'Roteamento de Template:',
 
-'template_route_notice' => 'As rotas são listadas na ordem em que o Roteador de Templates aplicarão em seus templates.<br />Você pode arrastar e soltar para rearranjar a ordem.',
+'template_route_notice' => 'As rotas serão listadas na ordem em que o Roteador de Templates aplicar em seus templates.<br />Você poderá arrastar e soltar para rearranjar esta ordem.',
 
 'template_route_subtext' => 'Se uma rota for inserida aqui, então ela irá substituir a estrutura de URL padrão grupo/template.',
 
@@ -844,7 +844,7 @@ $lang = array(
 
 'forgot_form' => 'Formulário de Senha Esquecida',
 
-'full_profile' => 'Págian do Perfil Completo',
+'full_profile' => 'Página do Perfil Completo',
 
 'group_description' => 'Descritivo do Grupo de Membros',
 

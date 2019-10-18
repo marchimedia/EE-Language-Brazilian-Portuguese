@@ -18,7 +18,7 @@ $lang = array(
 
 'em_no_valid_recipients' => 'Seu e-mail não possui destinatários válidos.',
 
-'em_sender_required' => 'É necessário um endereço de e-mail válido para o remetenete',
+'em_sender_required' => 'É necessário um endereço de e-mail válido para o remetente',
 
 'em_unauthorized_request' => 'Você não possui autorização para executar esta ação',
 
@@ -42,7 +42,7 @@ $lang = array(
 
 'email_no_port' => 'Você não especificou uma porta SMTP.',
 
-'email_no_recipients' => 'Você deve include os destinatários: To, Cc, ou Bcc',
+'email_no_recipients' => 'Você deve incluir os destinatários: To, Cc, ou Bcc',
 
 'email_no_smtp_unpw' => 'Erro: Você deve designar um nome de usuário SMTP e senha.',
 
@@ -64,7 +64,7 @@ $lang = array(
 
 'email_smtp_error' => 'O seguinte erro SMTP foi encontrado: %s',
 
-'message_required' => 'É necessário uma mensagem para o E-mail',
+'message_required' => 'O E-mail precisa ter uma mensagem',
 
 );
 

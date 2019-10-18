@@ -40,7 +40,7 @@ $lang = array(
 
 'choose_folder' => 'Escolher Pasta',
 
-'click_preview_to_attach' => 'Para anexar um ou mais item clique em prévia após selecionar um arquivo',
+'click_preview_to_attach' => 'Para anexar um ou mais itens, clique em prévia após selecionar um arquivo',
 
 'close_window' => 'Fechar Janela',
 
@@ -70,7 +70,7 @@ $lang = array(
 
 'edit_list' => 'Editar Lista',
 
-'empty_body_field' => 'Sua mensagem está em branco. Você deseja dizer algo, cero?',
+'empty_body_field' => 'Sua mensagem está em branco. Você deseja dizer algo, ok?',
 
 'empty_list' => 'A Lista está em Branco',
 
@@ -90,7 +90,7 @@ $lang = array(
 
 'file_size_unit' => 'KB',
 
-'folder_directions' => 'Para excluir um item envie o formulário com o nome da pasta em branco. Ao excluir uma pasta também excluirá todas as mensagens da pasta.',
+'folder_directions' => 'Para excluir um item envie o formulário com o nome da pasta em branco. Ao excluir uma pasta, você também excluirá todas as mensagens da pasta.',
 
 'folder_name' => 'Nome da Pasta',
 
@@ -120,7 +120,7 @@ $lang = array(
 
 'invalid_message' => 'Mensagem Inválida',
 
-'invalid_username' => 'Um ou mais Nomes de Tela enviados são inválidos.',
+'invalid_username' => 'Um ou mais Nomes de Tela são inválidos.',
 
 'max_size' => 'Tamanho Máximo:',
 
@@ -236,7 +236,7 @@ $lang = array(
 
 'view_message' => 'Ver Mensagem',
 
-'waiting_period_not_reached' => 'Para prevenir spam existe um período de tempo de %time% de espera, antes que novos membros tenham permissão de enviar Mensagens Privadas.',
+'waiting_period_not_reached' => 'Para prevenirmos spam, é necesário um período de tempo de %time% de espera, antes que novos membros tenham permissão para enviarem Mensagens Privadas novamente.',
 
 'zero_percent' => '0%',
 

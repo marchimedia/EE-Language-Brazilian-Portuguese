@@ -32,7 +32,7 @@ $lang = array(
 
 'spam_module_name' => 'Spam',
 
-'spam_queue' => 'Queue de Spam',
+'spam_queue' => 'Fila de Spam',
 
 'spam_sensitivity' => 'Sensibilidade',
 
@@ -42,7 +42,7 @@ $lang = array(
 
 'spam_settings_updated' => 'Suas configurações de Spam foram salvas',
 
-'spam_trap_approved' => '<b>%s</b> itens  na Armadilha de Spam foram aprovados e marcados como ok',
+'spam_trap_approved' => '<b>%s</b> itens na Armadilha de Spam foram aprovados e marcados como ok',
 
 'spam_trap_removed' => '<b>%s</b> itens na Armadilha de Spam foram removidos e marcados como spam',
 
@@ -50,13 +50,13 @@ $lang = array(
 
 'spam_word_limit' => 'Limitador de Palavra',
 
-'spam_word_limit_desc' => 'Quantidade específica de palavras para armazenar, para treino. Números altos podem reduzir velocidades de performance.',
+'spam_word_limit_desc' => 'Quantidade específica de palavras para armazenar, para treino. Números altos poderão reduzir velocidades de performance.',
 
 'success' => 'Sucesso',
 
 'training_downloaded' => 'Dados de treino baixados',
 
-'training_finished' => 'Terino finalizado',
+'training_finished' => 'Treino finalizado',
 
 'training_prepared' => 'Dados de treino preparados',
 

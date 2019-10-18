@@ -23,7 +23,7 @@ $lang = array(
 
 'file_converter' => 'Conversor de Arquivo',
 
-'import_tools' => 'Ferramentas de Membros',
+'member_tools' => 'Ferramentas de Membros',
 
 'member_import' => 'Importação de Membro',
 
@@ -169,7 +169,7 @@ $lang = array(
 
 'replace_in_templates' => 'Em TODOS os Templates',
 
-'rows_replaced' => 'Quantidade de registros no banco de dados em que ocorrerá a substituição: %s',
+'rows_replaced' => 'Quantidade de registros no banco de dados em que a substituição ocorrerá: %s',
 
 'sandr' => 'Localizar e Substituir Dados',
 
@@ -225,7 +225,7 @@ $lang = array(
 
 'enclosing_char_desc' => 'Caractere que encerra seus dados.',
 
-'encrypted_passwords' => 'Senhas são encriptadas.',
+'encrypted_passwords' => 'As senhas são criptografadas.',
 
 'file_not_converted' => 'Atenção: Arquivo não convertido',
 
@@ -235,37 +235,32 @@ $lang = array(
 
 'import_cache_file_instructions' => 'Para subir este arquivo, a pasta de cache precisa ter permissões de gravação.',
 
-'file_location' => 'Local do Arquivo',
-
-'file_location_desc' => 'Caminho do local do seu arquivo <mark>delimitado</mark> .',
-
-'file_not_converted' => 'Atenção: Arquivo não convertido',
-
 'import_convert_btn' => 'Converter Arquivo',
 
 'import_convert_btn_saving' => 'Convertendo...',
 
-'import_converter' => 'Converter Arquivo Importado',
+'import_converter' => 'Importar e Converter Arquivo',
 
-'import_password_warning' => '<b>Alerta</b>: Se você não mapear um dos seus pontos de dados para "Senha", um senha aleatória encripatada será atribuída para cada usuário importado. Estes usuários precisarão resetar sua senha através do link "Esqueci a Senha" .',
 
-'member_file' => 'Arquivo de Membro',
+'import_password_warning' => '<b>Alerta</b>: Se você não mapear um dos seus pontos de dados para "Password", uma senha aleatória e criptografada será designada para cada usuário importado. Estes usuários precisarão resetar suas senhas através do link "Esqueci a senha".',
 
-'member_file_desc' => 'Arquivo delimitado contendo dados de membro',
+'member_file' => 'Arquivo de Membros',
 
-'member_id_warning' => 'ALERTA: Se você tem as tags de &lt;member_id&gt; no seu XML, membros existentes com o mesmo member_id será SOBREGRAVADO! Proceda com cautela!',
+'member_file_desc' => 'Arquivo delimitado contendo dados de membros',
 
-'missing_email_field' => 'Você deve designar um campo para "E-mail"',
+'member_id_warning' => 'ALERTA: Se você possui tags &lt;member_id&gt; no seu XML, os membros existentes com o mesmo member_id serão SOBREGRAVADOS! Proceda com cautela!',
 
-'missing_screen_name_field' => 'Você deve designar um campo para "Nome de Tela"',
+'missing_email_field' => 'Você deve designar um campo para "email"',
 
-'missing_username_field' => 'Você deve designar um campo para "Nome de Usuário"',
+'missing_screen_name_field' => 'Você deve designar um campo para "screen_name"',
 
-'not_enough_fields' => 'Sem campos suficientes',
+'missing_username_field' => 'Você deve designar um campo para "username"',
 
-'not_enough_fields_desc' => 'Você deve ter pelo menos 3 campos: nome de usuário, nome de tela e endereço de e-mail',
+'not_enough_fields' => 'Não existem campos suficientes',
 
-'other_delimit' => 'Outro <i>caractere abaixo</i>',
+'not_enough_fields_desc' => 'Você deve ter pelo menos 3 campos: username, screen_name e email',
+
+'other_delimit' => 'Outro <i>Digite o caractere abaixo</i>',
 
 'pipe_delimit' => 'Pipe',
 
@@ -331,29 +326,27 @@ $lang = array(
 
 'mbr_xml_file' => 'Local do arquivo <abbr title="Linguagem de Marcação Extensível">XML</abbr> ',
 
-'mbr_xml_file_location' => 'Caminho no servidor para seu arquivo <abbr title="Linguagem de Marcação Extensível"><mark>xml</mark></abbr> .',
-
 'member_group' => 'Grupo de Membros',
 
-'member_import_error' => 'Atenção: Importação não completada',
+'member_import_error' => 'Atenção: A importação não foi completada',
 
-'member_import_error_desc' => 'Não foi possível completar a importação, por favor revise e corrija os erros abaixo. ',
+'member_import_error_desc' => 'Não foi possível completar a importação, por favor revise e corrija os erros abaixo.',
 
-'member_import_no_custom_fields_selected' => 'Nenhum campo customizado foi selecionado para importação. Por favor clique nos marcadores próximos aos campos que você deseja criar.',
+'member_import_no_custom_fields_selected' => 'Nenhum campo customizado foi selecionado para importação. Por favor clique nos marcadores próximos aos campos que você gostaria de criar.',
 
-'member_xml_file' => 'Arquivo XML de Membros',
+'member_xml_file' => 'Arquivo de XML de Membro',
 
-'member_xml_file_desc' => 'Arquivo XML contendo seus dados de membro',
+'member_xml_file_desc' => 'O arquibo XML contendo dados de membros',
 
-'new_fields_success' => 'Os seguintes campos de membros foram adicionados com sucesso:',
+'new_fields_success' => 'Os seguintes arquivos customizados de membros foram adicionados com sucesso:',
 
 'option' => 'Opção',
 
 'value' => 'Valor',
 
-'xml_parse_error' => 'Não foi possível analizar o XML',
+'xml_parse_error' => 'Não foi possivel parsear o XML',
 
-'xml_parse_error_desc' => 'Verifique o arquivo XML e busque por sintaxe(s) incorreta(s).',
+'xml_parse_error_desc' => 'Verifique o arquivo XML para qualquer sintaxe incorreta.',
 
 
 /* Utilitário de Backup do Banco de Dados */
@@ -362,6 +355,8 @@ $lang = array(
 'backup_database' => 'Backup do Banco de Dados',
 
 'backup_error' => 'Não foi possível efetuar o Backup',
+
+'backup_out_of_memory' => 'Seu servidor utilizou toda a memória RAM disponível tentando exportar seu banco de dados. Tente definir a configuração <a href="%s" rel="external noreferrer"><code>db_backup_row_limit</code></a> para um número mais baixo.',
 
 'backup_success' => 'Backup Realizado com Sucesso',
 

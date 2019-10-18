@@ -12,7 +12,7 @@ $lang = array(
 
 'channels' => 'Canais',
 
-'channels_desc' => 'Os Canais são usados para armazenar o conteúdo do seu site. Por exemplo, se você deseja um Blog. Você deve criar um Canal primeiro, para armazenar suas publicações. Pense neles como pastas ou diretórios.',
+'channels_desc' => 'Os Canais são usados para armazenar o conteúdo do seu site. Por exemplo, se você deseja um Blog, você deve criar um Canal primeiro, para armazenar suas publicações. Pense neles como pastas ou diretórios.',
 
 'closed_entries_with_comments' => '<b>%d</b> Publicações encerradas com %d comentários.',
 
@@ -30,7 +30,7 @@ $lang = array(
 
 'field_groups' => 'Grupo de Campos',
 
-'flagged_as_spam' => 'marcado com spam potencial',
+'flagged_as_spam' => 'marcado como spam em potencial',
 
 'has' => 'tem',
 
@@ -48,7 +48,7 @@ $lang = array(
 
 'new_spam' => '<em>novos</em> itens no processamento de Spam',
 
-'news_fetch_failure' => 'Oops, nõa foi possível obter as notícias.',
+'news_fetch_failure' => 'Oops, não foi possível obter as notícias.',
 
 'overview' => 'Visão Geral',
 

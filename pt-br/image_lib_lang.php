@@ -2,15 +2,15 @@
 
 $lang = array(
 
-'imglib_copy_error' => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor tenha certeza que sua pasta de arquivos possui permissões de gravação.',
+'imglib_copy_error' => 'Encontramos um erro ao tentar substituir o arquivo. Por favor tenha certeza que sua pasta de arquivos possui permissões de gravação.',
 
 'imglib_copy_failed' => 'Houve uma falha na rotina de cópia da imagem.',
 
-'imglib_gd_required_for_props' => 'Seu servidor deve suportar a biblioteca de imagens GD para  determinar as propriedades de imagem',
+'imglib_gd_required_for_props' => 'Seu servidor deve ter suporte à biblioteca de imagens GD para determinar as propriedades de imagem',
 
-'imglib_gif_not_supported' => 'As imagens GIF não são suportadas devido a restrições de licenciamento. Você deve usar imagens JPG ou PNG ao inves disso.',
+'imglib_gif_not_supported' => 'As imagens GIF não são suportadas, devido à restrições de licenciamento. Você deverá utilizar imagens JPG ou PNG.',
 
-'imglib_image_process_failed' => 'Falha no processamento de imagens. Por favor verifique se o seu servidor suporta o protocolo escolhido e que o caminho à sua biblioteca de imagens está correto.',
+'imglib_image_process_failed' => 'Houve uma falha no processamento de imagens. Por favor verifique se o seu servidor suporta o protocolo escolhido e que o caminho à sua biblioteca de imagens está correto.',
 
 'imglib_invalid_path' => 'O caminho da imagem não está correto',
 
@@ -22,7 +22,7 @@ $lang = array(
 
 'imglib_png_not_supported' => 'As imagens PNG não são suportadas',
 
-'imglib_rotate_unsupported' => 'A rotação de imagen não parece ser suportada pelo seu servidor.',
+'imglib_rotate_unsupported' => 'A rotação de imagens não parece ser suportada pelo seu servidor.',
 
 'imglib_rotation_angle_required' => 'Um ângulo de rotação é necessário para rotacionar a imagem.',
 

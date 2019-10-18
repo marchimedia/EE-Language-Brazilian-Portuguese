@@ -18,7 +18,7 @@ $lang = array(
 
 'btn_searching' => 'Localizando...',
 
-'cache_full' => 'O Cache está cheio e para continuar, deve ser zerado manualmente.',
+'cache_full' => 'O Cache está cheio e deve ser zerado manualmente para prosseguir.',
 
 'countryfile_missing' => 'Não foi possível localizar o aqruivo denominado country.php na sua pasta de config.',
 
@@ -58,7 +58,7 @@ $lang = array(
 
 'search_for_ip' => 'Buscar por um endereço IP',
 
-'search_for_ip_desc' => 'Insira um endereço IP para determinar o país que ele está associado.',
+'search_for_ip_desc' => 'Insira um endereço IP para determinar o país em que ele está associado.',
 
 'update_info' => 'Atualiza o IP e as informações do código do país. Origem dos dados: <a href="%s" title="Fornecedor dos Dados" rel="external">maxmind.com</a>.</em><em><i>Os novos dados serão automaticamente baixados e aplicados. Isto pode levar vários minutos e aumentar o carregamento em seu banco de dados.</i></em>',
 

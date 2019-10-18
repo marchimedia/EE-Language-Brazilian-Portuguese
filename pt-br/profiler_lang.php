@@ -26,7 +26,7 @@ $lang = array(
 
 'profiler_no_queries' => 'Nenhum query foi executado',
 
-'profiler_no_variables' => 'Nenhuma varíval <code><b>%s</b></code> foi encontrada.',
+'profiler_no_variables' => 'Nenhuma variável <code><b>%s</b></code> foi encontrada.',
 
 'profiler_performance' => 'Performance',
 

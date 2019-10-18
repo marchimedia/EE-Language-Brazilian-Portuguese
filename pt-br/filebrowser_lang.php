@@ -26,7 +26,7 @@ $lang = array(
 
 'file_browser' => 'Abrir Arquivo',
 
-'file_viewing_error' => 'Foi encontrado um erro de tipo desconhecido.',
+'file_viewing_error' => 'Encontramos um erro do tipo desconhecido.',
 
 'fp_no_files' => 'Nenhum arquivo está disponível na pasta.',
 

@@ -4,19 +4,19 @@ $lang = array(
 
 'admin_notify_comment' => 'Aviso de Comentários ao Admin',
 
-'admin_notify_comment_desc' => 'Este template define a mensagem que um admin recebe quando um comentário for postado',
+'admin_notify_comment_desc' => 'Este template define a mensagem que um admin receberá, quando um comentário for postado',
 
 'admin_notify_entry' => 'Aviso ao Admin sobre Novas Publicações',
 
-'admin_notify_entry_desc' => 'Este template define a mensagem que os destinatários receberão quando novos registros de canal forem enviados.',
+'admin_notify_entry_desc' => 'Este template define a mensagem que os destinatários receberão quando novo conteúdo for publicado no canal.',
 
 'admin_notify_forum_post' => 'Aviso ao Admin sobre novas postagens no forum',
 
-'admin_notify_forum_post_desc' => 'Este template define a mensagem que um admin quando uma nova publicação for postada no forum',
+'admin_notify_forum_post_desc' => 'Este template define a mensagem que um admin receberá quando uma nova publicação for postada no forum',
 
 'admin_notify_reg' => 'Admin &ndash; Aviso de Novo Registro',
 
-'admin_notify_reg_desc' => 'Este template define a mensagem que um admin recebe quando um novo membro se registra',
+'admin_notify_reg_desc' => 'Este template define a mensagem que um admin receberá quando um novo membro se registrar no site',
 
 'available_variables' => 'As seguintes variáveis podem ser utilizadas:',
 
@@ -40,7 +40,7 @@ $lang = array(
 
 'forgot_password_instructions' => 'Usuário &ndash; Instruções de senha esquecida',
 
-'forgot_password_instructions_desc' => 'Este template define as instruções que um usuário recebe, quando esquece sua senha',
+'forgot_password_instructions_desc' => 'Este template define as instruções que um usuário receberá, quando esquecer sua senha',
 
 'forum_announcements' => 'Anúncios',
 
@@ -78,7 +78,7 @@ $lang = array(
 
 'forum_moderation_notification' => 'Usuário &ndash; Aviso de moderação de tópico no Forum',
 
-'forum_moderation_notification_desc' => 'Este template define os avisos que membros recebem quando seus tópicos no forum são movidos, divididos ou combinados por um moderador',
+'forum_moderation_notification_desc' => 'Este template define os avisos que membros receberão quando seus tópicos no forum são movidos, divididos ou combinados por um moderador',
 
 'forum_move_reply' => 'Mover Resposta',
 
@@ -90,13 +90,13 @@ $lang = array(
 
 'forum_post_notification' => 'Usuário &ndash; Aviso de novo post no forum',
 
-'forum_post_notification_desc' => 'Este template define a mensagem que um usuário recebe quando alguém responde ao seu post no forum',
+'forum_post_notification_desc' => 'Este template define a mensagem que um usuário receberá quando alguém responder ao seu post no forum',
 
 'forum_report' => 'Denúncia',
 
 'forum_report_notification' => 'Moderador &ndash; Aviso de nova denúncia no forum',
 
-'forum_report_notification_desc' => 'Este template define os avisos que os moderadores recebem quando um usuário reporta uma denúncia no forum',
+'forum_report_notification_desc' => 'Este template define os avisos que os moderadores receberão quando um usuário reportar uma denúncia no forum',
 
 'forum_rss' => 'Rss',
 
@@ -124,15 +124,15 @@ $lang = array(
 
 'password_changed_notification' => 'Usuário &ndash; Aviso de alteração de senha',
 
-'password_changed_notification_desc' => 'Este template define a mensagem que um usuário recebe quando sua senha for alterada no front end.',
+'password_changed_notification_desc' => 'Este template define a mensagem que um usuário receberá quando sua senha for alterada no front end.',
 
-'pm_inbox_full' => 'Usuário &ndash; Aviso de Caixa Cheian',
+'pm_inbox_full' => 'Usuário &ndash; Aviso de Caixa Cheia',
 
-'pm_inbox_full_desc' => 'Este template define a mensagem que um usuário recebe quando eles não são capazes de receber as Mensagens Privadas devido a caixa cheia',
+'pm_inbox_full_desc' => 'Este template define a mensagem que um usuário receberá quando eles não são capazes de receber as Mensagens Privadas devido a caixa cheia',
 
 'private_message_notification' => 'Usuário &ndash; Aviso de Mensagem Privada',
 
-'private_message_notification_desc' => 'Este template define a mensagem que um usuário recebe quando alguém envia para ele uma Mensagem Privada',
+'private_message_notification_desc' => 'Este template define a mensagem que um usuário receberá quando alguém envia para ele uma Mensagem Privada',
 
 'profile_account' => 'Conta',
 
@@ -164,7 +164,7 @@ $lang = array(
 
 'validated_member_notify' => 'Usuário &ndash; Aviso de validação de conta',
 
-'validated_member_notify_desc' => 'Este template define o aviso que membros recebem quando um admin valida sua conta de membro.',
+'validated_member_notify_desc' => 'Este template define o aviso que membros receberão quando um admin validar sua conta de membro.',
 
 );
 

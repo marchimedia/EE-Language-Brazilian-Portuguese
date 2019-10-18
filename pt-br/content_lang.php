@@ -2,13 +2,13 @@
 
 $lang = array(
 
-'all_channel_entries' => 'Todos as %s publicações',
+'all_channel_entries' => 'Todas as %s publicações',
 
 'all_comments' => 'Todos os Comentários',
 
 'all_comments_for_entry' => 'Todos os Comentários para %s',
 
-'all_entries' => 'Todos as %d publicações',
+'all_entries' => 'Todas as %d publicações',
 
 'allow_comments' => 'Permitir comentários?',
 
@@ -86,7 +86,7 @@ $lang = array(
 
 'create_entry_success' => 'Publicação Criada',
 
-'create_entry_success_desc' => 'O publicação <b>%s</b> foi criada.',
+'create_entry_success_desc' => 'A publicação <b>%s</b> foi criada.',
 
 'create_entry_with_channel_name' => 'Nova Publicação: %s',
 
@@ -124,11 +124,11 @@ $lang = array(
 
 'entry_date_desc' => 'Data da publicação deste conteúdo.',
 
-'entry_limit_reached' => 'Limite do Canal alcançado',
+'entry_limit_reached' => 'Foi atingido o limite do Canal',
 
 'entry_limit_reached_desc' => 'Este canal está limitado a %d publicações.',
 
-'entry_limit_reached_one_desc' => 'Este canal está limitado a uma publicação apenas.',
+'entry_limit_reached_one_desc' => 'Este canal está limitado a uma publicação, apenas.',
 
 'entry_manager' => 'Gerenciador de Publicações',
 
@@ -138,7 +138,7 @@ $lang = array(
 
 'expiration_date' => 'Data de Expiração',
 
-'expiration_date_desc' => 'A data que exprirará esta publicação.',
+'expiration_date_desc' => 'A data em que esta publicação irá expirar.',
 
 'filter_autosaves' => 'filtrar salvamentos automáticos',
 
@@ -196,13 +196,13 @@ $lang = array(
 
 'anchor' => 'Link',
 
-'any_date' => 'Período Customizado',
+'any_date' => 'Intervalo de Tempo Customizado',
 
 'ascending' => 'Mais Antigas Primeiro',
 
 'authors' => 'Autores',
 
-'autosave_data_available' => 'dados salvos automaticamente disponíveis',
+'autosave_data_available' => 'dados salvos automaticamente disponível',
 
 'autosave_success' => 'Salvo Automaticamente',
 
@@ -220,9 +220,9 @@ $lang = array(
 
 'autosaved_versions' => 'Versões Salvas Autoamticamente',
 
-'autosaved_versions_desc' => 'Abaixo está uma lista de versões desta publicação salvas automaticamente.',
+'autosaved_versions_desc' => 'Abaixo está uma lista de versões desta publicação, que foram salvas no modo automático.',
 
-'autosaves' => 'Salvamentos Automtáicos',
+'autosaves' => 'Salvamentos Automáticos',
 
 'blockquote' => 'Citação',
 
@@ -250,7 +250,7 @@ $lang = array(
 
 'choose_entry_for_comment_move' => 'Selecione a Publicação para mover o Comentário',
 
-'choose_file' => 'Selecione o Arquivo',
+'choose_file' => 'Selecionar Arquivo',
 
 'choose_layout_group_preview' => 'Selecione o grupo de layouts que você deseja pré-visualizar.',
 
@@ -266,13 +266,13 @@ $lang = array(
 
 'close_all' => 'Fechar Tudo',
 
-'close_for_no_change' => 'Selecione esta janela para cancelar.',
+'close_for_no_change' => 'Feche esta janela, para cancelar.',
 
 'close_selected' => 'Fechar Selecionada',
 
 'close_window' => 'Fechar Janela',
 
-'closed' => 'Fechado',
+'closed' => 'Offline',
 
 'comment' => 'Comentário',
 
@@ -346,7 +346,7 @@ $lang = array(
 
 'edit_comment' => 'Editar Comentário',
 
-'edit_entry' => 'Editar Registro',
+'edit_entry' => 'Editar Publicação',
 
 'edit_selected' => 'Editar Selecionado',
 
@@ -410,7 +410,7 @@ $lang = array(
 
 'forum_topic_id' => 'ID do Tópico no Forum',
 
-'forum_topic_id_exitsts' => 'Se um tópico já existe no forum e você gostaria de associá-lo à sua publicação, fornecá o número ID do tópico e deixe os campos acima em branco.',
+'forum_topic_id_exitsts' => 'Se um tópico já existe no forum e você gostaria de associá-lo à sua publicação, forneça o número ID do tópico e deixe os campos acima em branco.',
 
 'forum_topic_id_info' => 'Este campo permite que este registro de canal seja associado com um tópico no forum.',
 
@@ -508,7 +508,7 @@ $lang = array(
 
 'multi_entries_updated' => 'Publicações foram atualizadas',
 
-'multi_entry_category_editor' => 'Editor de Categorias em Várias Publicações',
+'multi_entry_category_editor' => 'Editor de Publicações em Várias Categorias',
 
 'multi_entry_editor' => 'Editor Multi-Publicação',
 
@@ -532,7 +532,7 @@ $lang = array(
 
 'no_channels' => 'Você não possui canais atribuídos à você neste site.',
 
-'no_channels_exist' => 'Atualmente não existe canais',
+'no_channels_exist' => 'Atualmente não existem canais',
 
 'no_emoticons' => 'Não foi possível encontrar o local dos seus emoticons',
 
@@ -572,7 +572,7 @@ $lang = array(
 
 'original' => 'Original',
 
-'overwrite_instructions' => 'Você pode escolher um novo nome e o arquivo será renomeado, ou você poderá enviar este formulário com o mesmo nome e o arquivo será sobregravado.',
+'overwrite_instructions' => 'Você pode escolher um novo nome e o arquivo será renomeado, ou você poderá enviar este formulário com o mesmo nome e o arquivo será sobrescrito.',
 
 'pages' => 'Páginas',
 
@@ -680,7 +680,7 @@ $lang = array(
 
 'status_changed' => 'Status Alterado',
 
-'tab_count_zero' => 'Ë necessário que pelo menos uma aba esteja disponível para abrigar os campos.',
+'tab_count_zero' => 'É necessário que pelo menos uma aba esteja disponível para abrigar os campos.',
 
 'tab_has_req_field' => 'A aba não pode ser excluída enquanto possuir os seguintes campos obrigatórios: ',
 
@@ -746,7 +746,7 @@ $lang = array(
 
 'url_title_not_unique_frontend' => 'Este título de URL está sendo usado por outra publicação. Os títulos de URLs devem ser únicos.',
 
-'version_preview' => 'Número de Revisão %s',
+'version_preview' => 'Revisão Número %s',
 
 'versioning_enabled' => 'Ativar revisões de conteúdo?',
 
@@ -808,7 +808,7 @@ $lang = array(
 
 'items_related_to' => 'Itens <strong>relacionados para</strong> esta publicação.',
 
-'items_to_relate_with' => 'Itens para <strong>relacionados com</strong> esta publicação.',
+'items_to_relate_with' => 'Itens para <strong>relacionarem-se com</strong> esta publicação.',
 
 'no_entries_found' => 'Nenhuma <b>publicação</b> encontrada',
 
@@ -934,7 +934,7 @@ $lang = array(
 
 'add_editable_fields' => 'Adicionar campos editáveis',
 
-'add_editable_fields_desc' => 'Escolha quais campos serão adicionados abaixo, e se eles serão editáveis para <b>todos</b> os registros selecionados.',
+'add_editable_fields_desc' => 'Escolha quais campos serão adicionados abaixo, e se eles serão editáveis para <b>todas</b> as publicações selecionadas.',
 
 'btn_save_all_and_close' => 'Salvar Tudo & Fechar',
 
@@ -942,7 +942,7 @@ $lang = array(
 
 'entries_updated' => '%d publicações foram atualziadas.',
 
-'filter_selected_entries' => 'Filtrar registros selecionados',
+'filter_selected_entries' => 'Filtrar publicações selecionadas',
 
 'no_cat_groups_in_common' => 'Nenhum <b>Grupo de Categorias</b> em comum.',
 
@@ -952,7 +952,7 @@ $lang = array(
 
 'bulk_edit_destructive' => 'Esta é uma ação destrutiva e irreversível.',
 
-'bulk_edit_notice' => 'Qualquer campo enviado irá sobregravar todo o conteúdo armazenado no campo para todas as publicações selecionadas.',
+'bulk_edit_notice' => 'Qualquer campo enviado irá sobregravar todo o conteúdo armazenado neste campo, em todas as publicações selecionadas.',
 
 'bulk_edit_remove_categories_notice' => 'Qualquer categoria selecionada será <b>removida</b> das publicações selecionadas, deixando as outras atribuições das publicações intactas.',
 

@@ -106,7 +106,7 @@ $lang = array(
 
 'search_no_stopwords' => 'Seus termos de busca incluem palavras comuns que não entrarão nos critérios de busca.',
 
-'search_not_allowed' => 'Você não possui permissões par utilizar o mecanismo de busca.',
+'search_not_allowed' => 'Você não possui permissão para utilizar o mecanismo de busca.',
 
 'search_older' => 'Mais antigo',
 

@@ -14,7 +14,7 @@ $lang = array(
 
 'btn_download_blacklist' => 'Baixar Lista Negra EE',
 
-'btn_download_whitelist' => 'BAixar Lista Segura EE',
+'btn_download_whitelist' => 'Baixar Lista Segura EE',
 
 'btn_save_settings' => 'Salvar Configurações',
 

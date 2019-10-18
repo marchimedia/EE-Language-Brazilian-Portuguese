@@ -8,7 +8,7 @@ $lang = array(
 
 'downloads' => 'Meus Downloads do ExpressionEngine',
 
-'error_getting_version' => 'Você está utilizando o ExpressionEngine %v. Não foi possível determinar se uma versão mais recente está disponível neste momento.',
+'error_getting_version' => 'Você está utilizando o ExpressionEngine %v. Não foi possível determinar se uma versão mais recente está disponível, neste momento.',
 
 'expressionengine_info' => 'Informações do ExpressionEngine',
 

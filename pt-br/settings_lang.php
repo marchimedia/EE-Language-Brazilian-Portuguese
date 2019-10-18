@@ -15,7 +15,7 @@ $lang = array(
 
 'content_and_design' => 'Conteúdo & Design',
 
-'debugging_output' => 'Saída & Debug',
+'debugging_output' => 'Debug & Saída',
 
 'general_settings' => 'Configurações Gerais',
 
@@ -33,7 +33,7 @@ $lang = array(
 
 'pages_settings' => 'Configurações das Páginas',
 
-'security_privacy' => 'Securança & Privacidade',
+'security_privacy' => 'Segurança & Privacidade',
 
 'system_settings' => 'Configurações do Sistema',
 
@@ -65,13 +65,13 @@ $lang = array(
 
 'enable_msm' => 'Ativar Gerenciador de Sites?',
 
-'enable_msm_desc' => 'Quando ativado, Super Admins e grupos de membros com permissões serão capazes de gerenciar sites adicionais a partir do <abbr title="Painel de Controle">Painel</abbr>.',
+'enable_msm_desc' => 'Quando ativado, Super Admins e grupos de membros com permissões poderão gerenciar sites adicionais a partir do <abbr title="Painel de Controle">Painel</abbr>.',
 
 'error_getting_version' => 'Você está utilizando o ExpressionEngine %s. Não foi possível determinar se existe uma versão mais recente neste momento.',
 
 'include_seconds' => 'Mostrar segundos?',
 
-'include_seconds_desc' => 'Quando ativado, a saída de dados também incluirá a visualização dos segundos.',
+'include_seconds_desc' => 'Quando ativado, a data também incluirá os segundos na visualização.',
 
 'language' => 'Linguagem',
 
@@ -91,7 +91,7 @@ $lang = array(
 
 'site_online' => 'Website online?',
 
-'site_online_desc' => 'Quando desativado, apenas Super Admins e grupos de membros com as devidas permissões serão capazes de abrir seu website.',
+'site_online_desc' => 'Quando desativado, apenas Super Admins e grupos de membros com as devidas permissões poderão visualizar seu website.',
 
 'site_short_name' => 'Nome curto',
 
@@ -99,13 +99,13 @@ $lang = array(
 
 'timezone' => 'Fuso Horário',
 
-'version_autocheck' => 'Auto-verificar novas versões',
+'version_autocheck' => 'Verificar automaticamente por novas versões',
 
 'version_autocheck_desc' => 'Quando definido para <b>auto</b>, o ExpressionEngine irá buscar automaticamente por novas versões do software.',
 
 
 /* Configurações de URLs e Caminho */
-'base_path' => 'Padrão base path',
+'base_path' => 'Caminho-base padrão (path)',
 
 'base_path_desc' => 'Use <code>{base_path}</code> para criar caminhos nos campos de caminho (path) do painel de controle.',
 
@@ -115,11 +115,11 @@ $lang = array(
 
 'category_segment_trigger' => 'Segmento de <abbr title="Uniform Resource Location">URL</abbr> da Categoria',
 
-'category_segment_trigger_desc' => 'Palavra-gatilho que mostra uma categoria. <b>Não</b> pode ter o mesmo nome de um template ou grupo de templates.',
+'category_segment_trigger_desc' => 'Palavra-gatilho que exibe uma categoria. <b>Não</b> pode ter o mesmo nome de um template ou grupo de templates.',
 
 'category_url' => '<abbr title="Uniform Resource Location">URL</abbr> da Categoria',
 
-'category_url_desc' => 'Quando definido para <b>títulos</b>, os links das categorias usarão os títulos de <abbr title="Uniform Resource Location">URL</abbr> ao invés dos ids de categoria.',
+'category_url_desc' => 'Quando definido para <b>títulos</b>, os links das categorias utilizarão os títulos de <abbr title="Uniform Resource Location">URL</abbr> ao invés dos ids de categoria.',
 
 'category_url_opt_ids' => 'IDs',
 
@@ -183,7 +183,7 @@ $lang = array(
 
 'mail_format' => 'Formato de E-Mail',
 
-'mail_format_desc' => 'O formato que este e-mails são enviados. Texto puro é recomendável.',
+'mail_format_desc' => 'O formato que este e-mails são enviados. É recomendável texto puro.',
 
 'mail_protocol' => 'Protocolo',
 
@@ -219,7 +219,7 @@ $lang = array(
 
 'webmaster_name' => 'Nome do Remetente',
 
-'webmaster_name_desc' => 'O nome que os e-mails gerados automaticamente irão usar.',
+'webmaster_name_desc' => 'O nome que os e-mails gerados automaticamente utilizarão.',
 
 'word_wrap' => 'Ativar quebra de palavras?',
 
@@ -235,7 +235,7 @@ $lang = array(
 
 'caching_driver_file_fail' => 'Não foi possível usar o driver %s , verifique as permissões do caminho do cache.',
 
-'debug_0' => 'OCulto',
+'debug_0' => 'Oculto',
 
 'debug_1' => 'Mostrar apenas para Super Admins (recomendado)',
 
@@ -253,7 +253,7 @@ $lang = array(
 
 'force_query_string' => 'Forçar strings de query de <abbr title="Uniform Resource Location">URL</abbr> ?',
 
-'force_query_string_desc' => 'Quando ativado, os servidores que não suportarem a <mark>PATH_INFO</mark> irão utilizar as strings de URLs ao invés disso.',
+'force_query_string_desc' => 'Quando ativado, os servidores que não suportarem a <mark>PATH_INFO</mark> utilizarão as strings de URLs ao invés disso.',
 
 'gzip_output' => 'Ativar compressão <abbr title="GNU Zip Compression">GZIP</abbr> ?',
 
@@ -279,7 +279,7 @@ $lang = array(
 
 'redirect_method_opt_refresh' => 'Atualizar (apenas Windows)',
 
-'send_headers' => 'Usar headres de página <abbr title="Hypertext Transfer Protocol">HTTP</abbr> ?',
+'send_headers' => 'Usar headers de página <abbr title="Hypertext Transfer Protocol">HTTP</abbr> ?',
 
 'send_headers_desc' => 'Quando ativado, seu website irá gerar headers <abbr title="Hypertext Transfer Protocol">HTTP</abbr> para todas as páginas.',
 
@@ -309,7 +309,7 @@ $lang = array(
 
 'enable_emoticons' => 'Ativar emoticons?',
 
-'enable_emoticons_desc' => 'Quando ativado, o texto baseadi em emoticons como <samp>;)</samp> será convertido para o emoji &#x1F609;.',
+'enable_emoticons_desc' => 'Quando ativado, o texto baseado em emoticons como <samp>;)</samp> será convertido para o emoji &#x1F609;.',
 
 'enable_sql_caching' => 'Cache de queries dinâmicos do canal?',
 
@@ -325,7 +325,7 @@ $lang = array(
 
 'image_resize_protocol' => 'Protocolo',
 
-'image_resize_protocol_desc' => 'Pergunte ao seu host web por compatibilidade do servidor.',
+'image_resize_protocol_desc' => 'Pergunte ao seu hosting por compatibilidade no seu servidor.',
 
 'image_resizing' => 'Redimensionamento de Imagem',
 
@@ -337,7 +337,7 @@ $lang = array(
 
 'new_posts_clear_caches' => 'Clear cache for new entries?',
 
-'new_posts_clear_caches_desc' => 'Quando ativado, all caches will be cleared when authors publish new entries.',
+'new_posts_clear_caches_desc' => 'Quando ativado, todos os caches serão zerados quando autores publicarem novos registros.',
 
 'thumbnail_suffix' => 'Sufixo de Miniaturas',
 
@@ -349,7 +349,7 @@ $lang = array(
 
 'comment_edit_time_limit' => 'Limite de tempo para edição de Comentário (em segundos)',
 
-'comment_edit_time_limit_desc' => 'Período de tempo em que um usuário pode editar seus próprios comentários, a partir do envio. Use <b>0</b> para nenhum limite.',
+'comment_edit_time_limit_desc' => 'Período de tempo em que um usuário poderá editar seus próprios comentários, a partir do envio. Use <b>0</b> para nenhum limite.',
 
 'comment_moderation_override' => 'Moderar após comentários expirarem?',
 
@@ -357,7 +357,7 @@ $lang = array(
 
 'comment_word_censoring' => 'Ativar censura de palavra?',
 
-'comment_word_censoring_desc' => 'Quando ativado, os comentários usarão os filtros de <a href="%s">censura de palavras</a> filters.',
+'comment_word_censoring_desc' => 'Quando ativado, os comentários usarão os filtros de <a href="%s">censura de palavras</a>.',
 
 'enable_comments' => 'Ativar módulo de Comentários?',
 
@@ -423,7 +423,7 @@ $lang = array(
 
 'censored_words_desc' => 'Uma palavra por linha. Todas as palavras listadas serão substituídas pelos caracteres especificados acima.',
 
-'enable_censoring' => 'Ativar cenura?',
+'enable_censoring' => 'Ativar censura?',
 
 'enable_censoring_desc' => 'Quando ativado, as palavras listadas serão substituídas pelos caracteres especificados.',
 
@@ -431,7 +431,7 @@ $lang = array(
 /* Membro Settings */
 'allow_member_localization' => 'Permitir que membros definam as preferências de tempo?',
 
-'allow_member_localization_desc' => 'Quando ativado, os membros serão capazes de escolher as localizações de hora e data para sua conta.',
+'allow_member_localization_desc' => 'Quando ativado, os membros poderão escolher as localizações de hora e data para sua conta.',
 
 'allow_member_registration' => 'Permitir registros?',
 
@@ -467,7 +467,7 @@ $lang = array(
 
 'memberlist_row_limit' => 'Total de resultados',
 
-'memberlist_row_limit_desc' => 'Total de resultados da lista de membro retornados por página.',
+'memberlist_row_limit_desc' => 'Total de resultados retornados da lista de membro, por página.',
 
 'memberlist_sort_order' => 'Ordenar por',
 
@@ -527,7 +527,7 @@ $lang = array(
 
 'menu_label_desc' => 'Rótulo do Link',
 
-'menu_no_addons' => 'Nenhum <b>Adicional com menus</b> encontrado.',
+'menu_no_addons' => 'Não foi encontrado nenhum <b>Adicional com menus</b>.',
 
 'menu_options' => 'Opções do Menu',
 
@@ -573,7 +573,7 @@ $lang = array(
 /* Mensagens */
 'attachment_settings' => 'Configurações de Anexos',
 
-'html_all' => 'All HTML (not recommended)',
+'html_all' => 'Todo HTML (não recomendado)',
 
 'html_none' => 'Converter HTML',
 
@@ -599,11 +599,11 @@ $lang = array(
 
 'prv_msg_max_chars' => 'Máximo de caracteres',
 
-'prv_msg_upload_path' => 'Caminho de upload',
+'prv_msg_upload_path' => 'Caminho do upload',
 
 'prv_msg_upload_path_desc' => 'Caminho completo do local da sua pasta de <mark>anexos</mark> .',
 
-'prv_msg_upload_url' => 'Subir pasta',
+'prv_msg_upload_url' => 'Pasta de Upload',
 
 'prv_msg_upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr> do local da sua pasta de <mark>anexos</mark> .',
 
@@ -611,7 +611,7 @@ $lang = array(
 /* Avatares */
 'allow_avatar_uploads' => 'Permitir uploads de avatar?',
 
-'allow_avatar_uploads_desc' => 'Quando ativado, os membros serão capazes de subir seus próprios avatares (imagens representativas).',
+'allow_avatar_uploads_desc' => 'Quando ativado, os membros poderão subir seus próprios avatares (imagens representativas).',
 
 'avatar_file_restrictions' => 'Restrições de Arquivo do Avatar',
 
@@ -661,7 +661,7 @@ $lang = array(
 
 'captcha_url_desc' => 'Local da <abbr title="Uniform Resource Location">URL</abbr> da sua pasta de <mark><abbr title="Teste de Turing Completamente Automatizado para Apartar Computadores e Humanos">CAPTCHA</abbr></mark> .',
 
-'require_captcha' => '<abbr title="Teste de Turing Completamente Automatizado para Apartar Computadores e Humanos">CAPTCHA</abbr> é necessário?',
+'require_captcha' => '<abbr title="Teste de Turing Completamente Automatizado para Separar Computadores de Humanos">CAPTCHA</abbr> é necessário?',
 
 'require_captcha_desc' => 'Quando ativado, os visitantes serão obrigados a preencher um campo de <abbr title="Teste de Turing Completamente Automatizado para Apartar Computadores e Humanos">CAPTCHA</abbr> para todos os formulários front-end.',
 
@@ -741,13 +741,13 @@ $lang = array(
 
 'require_cookie_consent' => 'É necessário o consentimento do usuário para definir os cookies?',
 
-'require_cookie_consent_desc' => 'Quando ativado, os cookies não serão definidos para os visitantes (exceto aqueles <b>estritamente necessários</b> para o website funcionar) até que eles consintam sua política de cookies do site. Veja a documentação do <a href="'.DOC_URL.'add-ons/consent/">Módulo de Consentimento</a> para maiores detalhes.',
+'require_cookie_consent_desc' => 'Quando ativado, os cookies não serão definidos para os visitantes (exceto aqueles <b>estritamente necessários</b> para o website funcionar) até que eles aceitem sua política de cookies do site. Veja a documentação do <a href="'.DOC_URL.'add-ons/consent/">Módulo de Consentimento</a> para maiores detalhes.',
 
 'require_ip_for_login' => 'Ë necesário user agent e <abbr title="Protocolo de Internet">IP</abbr> para login?',
 
-'require_ip_for_login_desc' => 'Quando ativado, os memnbros não serão capazes de efetuar seu login sem um  user agent válido ou um endereço de <abbr title="Protocolo de Internet">IP</abbr> .',
+'require_ip_for_login_desc' => 'Quando ativado, os membros não serão capazes de efetuar seu login sem um  user agent válido ou um endereço de <abbr title="Protocolo de Internet">IP</abbr> .',
 
-'require_ip_for_posting' => 'Ë necessário user agent e <abbr title="Protocolo de Internet">IP</abbr> para publicar?',
+'require_ip_for_posting' => 'É necessário user agent e <abbr title="Protocolo de Internet">IP</abbr> para publicar?',
 
 'require_ip_for_posting_desc' => 'Quando ativado, os membros não poderão pubicar sem um user agent válido e um endereço <abbr title="Protocolo de Internet">IP</abbr> .',
 
@@ -844,7 +844,7 @@ $lang = array(
 
 'cookie_consent_disabled' => 'Consentimento de Cookie Desativado',
 
-'cookie_consent_disabled_desc' => 'As requisições de consentimento relacionadas a cookies não afetam as configurações dos cookies a menos que <a href="%s">as configurações de consetimento de cookie</a> esteja ativada.'
+'cookie_consent_disabled_desc' => 'As requisições de consentimento relacionadas a cookies não afetam as configurações dos cookies a menos que <a href="%s">as configurações de consentimento de cookie</a> esteja ativada.'
 
 );
 

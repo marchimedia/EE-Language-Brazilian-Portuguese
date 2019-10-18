@@ -8,9 +8,9 @@ $lang = array(
 
 'all_members' => 'Todos os Membros',
 
-'alpha' => 'Alfabética Crescente',
+'alpha' => 'Ordem Alfabética Crescente',
 
-'alpha_desc' => 'Alfabética Decrescente',
+'alpha_desc' => 'Ordem Alfabética Decrescente',
 
 'approve' => 'Aprovar',
 
@@ -30,7 +30,7 @@ $lang = array(
 
 'can_attach_in_private_messages' => 'Permitir anexos',
 
-'can_attach_in_private_messages_desc' => 'Quando ativado, os usuários contidos neste grupo poderão anexar arquivos em mensagens pessoais.',
+'can_attach_in_private_messages_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão anexar arquivos em mensagens pessoais.',
 
 'can_delete_categories' => 'Pode excluir categorias',
 
@@ -42,7 +42,7 @@ $lang = array(
 
 'can_send_private_messages' => 'Mensagens Privadas',
 
-'can_send_private_messages_desc' => 'Quando ativado, os usuários contidos neste grupo poderão enviar e receber mensagens pessoais.',
+'can_send_private_messages_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão enviar e receber mensagens pessoais.',
 
 'channel_entries' => 'Publicações de Canal',
 
@@ -52,7 +52,7 @@ $lang = array(
 
 'confirm_decline' => 'Confirmar Recusa',
 
-'confirm_decline_desc' => 'Você está tentando recusar os seguintes membros. Isto irá removê-los, então por favor confirme esta ação.',
+'confirm_decline_desc' => 'Você está recusando os seguintes membros. Isto irá removê-los, então por favor confirme esta ação.',
 
 'control_panel' => 'Painel de Controle',
 
@@ -108,7 +108,7 @@ $lang = array(
 
 'exclude_from_moderation' => 'Pular moderação',
 
-'exclude_from_moderation_desc' => 'Quando ativado, os usuários contidos neste grupo podem comentar sem sofrerem as restrições das <a href="%s">configurações de comentários</a> definidas como padrão.',
+'exclude_from_moderation_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão comentar sem sofrerem as restrições das <a href="%s">configurações de comentários</a> definidas como padrão.',
 
 'field_description' => 'Instruções',
 
@@ -176,7 +176,7 @@ $lang = array(
 
 'locked' => 'Travado',
 
-'login_as_member_description' => 'Quando voc6e clicar enviar, você será logado como membro em "%screen_name%" e redirecionado para a página abaixo.',
+'login_as_member_description' => 'Quando você clicar enviar, você será logado como membro em "%screen_name%" e redirecionado para a página abaixo.',
 
 'login_as_user' => 'SuperAdmin Logado como o Usuário',
 
@@ -198,7 +198,7 @@ $lang = array(
 
 'member_activation_resent_success_desc' => 'Um e-mail de ativação foi enviado para <b>%s</b>.',
 
-'member_anonymize_problem' => 'Ocorreu um problema ao deixar anônimo o membro.',
+'member_anonymize_problem' => 'Ocorreu um problema ao deixar o membro anônimo.',
 
 'member_anonymize_success' => 'Membro Anonimizado',
 
@@ -212,7 +212,7 @@ $lang = array(
 
 'member_assignment_none' => 'Nenhum, membros neste grupo serão excluídos',
 
-'member_assignment_warning' => 'Os Membros estão atualmente inseridos em alguns destes grupos. Para qual grupo de membros eles devem ser inseridos agora?',
+'member_assignment_warning' => 'Os Membros estão atualmente inseridos em alguns destes grupos. Para qual grupo de membros eles deverão ser inseridos nesse momento?',
 
 'member_cfg' => 'Configurações de Grupo de Membros',
 
@@ -258,7 +258,7 @@ $lang = array(
 
 'member_groups_removed_desc' => 'Grupos de Membros excluído com sucesso.',
 
-'member_groups_remove_problem' => 'Houve um problema ao excluir grupos de membros.',
+'member_groups_remove_problem' => 'Houve um problema ao tentar excluir grupos de membros.',
 
 'member_has_cp_access' => 'Pode acessar o painel de controle',
 
@@ -314,7 +314,7 @@ $lang = array(
 
 'no_pending_members_found' => 'Nenhum <b>Membro Pendente</b> encontrado.',
 
-'not_writable_path' => 'O caminho que você fornecei não possui permissões de gravação. Por favor tenha certeza que as permissões de arquivo estão definidas para 777.',
+'not_writable_path' => 'O caminho que você forneceu não possui permissões de gravação. Por favor tenha certeza que as permissões de arquivo estão definidas para 777.',
 
 'other' => 'Outro',
 
@@ -406,9 +406,9 @@ $lang = array(
 
 'your_password' => 'Sua Senha',
 
-'your_password_desc' => 'Você <b>deve</b> inserir sua senha para criar um membro que tenha acesso ao painel de controle.',
+'your_password_desc' => 'Você <b>deve</b> inserir sua senha para poder criar um membro que tenha acesso ao painel de controle.',
 
-'your_password_anonymize_members_desc' => 'Você <b>deve</b> inserir sua senha para enter your password in order to anomymize members.',
+'your_password_anonymize_members_desc' => 'Você <b>deve</b> inserir sua senha para poder anonimizar membros.',
 
 'your_password_delete_members_desc' => 'Você <b>deve</b> inserir sua senha para excluir membros.',
 
@@ -420,7 +420,7 @@ $lang = array(
 
 'ban_options' => 'Quando um membro banido tentar realizar acesso',
 
-'ban_options_desc' => 'Você pode prevenir ele de acessar completamente seu site, redirecionando-o para outro site ou mostrando para ele uma mensagem de site indisponível ou ainda - permitir que ele acesse o site apenas no modo de visualização.',
+'ban_options_desc' => 'Você pode prevení-lo de acessar completamente seu site, redirecionando-o para outro site ou mostrando para ele uma mensagem de site indisponível ; ou ainda - permitir que ele acesse o site apenas no modo de visualização.',
 
 'ban_settings_updated' => 'Configurações de Banimento atualizadas',
 
@@ -432,9 +432,9 @@ $lang = array(
 
 'ip_address_banning' => 'Endereços IP',
 
-'ip_banning_instructions' => '<b>Insira ca endereço IP em uma linha separada</b> <br>Você pode usar * como curingas Ex: 123.345.*',
+'ip_banning_instructions' => '<b>Insira cada endereço IP em uma linha separada</b> <br>Você pode usar * como curingas Ex: 123.345.*',
 
-'restrict_to_viewing' => 'Permitir acesso apenas no modo apenas visualização',
+'restrict_to_viewing' => 'Permitir acesso só no modo apenas visualização',
 
 'screen_name_banning' => 'Nomes de Tela Restritos',
 
@@ -458,11 +458,11 @@ $lang = array(
 
 'access_utilities' => 'Acesso aos Utilitários de Sistema',
 
-'access_utilities_desc' => 'Quando ativado, os usuários contidos neste grupo poderão acessar a seção de utilitários do sistema.',
+'access_utilities_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar a seção de utilitários do sistema.',
 
 'addon_access' => 'Permissões de Acesso aos Adicionais',
 
-'addons_access' => 'Permitir acesso aos adicionais',
+'addons_access' => 'Acesso Permitido aos Adicionais',
 
 'addons_access_desc' => 'Usuários podem acessar todos os adicionais selecionados.',
 
@@ -484,19 +484,19 @@ $lang = array(
 
 'can_access_addons' => 'Acessar adicionais',
 
-'can_access_addons_desc' => 'Quando ativado, os usuários contidos neste grupo poderão acessar o gerenciador de adicionais.',
+'can_access_addons_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar o gerenciador de adicionais.',
 
 'can_access_communicate' => 'Comunicar',
 
 'can_access_cp' => 'Acessar o painel de controle',
 
-'can_access_cp_desc' => 'Quando ativado, os usuários contidos neste grupo poderão acessar o painel de controle.',
+'can_access_cp_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar o painel de controle.',
 
 'can_access_data' => 'Operações de Dados',
 
 'can_access_design' => 'Acessar Gerenciador de Templates',
 
-'can_access_design_desc' => 'Quando ativado, os usuários contidos neste grupo pdoerão acessar o gerenciador de templates.',
+'can_access_design_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar o gerenciador de templates.',
 
 'can_access_file_manager' => 'Acessar o gerenciador de arquivos',
 
@@ -510,7 +510,7 @@ $lang = array(
 
 'can_access_members' => 'Acessar membros',
 
-'can_access_members_desc' => 'Quando ativado, os usuários contidos neste grupo podem acessar a seção de membros no painel de controle.',
+'can_access_members_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar a seção de membros no painel de controle.',
 
 'can_access_mod' => 'Pode acessar o módulo:',
 
@@ -518,7 +518,7 @@ $lang = array(
 
 'can_access_sys_prefs' => 'Configurações de Acesso',
 
-'can_access_sys_prefs_desc' => 'Quando ativado, os usuários contidos neste grupo podem acessar as configurações de software.',
+'can_access_sys_prefs_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar as configurações de software.',
 
 'can_access_tg' => 'Pode editar templates neste grupo:',
 
@@ -528,7 +528,7 @@ $lang = array(
 
 'can_admin_addons' => 'Instalar ou remover adicionais',
 
-'can_admin_addons_desc' => 'Quando ativado, os usuários contidos neste grupo poderão instalar e remover adicionais.',
+'can_admin_addons_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão instalar e remover adicionais.',
 
 'can_admin_channels' => 'Gerenciador de Acesso ao Canal',
 
@@ -536,11 +536,11 @@ $lang = array(
 
 'can_admin_design' => 'Configurações Gerais de Template',
 
-'can_admin_design_desc' => 'Quando ativado, os usuários contidos neste grupo poderão acessar as configurações gerais de templates e rotas de template.',
+'can_admin_design_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar as configurações gerais de templates e rotas de template.',
 
 'can_admin_mbr_groups' => 'Grupos de Acesso de Membro',
 
-'can_admin_mbr_groups_desc' => 'Quando ativado, os usuários contidos neste grupo poderão acessar as configurações de grupo de membros no software.',
+'can_admin_mbr_groups_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar as configurações de grupo de membros no software.',
 
 'can_admin_mbr_templates' => 'Pode administrar os templates de perfil de membro',
 
@@ -548,7 +548,7 @@ $lang = array(
 
 'can_admin_templates' => 'Pode administrar grupos de templates e templates',
 
-'can_admin_templates_desc' => 'Quando ativado, os usuários contidos neste grupo podem gerenciar grupos de templates e templates.',
+'can_admin_templates_desc' => 'Quando ativado, os usuários inseridos neste grupo podem gerenciar grupos de templates e templates.',
 
 'can_admin_upload_prefs' => 'Pode administrar preferências de upload de arquivo',
 
@@ -566,7 +566,7 @@ $lang = array(
 
 'can_delete_self' => 'Excluir conta',
 
-'can_delete_self_desc' => 'Quando ativado, os usuários contidos neste grupo poderão excluir suas próprias contas sem prévia aprovação',
+'can_delete_self_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão excluir suas próprias contas sem prévia aprovação',
 
 'can_delete_self_entries' => 'Excluir as próprias publicações',
 
@@ -584,13 +584,13 @@ $lang = array(
 
 'can_post_comments' => 'Publicar Comentários',
 
-'can_post_comments_desc' => 'Quando ativado, os usuários contidos neste grupo poderão postar comentários neste site.',
+'can_post_comments_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão postar comentários neste site.',
 
 'can_post_in' => 'Pode postar e editar publicações em:',
 
 'can_search' => 'Pode acessar a Busca',
 
-'can_search_desc' => 'Quando ativado, os usuários contidos neste grupo poderão usar as funcionalidades da busca no site.',
+'can_search_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão usar as funcionalidades da busca no site.',
 
 'can_send_cached_email' => 'Ver/Enviar e-mail em cache',
 
@@ -604,7 +604,7 @@ $lang = array(
 
 'can_view_profiles' => 'Acessa perfis públicos',
 
-'can_view_profiles_desc' => 'Quando ativado, os usuários contidos neste grupo poderão ver os perfis públicos de outros membros.',
+'can_view_profiles_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão ver os perfis públicos de outros membros.',
 
 'category_actions' => 'Categorias',
 
@@ -650,7 +650,7 @@ $lang = array(
 
 'default_cp_homepage' => 'Homepage Padrão do <abbr title="Painel de Controle">Painel de Controle</abbr>',
 
-'default_cp_homepage_desc' => 'Página do <abbr title="Painel de Controle">Painel de Controle</abbr> este grupo deverá visualizar quando fizer o login.',
+'default_cp_homepage_desc' => 'A página do <abbr title="Painel de Controle">Painel de Controle</abbr> que este grupo visualizará quando efetuar o login.',
 
 'delete_confirmation_form' => 'Formulário de Confirmação de Exclusão de Conta',
 
@@ -660,11 +660,11 @@ $lang = array(
 
 'file_manager' => 'Gerenciador de Arquivos',
 
-'file_manager_desc' => 'Quando ativado, os usuários contidos neste grupo poderão acessar o gerenciador de arquivos.',
+'file_manager_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão acessar o gerenciador de arquivos.',
 
 'footer_helper_links' => 'Links de Acesso da Ajuda no Rodapé',
 
-'footer_helper_links_desc' => 'Escolha quais links este grupo de membro poderõa acessar no rodapé do painel de controle.',
+'footer_helper_links_desc' => 'Escolha quais links este grupo de membro poderão acessar no rodapé do painel de controle.',
 
 'global_cp_access' => 'Painel de Acesso ao Painel de Controle',
 
@@ -676,7 +676,7 @@ $lang = array(
 
 'homepage_news' => 'Mostrar novidades na Homepage do Painel de Controle',
 
-'homepage_news_desc' => 'Quando ativado, os usuários contidos neste grupo verão as novidades do ExpressionEngine na homepage do Painel de Controle.',
+'homepage_news_desc' => 'Quando ativado, os usuários inseridos neste grupo verão as novidades do ExpressionEngine na homepage do Painel de Controle.',
 
 'include_members_in' => 'Incluir membros em',
 
@@ -762,11 +762,11 @@ $lang = array(
 
 'can_edit_self_entries' => 'Editar as próprias publicações',
 
-'can_not_delete_only_member' => 'Você não pode excluir o único membro no banco de dados',
+'can_not_delete_only_member' => 'Você não pode excluir o único membro existente no banco de dados',
 
-'can_send_bulletins' => 'Enviar bulletins',
+'can_send_bulletins' => 'Enviar boletins e avisos',
 
-'can_send_bulletins_desc' => 'Quando ativado, os usuários contidos neste grupo poderão enviar boletins e avisos.',
+'can_send_bulletins_desc' => 'Quando ativado, os usuários inseridos neste grupo poderão enviar boletins e avisos.',
 
 'cannot_change_your_group' => 'Super Admins não podem alterar suas próprias atribuições. Você terá que ter outro Super Admin, para que ele faça isso em sua conta e mude você de grupo.',
 
@@ -820,7 +820,7 @@ $lang = array(
 
 'delete_member_groups' => 'Excluir grupos',
 
-'delete_profile_field_confirmation' => 'Tem certeza que deseja excluir permanentemente este Campo de Perfil de Membro?',
+'delete_profile_field_confirmation' => 'Tem certeza que deseja excluir este campo permanentemente, do Perfil de Membro?',
 
 'delete_statuses' => 'Excluir statuses',
 
@@ -900,7 +900,7 @@ $lang = array(
 
 'invalid_characters' => 'O nome do campo que você forneceu contém caracteres inválidos',
 
-'is_field_cp_reg' => 'Este campo é visível na página administrativa de registros do painel de controle?',
+'is_field_cp_reg' => 'Este campo ficará visível na página administrativa dos registros do painel de controle?',
 
 'is_field_public' => 'Mostrar no perfil?',
 
@@ -934,7 +934,7 @@ $lang = array(
 
 'no_custom_profile_fields' => 'No momento não existem campos de membro.',
 
-'no_search_results' => 'Não encontramos nada correspondente em sua busca',
+'no_search_results' => 'Não encontramos nada correspondente, em sua busca',
 
 'preference' => 'Preferência',
 
@@ -974,7 +974,7 @@ $lang = array(
 
 'template_partials' => 'Parciais de Template',
 
-'template_permissions_desc' => 'Usuários podem executar todas as ações selecionadas em todos os grupos de template selecionados.',
+'template_permissions_desc' => 'Usuários poderão executar todas as ações selecionadas em todos os grupos de template selecionados.',
 
 'template_variables' => 'Variáveis de Template',
 

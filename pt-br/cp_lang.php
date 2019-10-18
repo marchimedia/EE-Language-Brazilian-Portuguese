@@ -7,7 +7,7 @@ $lang = array(
 
 
 /* Menu Developer */
-'addon_manager' => 'Gerenciar Suplementos',
+'addon_manager' => 'Gerenciar Adicionais',
 
 'channel_manager' => 'Gerenciar Canais',
 
@@ -41,17 +41,17 @@ $lang = array(
 
 'build' => 'Versão:',
 
-'captcha_explanation' => 'Um CAPTCHA é uma imagem que contém um código de segurança que os usuários têm que que digitar. Por favor consulte o guia de usuário para maiores informações.',
+'captcha_explanation' => 'Um CAPTCHA é uma imagem que contém um código de segurança que os usuários são obrigados à digitar. Por favor consulte o guia de usuário para maiores informações.',
 
 'categories' => 'Categorias',
 
 'channels' => 'Canais',
 
-'choose_wisely' => 'Escolha bem',
+'choose_wisely' => 'Escolha sabiamente',
 
 'click_to_edit' => 'Clique para Editar',
 
-'close_modal' => 'Fechar janela',
+'close_modal' => 'Fechar modal',
 
 'consult_user_guide' => 'Consultar Guia do Usuário',
 
@@ -83,7 +83,7 @@ $lang = array(
 
 'loading' => 'Carregando',
 
-'logged_back_in' => 'Você agora está logado de volta!',
+'logged_back_in' => 'Você está logado novamente!',
 
 'logout' => 'Sair',
 
@@ -219,13 +219,15 @@ $lang = array(
 
 'ip_address' => 'Endereço IP',
 
-'member_changed_email' => 'Alterado o e-mail de "%s" (%d) de "%s" para "%s"',
+'member_changed_email' => 'Alterado o e-mail para "%s" (%d) de "%s" para "%s"',
 
-'member_changed_member_group' => 'Alterado o grupo de membros para "%s" para "%s" (%d)',
+'member_changed_member_group' => 'Alterado o grupo de membros de "%s" para "%s" (%d)',
 
 'member_changed_password' => 'Senha alterada para "%s" (%d)',
 
 'member_anonymized_member' => 'Membro Anônimo com o ID: %d',
+
+'member_hash_algo_changed' => 'O hash do algoritmo mudou para "%s" (%d)',
 
 'member_id' => 'ID de Membro',
 
@@ -422,7 +424,7 @@ $lang = array(
 /* CP Errors */
 '404_does_not_exist' => '404: O Item não existe',
 
-'404_does_not_exist_desc' => 'Desculpe, não pudemos localizar o item que você está tentando acessar no sistema.',
+'404_does_not_exist_desc' => 'Desculpe, não foi possível localizar o item que você está tentando acessar no sistema.',
 
 
 /* Comum */
@@ -526,7 +528,7 @@ $lang = array(
 
 'revisions' => 'Revisões',
 
-'search_results_heading' => 'Resultados da Busca<br><i>nós encontramos os resultados %d de "%s"</i>',
+'search_results_heading' => 'Resultados da Busca<br><i>nós encontramos %d resultados para "%s"</i>',
 
 'settings_save_error' => 'Atenção: As configurações não foram salvas',
 
@@ -542,7 +544,7 @@ $lang = array(
 
 'url_title_lc' => 'Título da URL',
 
-'used_in_cp_only' => 'Usado apenas no painel de controle.',
+'used_in_cp_only' => 'Utilizado apenas no painel de controle.',
 
 'view_all' => 'Ver Tudo',
 
@@ -552,9 +554,9 @@ $lang = array(
 /* Footer */
 'about_expressionengine' => 'Sobre o ExpressionEngine',
 
-'authenticating' => 'authenticando...',
+'authenticating' => 'autenticando...',
 
-'checking_for_updates' => 'Verificando por updates...',
+'checking_for_updates' => 'Verificando por atualizações...',
 
 'download' => 'baixar',
 
@@ -572,13 +574,13 @@ $lang = array(
 
 'out_of_date' => 'desatualizado',
 
-'out_of_date_recommended' => 'Upgrade Recomendado',
+'out_of_date_recommended' => 'Atualização Recomendada',
 
 'out_of_date_upgrade' => 'Nova versão encontrada',
 
 'owned_by' => 'De propriedade de',
 
-'recommended_upgrade' => 'Upgrade <b>Recomendado</b> .',
+'recommended_upgrade' => 'Atualização <b>Recomendada</b> .',
 
 'register_now' => 'Registrar Agora',
 
@@ -586,7 +588,7 @@ $lang = array(
 
 'scroll_to_top' => 'subir',
 
-'session_timeout' => 'Sua sessão de acesso administrativo terminou. Por favor use o formulário abaixo para logar novamente em seu painel de controle.',
+'session_timeout' => 'Sua sessão de acesso administrativo foi encerrada. Por favor utilize o formulário abaixo para logar novamente em seu painel de controle.',
 
 'up_to_date' => 'Atualizar!',
 
@@ -614,7 +616,7 @@ $lang = array(
 
 'confirm_show_all_btn' => 'Mostrar Tudo',
 
-'confirm_show_all_desc' => 'Ver mais de %d itens de uma vez pode resultar em performance reduzida.',
+'confirm_show_all_desc' => 'Ver mais de %d itens de uma vez poderá resultar em uma redução de performance.',
 
 
 /* Botões HTML */

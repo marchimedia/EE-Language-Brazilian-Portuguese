@@ -142,11 +142,11 @@ $lang = array(
 
 'valid_name_required' => 'O nome do conjunto de ferramentas não deve incluir caracteres especiais.',
 
-'valid_url_required' => 'Um URL válida é necessária.',
+'valid_url_required' => ' É necessário Um URL válida.',
 
 
 /* Rótulos */
-'available_tools' => 'Ferramentas Disponíveis (não sendo usada)',
+'available_tools' => 'Ferramentas Disponíveis (não sendo utilizada no momento)',
 
 'default_toolset' => 'Padrão do Conjunto de Ferramentas do <abbr title="Editor Avançado de Texto">Editor Avançado de Texto</abbr> ',
 

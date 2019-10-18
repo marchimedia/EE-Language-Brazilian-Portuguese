@@ -2,11 +2,11 @@
 
 $lang = array(
 
-'cache_on' => 'Cacheamento de Query SQL Ativado',
+'cache_on' => 'Cache de Query SQL Ativado',
 
 'db_debug' => 'Ativar Debugging do Banco de Dados',
 
-'enable_db_caching' => 'Ativar Cacheamento de Query SQL',
+'enable_db_caching' => 'Ativar Cache de Query SQL',
 
 'pconnect' => 'Conexão Persistente ao Banco de Dados',
 
@@ -28,7 +28,7 @@ $lang = array(
 
 'total_entries' => 'Total de Publicações',
 
-'total_posts' => 'Total de Posts',
+'total_posts' => 'Total de Postagens',
 
 'xss_clean_uploads' => 'Aplicar filtragem XSS nos arquivos subidos?',
 
@@ -44,7 +44,7 @@ $lang = array(
 
 'search_results' => 'Resultados da Busca',
 
-'specialty_templates_blurb' => 'Estes templates são utilizados para fins especiais como mostrar mensagens de erro e enviar avisos por e-mail.',
+'specialty_templates_blurb' => 'Estes templates são utilizados para fins especiais, como mostrar mensagens de erro e enviar avisos por e-mail.',
 
 'system_admin_blurb' => 'A maioria dos aspectos administrativos do ExpressionEngine são gerenciados em uma das seguintes cinco áreas:',
 
@@ -56,7 +56,7 @@ $lang = array(
 /* Configurações das Extensões */
 'available_extensions' => 'Extensões Disponíveis',
 
-'censor_replacement' => 'Palavra para substituir Palavras Censuradas',
+'censor_replacement' => 'Palavra Substituta de Palavras Censuradas',
 
 'censor_replacement_info' => 'Se deixado em branco, os dados censurados serão substituídos por: #',
 
@@ -76,13 +76,13 @@ $lang = array(
 
 'enable_extension' => 'Ativar?',
 
-'enable_extension_conf' => 'Ativar Confirmação de Extensão',
+'enable_extension_conf' => 'Ativar Confirmação da Extensão',
 
 'enable_extensions' => 'Ativar Extensões?',
 
-'enable_extensions_conf' => 'Ativar Confirmação de Extensões',
+'enable_extensions_conf' => 'Ativar Confirmação das Extensões',
 
-'enable_search_log' => 'Ativar Log dos Termos da Busca',
+'enable_search_log' => 'Ativar log das palavras buscadas',
 
 'enable_search_log_exp' => 'Quando ativado, as palavras buscadas pelos seus visitantes enviadas pelos formulários de busca serão armazenadas em um log.',
 
@@ -102,11 +102,11 @@ $lang = array(
 
 'manage_extension' => 'Gerenciar',
 
-'max_logged_searches' => 'Quantidade máxima de termos recentes de busca que ficará registrado no sistema',
+'max_logged_searches' => 'Quantidade máxima de palavras recentes da busca que ficará registrado no sistema',
 
 'no_extensions_exist' => 'Não Existem Extensões',
 
-'search_log_cfg' => 'Configuração do Log dos Termos de Busca',
+'search_log_cfg' => 'Configuração do log das palavras buscadas',
 
 'setting' => 'Configuração',
 
@@ -132,7 +132,7 @@ $lang = array(
 
 'add_new_html_button' => 'Adicionar novo botão HTML',
 
-'add_predefined_html_button' => 'Adicionar Botão HTML Predefinido',
+'add_predefined_html_button' => 'Adicionar Botão de HTML Predefinido',
 
 'admin_content' => 'Administração',
 
@@ -142,17 +142,17 @@ $lang = array(
 
 'all_caching' => 'Todos os caches',
 
-'allow_avatar_uploads' => 'Permitir que membros subam seus próprios avatares?',
+'allow_avatar_uploads' => 'Permitir que membros possam subir seus próprios avatares?',
 
 'allow_member_loc_notes' => 'Se definido como \'não\' todas as datas e horas serão convertidas para os padrões do site.',
 
 'allow_member_localization' => 'Permitir que membros definam suas próprias configurações de regionalização?',
 
-'allow_member_registration' => 'Permitir Novos Registros de Membros?',
+'allow_member_registration' => 'Permitir Registros de Novos Membros?',
 
 'allow_signatures' => 'Permitir que Usuários tenham Assinaturas?',
 
-'analize' => 'Analizar Tabelas',
+'analize' => 'Analisar Tabelas',
 
 'archive_destination' => 'Destino',
 
@@ -186,13 +186,13 @@ $lang = array(
 
 'banishment_message_exp' => 'Se você optar pela Mensagem Customizada.',
 
-'banishment_type' => 'Ação à Tomar',
+'banishment_type' => 'Ação à ser executada',
 
-'banishment_type_exp' => 'A ação que será tomada se um usuário exceder os limites.',
+'banishment_type_exp' => 'A ação que será executada se um usuário exceder os limites.',
 
 'banishment_url' => 'URL para Redirecionamento',
 
-'banishment_url_exp' => 'Se você escolher a opção de redireciobamento de URL.',
+'banishment_url_exp' => 'Se você escolher a opção de redirecionamento de URL.',
 
 'batch_size_explanation' => 'Para a média dos servidores, 300 é um número seguro',
 
@@ -246,7 +246,7 @@ $lang = array(
 
 'channels' => 'Canais',
 
-'choose_translation_file' => 'Escolha um arquivo para tradução',
+'choose_translation_file' => 'Escolha um arquivo para traduzir',
 
 'clear_caching' => 'Limpar os Dados de Cache',
 
@@ -288,7 +288,7 @@ $lang = array(
 
 'database_uptime' => 'Uptime do Banco de Dados',
 
-'date_format' => 'Padrão de Formatação de Data',
+'date_format' => 'Formato Padrão da Data',
 
 'db_caching' => 'Arquivos de Cache do Banco de Dados',
 
@@ -308,7 +308,7 @@ $lang = array(
 
 'default_html_buttons' => 'Padrão de Botões HTML',
 
-'default_member_group' => 'Grupo de Membros Padrão designado para Novos Membros',
+'default_member_group' => 'Grupo Padrão de Membros designado para Novos Membros',
 
 'default_site_timezone' => 'Fuso Horário do Site',
 
@@ -346,7 +346,7 @@ $lang = array(
 
 'email_console_timelock' => 'Trava de Tempo do Console de E-mail',
 
-'email_console_timelock_exp' => 'A quantidade de tempo em minutos que um membro deve aguardar antes que ele possa enviar ouro e-mail pelo console. Nota: Isto se aplica apenas no Console de E-mail da página do perfil de membro.',
+'email_console_timelock_exp' => 'A quantidade de tempo em minutos que um membro deve aguardar antes que ele possa enviar outro e-mail pelo console. Nota: Isto se aplica apenas no Console de E-mail da página do perfil de membro.',
 
 'email_debug' => 'Ativar Debugging de E-mail?',
 
@@ -414,7 +414,7 @@ $lang = array(
 
 'general_cfg' => 'Configuração Geral',
 
-'group_assignment_defaults_to_two' => 'Se você requisitar ativação de conta, voc6e terá que definir isto para que eles sejam ativados',
+'group_assignment_defaults_to_two' => 'Se você requisitar ativação de conta, então terá que definir isto para que eles sejam ativados',
 
 'guest' => 'Visitante',
 
@@ -462,11 +462,11 @@ $lang = array(
 
 'is_site_on' => 'Este site está online?',
 
-'is_site_on_explanation' => 'Se o site estiver offline, apenas Super Admins serão capazes de ver este site',
+'is_site_on_explanation' => 'Se o site estiver offline, apenas Super Admins poderão visualizar este site',
 
 'is_system_on' => 'O sistema está online?',
 
-'is_system_on_explanation' => 'Se o sistema estiver offline, por padrão apenas Super Admins serão capazes de ver seu site',
+'is_system_on_explanation' => 'Se o sistema estiver offline, por padrão apenas Super Admins poderão visualizar seu site',
 
 'items_remaining' => 'Registros remanescentes:',
 
@@ -488,11 +488,11 @@ $lang = array(
 
 'lockout_time' => 'Tempo de Bloqueio (em segundos)',
 
-'lockout_time_exp' => 'O período de tempo em que um usuário deverá ficar bloqueado no seu site se ele exceder os limites.',
+'lockout_time_exp' => 'O período de tempo em que um usuário deverá ficar bloqueado no seu site, se ele exceder os limites.',
 
 'log_email_console_msgs' => 'Mensagens de Log do Console de E-mail',
 
-'log_email_console_msgs_exp' => 'Esta preferência permite que voc6e faça o log de todas as mensagens enviadas pelo Console de E-mail nas páginas de perfil dos membros.',
+'log_email_console_msgs_exp' => 'Esta preferência permite que você faça o log de todas as mensagens enviadas pelo Console de E-mail nas páginas de perfil dos membros.',
 
 'log_referrers' => 'Ativar Monitoramento de Referências?',
 
@@ -514,7 +514,7 @@ $lang = array(
 
 'max_page_loads_exp' => 'A quantidade de vezes que um usuário pode carregar suas páginas (dentro do intervalo de tempo abaixo) antes de ser bloqueado.',
 
-'max_referrers' => 'Quantidade máxima de refeeências a serem salvas',
+'max_referrers' => 'Quantidade máxima de referências a serem salvas',
 
 'mbr_notification_emails' => 'Endereço de E-mail para Avisos',
 
@@ -602,7 +602,7 @@ $lang = array(
 
 'plain_text' => 'Texto Puro',
 
-'please_set_permissions' => 'Por favor defina as permissões para 666 ou 777 na seguinte pasta:',
+'please_set_permissions' => 'Por favor defina as permissões para 666 ou 777, na seguinte pasta:',
 
 'plugin_by_date' => 'Por Data',
 
@@ -614,7 +614,7 @@ $lang = array(
 
 'plugin_error_no_plugins_found' => 'Não foi possível validar o arquivo de plugin durante o download',
 
-'plugin_error_no_zlib' => 'Seu servidor não possui suporte ao pacote zlib, então a descompressão não é possível. O arquivo ZIP está armazenado na sua pasta de plugins.',
+'plugin_error_no_zlib' => 'Seu servidor não possui suporte ao pacote zlib, então não será possível a descompactação de arquivos. O arquivo ZIP está armazenado na sua pasta de plugins.',
 
 'plugin_error_package_already_exists' => 'O Pacote do Adicional já existe',
 
@@ -642,7 +642,7 @@ $lang = array(
 
 'plugin_multiple_confirm' => 'Tem certeza que deseja excluir estes plugins?',
 
-'plugin_no_curl_support' => 'Seu servidor não suporta a biblioteca Curl, que é necessária para utilizar este recurso.',
+'plugin_no_curl_support' => 'Seu servidor não suporta a biblioteca Curl, que é necessária para a utilização deste recurso.',
 
 'plugin_problem_creating_file' => 'Não foi possível criar uma versão local do seu plugin',
 
@@ -652,7 +652,7 @@ $lang = array(
 
 'plugin_removal_status' => 'Status de Remoção do Plugin',
 
-'plugin_removal_success' => 'O seguinte plugin vou removido com sucesso:',
+'plugin_removal_success' => 'O seguinte plugin foi removido com sucesso:',
 
 'plugin_remove' => 'Remover',
 
@@ -680,7 +680,7 @@ $lang = array(
 
 'profile_trigger' => 'Palavra de Gatilho do Perfil',
 
-'profile_trigger_notes' => 'Quando esta palavra for encontrada em sua URL, irá mostrar sua área de perfil de membro. A palavra que você escolher não pode ser o nome de um grupo de templates existentes',
+'profile_trigger_notes' => 'Quando esta palavra for encontrada em sua URL, irá mostrar sua área de perfil de membro. A palavra que você escolher não poderá ser o nome de um grupo de templates existentes',
 
 'prv_msg_allow_attachments' => 'Permitir anexos em mensagens privadas?',
 
@@ -698,9 +698,9 @@ $lang = array(
 
 'prv_msg_max_chars' => 'Número Máximo de caracteres permitidos nas Mensagens Privadas',
 
-'prv_msg_send_limit' => 'Quantidade máxima de Mensagens Privadas que um usuário pode enviar por dia',
+'prv_msg_send_limit' => 'Quantidade máxima de Mensagens Privadas que um usuário poderá enviar por dia',
 
-'prv_msg_storage_limit' => 'Quantidade máxima de Mensagens Privadas que um usuário pode armazenar',
+'prv_msg_storage_limit' => 'Quantidade máxima de Mensagens Privadas que um usuário poderá armazenar',
 
 'prv_msg_upload_path' => 'Caminho no Servidor para a Pasta de Upload de Anexos',
 
@@ -720,7 +720,7 @@ $lang = array(
 
 'recount_completed' => 'Recontagem Completa',
 
-'recount_info' => 'Os links abaixo permitem que você atualize várias estatísticas, como por exemplo, quantas publicações cada membro enviou.',
+'recount_info' => 'Os links abaixo permitem que você atualize várias estatísticas - como por exemplo - quantas publicações cada membro enviou.',
 
 'recount_prefs' => 'Preferências de Recontagem',
 
@@ -732,7 +732,7 @@ $lang = array(
 
 'redirect_submitted_links' => 'Aplicar Redirecionamento para Links enviados pelos Usuários?',
 
-'redirect_submitted_links_explanation' => 'Esta opção reescreve os links enviados pelos usuários, então eles primeiro apontam para uma página intermediária de redirecionamento. Isto ajuda a evitar spam nos comentários ao previnir que os mecanismos de busca cataloguem os links.',
+'redirect_submitted_links_explanation' => 'Esta opção reescreve os links enviados pelos usuários, então eles primeiro apontam para uma página intermediária de redirecionamento. Isto ajuda a evitar spam nos comentários ao prevenir que os mecanismos de busca cataloguem os links.',
 
 'refresh_method' => 'Atualizar (Servidores Windows)',
 
@@ -744,7 +744,7 @@ $lang = array(
 
 'replace_where' => 'Em qual campo do banco de dados você deseja que a substituição aconteça?',
 
-'req_mbr_activation' => 'É necessário Ativação da Conta de Membro?',
+'req_mbr_activation' => 'É necessária a Ativação da Conta de Membro?',
 
 'require_ip_for_posting' => 'É necessário um Endereço IP e um User Agent para postagens?',
 
@@ -754,13 +754,13 @@ $lang = array(
 
 'reserved_category_word' => 'Indicador de URL de Categoria',
 
-'reserved_category_word_exp' => 'Se você definiu a preferência acima para \'sim\' você deve escolher uma palavra reservada. Esta palavra será utilizada na URL para indicar ao mecanismo de exibição do canal que você está exibindo uma categoria. Nota: não importa a palavra que você escolher, ela NÃO PODE ser o nome de um template ou grupo de templates.',
+'reserved_category_word_exp' => 'Se você definiu a preferência acima para \'sim\' você deverá escolher uma palavra reservada. Esta palavra será utilizada na URL para indicar ao mecanismo de exibição do canal que você está exibindo uma categoria. Nota: não importa a palavra que você escolher, ela NÃO PODERÁ ser o nome de um template ou grupo de templates.',
 
 'return_email_explanation' => 'Se você deixar isto em branco, muitos servidores acreditarão que você está enviando spam por e-mail',
 
 'return_to_recount_overview' => 'Retornar à Pagina Principal da Recontagem',
 
-'rows_replaced' => 'Quantidade de registros no banco de dados em que a substituição acontecerá:',
+'rows_replaced' => 'Quantidade de registros no banco de dados em que a substituição ocorrerá:',
 
 'safe_mode' => 'Seu servidor está executando o PHP em Modo Seguro?',
 
@@ -790,7 +790,7 @@ $lang = array(
 
 'show_profiler' => 'Mostrar Perfil de Saída?',
 
-'show_profiler_explanation' => 'Se ativado, os Super Admins verão resultados dos testes, todos os queries SQL e envia os dados do formulário exibido no rodapé da janela do seu navegador. Útil para debugging.',
+'show_profiler_explanation' => 'Se ativado, os Super Admins verão resultados dos testes, todos os queries SQL e todos os dados do formulário serão exibidos no rodapé da janela do seu navegador. Útil para debugging.',
 
 'sig_allow_img_hotlink' => 'Permitir link nas imagens das assinaturas?',
 
@@ -892,7 +892,7 @@ $lang = array(
 
 'tables' => 'tabelas',
 
-'tag_caching' => 'Arquivos de Cache do Tag',
+'tag_caching' => 'Arquivos de Cache de Tag',
 
 'template_cfg' => 'Preferências de Template',
 
@@ -910,7 +910,7 @@ $lang = array(
 
 'thumbnail_prefix_exp' => 'Este sufixo será adicionado em todas as miniaturas geradas automaticamente. Exemplo: foto-festa_mini.jpg',
 
-'time_format' => 'Formatação de Tempo Padrão',
+'time_format' => 'Formato Padrão de Tempo',
 
 'time_interval' => 'Intervalo de tempo (em segundos)',
 

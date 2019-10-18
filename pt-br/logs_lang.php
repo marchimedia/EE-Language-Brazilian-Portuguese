@@ -68,13 +68,13 @@ $lang = array(
 /* Log de Desenvolvimento */
 'clear_developer_logs' => 'Remover todos os Logs de Desenvolvedor',
 
-'deprecated_function' => 'A função descontinuada %s foi chamada',
+'deprecated_function' => 'A função descontinuada %s foi requisitada',
 
 'deprecated_hook' => 'A extensão descontinuada tem um hook chamado pela(s) seguinte(s) extensões (Class::method) <ul>%s</ul>',
 
 'deprecated_meaning' => '<p>Uma ou duas coisas aconteceram:</p>
 <ol>
- <li>O sistema detectou um código nativo ou um adicional cujo código foi descontinuado e que pode parar de funcionar ou causar problemas no sistema. Isto significa que o adicional em sua instalação está acessando uma parte do núcleo do ExpressionEngine que a EllisLab planeja remover no futuro para melhorar a qualidade do produto.</li>
+ <li>O sistema detectou um código nativo ou um adicional cujo código foi descontinuado e que pode parar de funcionar ou causar problemas no sistema. Isto significa que este adicional em sua instalação está acessando uma parte do núcleo do ExpressionEngine que a EllisLab planeja remover no futuro para melhorar a qualidade do produto.</li>
  <li>Um alerta ou mensage foi levantada por código nativo ou de um adicional para visualização do Super Admin.</li>
 </ol>
 <p>Para remediar este aviso, você pode precisa fazer o seguinte:</p>

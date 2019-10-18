@@ -13,7 +13,7 @@ $lang = array(
 
 'database_uptime' => 'Tempo Online do Banco de Dados',
 
-'no_buttons_selected' => 'Você deve selecionar as tabelas para executar esta ação',
+'no_buttons_selected' => 'Você deve selecionar as tabelas para poder executar esta ação',
 
 'optimize' => 'Otimizar Tabelas SQL',
 
@@ -81,11 +81,11 @@ $lang = array(
 
 'if_replacing_templates'=> 'Se você está substituindo com templates, <a href="%x">sincronize com o banco de dados</a> primeiro, ou',
 
-'permanent_data_loss' => 'perda de dados permanente poderá ocorrer!',
+'permanent_data_loss' => 'poderá ocorrer uma permanente perda de dados!',
 
 'rows_replaced' => 'Número de publicações no banco de dados em que a substituição ocorreu:',
 
-'site_preferences' => 'Prefrências do Site',
+'site_preferences' => 'Preferências do Site',
 
 'template_groups' => 'Grupos de Templates',
 

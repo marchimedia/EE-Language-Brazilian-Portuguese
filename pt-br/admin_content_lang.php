@@ -42,7 +42,7 @@ $lang = array(
 
 'category_updated' => 'Categoria Atualizada',
 
-'channel_allow_img_urls' => 'Permitir URLs nas imagens nas publicações do canal?',
+'channel_allow_img_urls' => 'Permitir URLs nas imagens das publicações do canal?',
 
 'channel_base_setup' => 'Preferências Gerais de Canal',
 
@@ -108,11 +108,11 @@ $lang = array(
 
 'comment_moderate' => 'Moderar Comentários?',
 
-'comment_moderate_exp' => 'Se definido para sim, comentários não serão visíveis até que um moderador os aprove.',
+'comment_moderate_exp' => 'Se definido para sim, os comentários não serão visíveis até que um moderador os aprove.',
 
 'comment_notify' => 'Ativar a lista de destinatários abaixo para receberem avisos sobre novos comentários?',
 
-'comment_notify_authors' => 'Avisar o autor de uma publicação quando um comentário for publicado?',
+'comment_notify_authors' => 'Avisar o autor de uma publicação quando um comentário for publicado em seu conteúdo?',
 
 'comment_notify_emails' => 'Endereço(s) de e-mail(s) do(s) Destinatário(s) das Notificações',
 
@@ -132,7 +132,7 @@ $lang = array(
 
 'comment_timelock_desc' => 'O espaço de tempo em segundos que deve ser respeitado antes que um usuário possa postar outro comentário. Deixe em branco ou defina para zero para nenhum limite.',
 
-'comment_url' => 'URL de Comentário da Página',
+'comment_url' => 'URL de Comentários da Página',
 
 'comment_url_exp' => 'A URL onde está localizada a página de comentários deste canal',
 
@@ -156,7 +156,7 @@ $lang = array(
 
 'create_field_group_success_desc' => 'O grupo de campos <b>%s</b> foi criado.',
 
-'create_field_group_warning' => '<b>Alerta</b>: Os grupos de campo necessitam de campos customizados para que sejam criados.',
+'create_field_group_warning' => '<b>Alerta</b>: Os grupos de campo necessitam de campos customizados, para que sejam criados.',
 
 'create_field_group_warning2' => 'É uma boa prática criar primeiro os <a href="%s">campos customizados</a>.',
 
@@ -166,7 +166,7 @@ $lang = array(
 
 'create_html_button' => 'Criar botão <abbr title="Linguagem de Marcação HiperTexto">HTML</abbr> ',
 
-'create_new_channel' => 'Criar Novo Canal',
+'create_new_channel' => 'Criar um Novo Canal',
 
 'custom' => 'Customizado',
 
@@ -240,9 +240,9 @@ $lang = array(
 
 'field_content_text_desc' => 'Tipo de conteúdo que este campo pode armazenar.',
 
-'field_groups_uc' => 'Grupo de Campos',
+'field_groups_uc' => 'Grupos de Campos',
 
-'field_groups_desc' => 'Utilizado para agrupar campos customizados relacionados.',
+'field_groups_desc' => 'Utilizados para agrupar campos customizados relacionados.',
 
 'field_groups_removed_desc' => 'Os seguintes grupos de campos foram removidos',
 
@@ -254,7 +254,7 @@ $lang = array(
 
 'field_options' => 'Opções do Campo',
 
-'field_populate_from_channel' => 'Preencher o menu a partir de outro campo do canal',
+'field_populate_from_channel' => 'Preencher o menu à partir de outro campo do canal',
 
 'field_populate_manually' => 'Preencher o menu manualmente',
 
@@ -274,7 +274,7 @@ $lang = array(
 
 'fmt_has_changed' => 'Nota: Você optou por uma formatação de campo diferente da que estava previamente salva.',
 
-'formatting_no_available' => 'A Formatação de Texto não está disponível para seu tipo de campo escolhido',
+'formatting_no_available' => 'A Formatação de Texto não está disponível para este tipo de campo selecionado',
 
 'global_sort_order' => 'Ordem de Exibição Principal',
 
@@ -316,9 +316,9 @@ $lang = array(
 
 'instructions' => 'Instruções',
 
-'instructions_desc' => 'Instruções do campo que são exibidas no formulário de publicação.',
+'instructions_desc' => 'Instruções sobre a utilização do campo que são exibidas no formulário de publicação.',
 
-'invalid_field_group_selected' => 'Grupo de campos inválido',
+'invalid_field_group_selected' => 'Grupo inválido de campos',
 
 'invalid_short_name' => 'Seu nome de canal deve conter apenas caracteres alfanuméricos e sem espaços.',
 
@@ -346,7 +346,7 @@ $lang = array(
 
 'new_field' => 'Novo Campo',
 
-'new_group_instructions' => 'Um campo é necssário se você está criando um novo grupo',
+'new_group_instructions' => 'Um campo é necessário, se você está criando um novo grupo',
 
 'no_buttons' => 'Nenhum botão <abbr title="Linguagem de Marcação HiperTexto">HTML</abbr> foi definido.',
 
@@ -406,7 +406,7 @@ $lang = array(
 
 'save_html_button' => 'Salvar botão <abbr title="Linguagem de Marcação HiperTexto">HTML</abbr> ',
 
-'search_excerpt' => 'Que campo deve ser usado para exibir o extrato da busca?',
+'search_excerpt' => 'Que campo deve ser usado para exibir a extração da busca?',
 
 'search_results_url' => 'URL dos resultados da busca',
 
@@ -436,9 +436,9 @@ $lang = array(
 
 'status_updated' => 'Status atualizado',
 
-'tag_close' => 'Tag de Encerramento',
+'tag_close' => 'Tag de Fechamento',
 
-'tag_close_desc' => 'Tag de encerramento deste botão. Ex: <b><code>&lt;/b&gt;</code></b>',
+'tag_close_desc' => 'Tag de Fechamento deste botão. Ex: <b><code>&lt;/b&gt;</code></b>',
 
 'tag_name' => 'Nome',
 
@@ -594,7 +594,7 @@ $lang = array(
 
 'unable_to_create_cat_url_title' => 'Não foi possível criar um Título de URL de categoria válido para sua Categoria',
 
-'update_category_image' => 'Por favor atualize a imagem da sua categoria usando o campo de arquivo fornecido, ou a URL da imagem do estilo antogo será excluída assim que você clicar em salvar.',
+'update_category_image' => 'Por favor atualize a imagem da sua categoria usando o campo de arquivo fornecido, ou a URL da imagem do antigo estilo será excluída assim que você clicar em salvar.',
 
 'update_existing_cat_fields' => 'Atualizar todas as categorias existentes neste grupo com suas novas escolhas de formatação?',
 
@@ -690,7 +690,7 @@ $lang = array(
 
 'no_field_group_message' => 'Atualmente não existem campos no canal',
 
-'no_field_groups' => 'Nenhum <b>Grupo de Camposs</b> encontrado.',
+'no_field_groups' => 'Não foi localizado nenhum <b>Grupo de Campos</b>.',
 
 'no_field_label' => 'Você deve fornecer um rótulo para o campo',
 
@@ -762,7 +762,7 @@ $lang = array(
 
 'integrate_category_groups' => 'Integrar Grupos de Categorias',
 
-'invalid_status_name' => 'Os nomes dos Status pode ter apenas caracteres alfanuméricos, assim como espaços, underlines e hífens.',
+'invalid_status_name' => 'Os nomes dos Status podem ter apenas caracteres alfanuméricos, assim como espaços, underlines e hífens.',
 
 'invalid_url_title_prefix' => 'Prefixo Inválido de Título da URL',
 

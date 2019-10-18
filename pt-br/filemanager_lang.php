@@ -34,7 +34,7 @@ $lang = array(
 
 'edit_file_metadata_success_desc' => 'Os metadados do arquivo <b>%s</b> foram atualizados.',
 
-'exceeds_max_dimensions' => 'O Arquivo excede as dimensões máximas e não é redimensionável.',
+'exceeds_max_dimensions' => 'O arquivo excedeu as dimensões máximas e não é redimensionável.',
 
 'file' => 'Arquivo',
 
@@ -76,7 +76,7 @@ $lang = array(
 
 'no_permission' => 'Você não possui permissões para salvar um arquivo',
 
-'no_upload_destination' => 'Nenhum destino de pasta de upload foi localizado',
+'no_upload_destination' => 'Nenhuma pasta de upload de destino foi localizada',
 
 'not_an_image' => 'O arquivo selcionado não é uma imagem',
 
@@ -86,9 +86,9 @@ $lang = array(
 
 'problem_downloading_files' => 'Ocorreu um erro ao tentar baixar os arquivos selecionados. Por favor verifique se os arquivos existem no servidor.',
 
-'rename' => 'Renomear arquivo <strong>novor</strong> ',
+'rename' => 'Renomear arquivo <strong>novo</strong> ',
 
-'replace' => 'Substituir apena o arquivo <strong>antigo</strong>  <i>&mdash; ação destrutiva</i>',
+'replace' => 'Substituir apenas o arquivo <strong>antigo</strong>  <i>&mdash; ação destrutiva</i>',
 
 'replace_no_metadata' => 'Apenas o arquivo foi substituído. O Título, Descritivo, Crédito, Local e Categorias não foram atualizados.',
 
@@ -370,7 +370,7 @@ $lang = array(
 
 'top' => 'Acima',
 
-'upload_allowed_types' => 'Tipos de Aqruivos Permitidos?',
+'upload_allowed_types' => 'Tipos de Arquivos Permitidos?',
 
 'upload_allowed_types_opt_all' => 'Todos os tipos de arquivos',
 
@@ -384,7 +384,7 @@ $lang = array(
 
 'upload_category_groups' => 'Grupos de Categorias',
 
-'upload_category_groups_desc' => 'Permite que arquivos sejam desigandos em categorias dos seguintes grupos.',
+'upload_category_groups_desc' => 'Permite que arquivos sejam atribuídos em categorias dos seguintes grupos.',
 
 'upload_file_size' => 'Tamanho do Arquivo',
 
@@ -394,7 +394,7 @@ $lang = array(
 
 'upload_image_height' => 'Altura da Imagem',
 
-'upload_image_height_desc' => 'Altura máxima da imagem em pixels.',
+'upload_image_height_desc' => 'Altura máxima da imagem, em pixels.',
 
 'upload_image_manipulations' => 'Manipulações de Imagem',
 
@@ -448,11 +448,11 @@ $lang = array(
 
 'watermark_not_created' => 'Não foi possível Criar Carimbo',
 
-'watermark_not_created_desc' => 'Não conseguimos criar este carimbo, por favor revise e corrija os erros abaixo. ',
+'watermark_not_created_desc' => 'Não foi possível criar este carimbo, por favor revise e corrija os erros abaixo. ',
 
 'watermark_not_updated' => 'Não foi possível Atualizar o Carimbo',
 
-'watermark_not_updated_desc' => 'Não conseguimos atualizar este carimbo, por favor revise e corrija os erros abaixo. ',
+'watermark_not_updated_desc' => 'Não foi possível atualizar este carimbo, por favor revise e corrija os erros abaixo. ',
 
 'watermark_offset' => 'Offset',
 
@@ -498,15 +498,15 @@ $lang = array(
 /* 2.x */
 'choose_file' => 'Por favor selecione um arquivo para exclusão',
 
-'confirm_del_file' => 'Tem certeza que deseja excluir permamentemente este arquivo?',
+'confirm_del_file' => 'Tem certeza que deseja excluir permanentemente este arquivo?',
 
-'confirm_del_files' => 'Tem certeza que deseja excluir permamentemente estes arquivos?',
+'confirm_del_files' => 'Tem certeza que deseja excluir permanentemente estes arquivos?',
 
 'content_files' => 'Gerenciador de Arquivos',
 
 'create_new_upload_pref' => 'Criar Novo Destino de Upload',
 
-'delete_fail' => 'Houve um problema ao excluir um ou mais arquivos. Por favor revise a lista de arquivos abaixo.',
+'delete_fail' => 'Houve um problema ao tentar excluir um ou mais arquivos. Por favor revise a lista de arquivos logo abaixo.',
 
 'delete_selected_files' => 'Excluir os Arquivos Selecionados',
 
@@ -598,7 +598,7 @@ $lang = array(
 
 'category_groups' => 'Grupos de Categorias de Arquivos',
 
-'category_groups_text' => 'Designe um ou mais grupos de categorias para o local de upload de arquivos',
+'category_groups_text' => 'Destine um ou mais grupos de categorias para o local de upload de arquivos',
 
 'constrain' => 'Reduzir',
 
@@ -642,13 +642,13 @@ $lang = array(
 
 'errors' => 'Erros Encontrados',
 
-'exit_apply_changes' => 'Você está prestes a sair deste modo de edição. Aplicar as alterações permanentemente primeiro?',
+'exit_apply_changes' => 'Você está prestes a sair deste modo de edição. Antes disso, deseja aplicar as alterações realizadas, de forma permanente?',
 
 'file_count' => 'Quantidade de Arquivos',
 
 'file_directory_id' => 'ID',
 
-'file_exists_replacement_error' => 'Um aqruivo com este nome já existe.',
+'file_exists_replacement_error' => 'Já existe um arquivo com este nome.',
 
 'file_post_format' => 'Pós-Formatação de Arquivo',
 
@@ -688,7 +688,7 @@ $lang = array(
 
 'max_height' => 'Altura Máxima da Imagem (em pixels)',
 
-'max_image_action' => 'Ação que será tomada se exceder o tamanho de imagem',
+'max_image_action' => 'Ação que será tomada se o tamanho da imagem for excedido',
 
 'max_size' => 'Tamanho Máximo do Arquivo (em bytes)',
 
@@ -711,7 +711,7 @@ $lang = array(
 'no_results' => 'Nenhum grupo de membros disponível.',
 
 'no_sync_title' => 'Sem resultados', // @todo, this phrase should change, just not sure what to put -ga
-'no_upload_directories_for_fieldtype' => 'Atualmente não existem pastas de upload disponíveis. Por favor <a href="%s" rel="external">adicione uma ou mais pastas de upload</a> para poder usar o tipo de campo Arquivo.',
+'no_upload_directories_for_fieldtype' => 'Atualmente não existem pastas de upload disponíveis. Por favor <a href="%s" rel="external">adicione uma ou mais pastas de upload</a> para poder utilizar o tipo de campo Arquivo.',
 
 'no_upload_dirs_available' => 'Sem locais para upload disponíveis',
 
@@ -805,9 +805,9 @@ $lang = array(
 
 'url_to_upload_dir' => 'URL da Pasta de Upload',
 
-'use_file' => 'Usar Arquivo Subido',
+'use_file' => 'Utilizar o Arquivo subido',
 
-'width_needed' => 'Uma largura, largura/altura ou uma direção de rotação/flip deve ser selecionada.',
+'width_needed' => 'Você deve selecionar uma largura, largura/altura, ou uma direção de rotação/flip.',
 
 
 /* Batch Page */
@@ -835,7 +835,7 @@ $lang = array(
 
 'watermark_pref_deleted' => 'Preferência de Carimbo Excluída',
 
-'watermark_prefs' => 'Preferências Carimbo',
+'watermark_prefs' => 'Preferências do Carimbo',
 
 'wm_alignment' => 'Alinhamento do Carimbo',
 
@@ -873,7 +873,7 @@ $lang = array(
 
 'wm_test' => 'Testar Carimbo',
 
-'wm_test_explain' => 'O botão abaixo permite que você teste suas preferências de carimbo sem deixar esta página. Para que isso aconteça, você deve definir um caminho servidor para uma imagem de teste.',
+'wm_test_explain' => 'O botão abaixo permite que você teste suas preferências de carimbo sem deixar esta página. Para que isto aconteça, você deverá definir um caminho no servidor apontando para uma imagem de teste.',
 
 'wm_test_image_path' => 'Caminho no Servidor para a Imagem de Teste',
 
@@ -885,7 +885,7 @@ $lang = array(
 
 'wm_use_drop_shadow' => 'Ativar Sombreamento',
 
-'wm_use_font' => 'Usar Fonte True Type',
+'wm_use_font' => 'Utilizar Fonte True Type',
 
 'wm_vrt_offset' => 'Distância Vertical',
 

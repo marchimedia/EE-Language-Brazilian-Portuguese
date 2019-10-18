@@ -4,7 +4,7 @@ $lang = array(
 
 'add_email' => 'Adicionar Template de E-mail',
 
-'add_email_instructions' => 'Quando a compra de um item for confirmada, um e-mail pode ser enviado para um ou mais endereços de e-mail para o item. Estes e-mails podem conter certas variáveis enviadas de volta para o PayPal, que é o seguinte: ',
+'add_email_instructions' => 'Quando a compra de um item for confirmada, um e-mail poderá ser enviado para um ou mais endereços de e-mail para o item. Estes e-mails podem conter certas variáveis enviadas de volta para o PayPal, que é o seguinte: ',
 
 'add_emails' => 'Adicionar Templates de E-mail',
 

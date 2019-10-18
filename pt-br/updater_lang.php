@@ -24,7 +24,7 @@ $lang = array(
 'Retornar para %s',
 
 'cannot_rollback' =>
-'Teve problemas ao efetuar um retorno ao ponto de instalação? <a href="%s" target="_blank">Saiba</a> como efetuar seu backup da instalação e execute novamente.',
+'Teve problemas ao efetuar um retorno ao ponto de instalação? <a href="%s" target="_blank">Saiba</a> como efetuar seu backup da instalação e execute-a novamente.',
 
 'view_stack_trace' =>
 'ver rastreamento',

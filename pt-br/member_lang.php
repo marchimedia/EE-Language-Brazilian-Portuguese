@@ -2,7 +2,7 @@
 
 $lang = array(
 
-'accept_messages' => 'Aceitar Mensagens Privadas enviadas para você por outros membros do site',
+'accept_messages' => 'Aceitar Mensagens Privadas de outros membros do site, enviadas para você ',
 
 'access_notice' => 'O administrador alterou os requisitos de acesso para este site.',
 
@@ -14,7 +14,7 @@ $lang = array(
 
 'allowed_image_types' => 'Tipos de Imagens Permitidas: gif, jpg, png',
 
-'am_online' => 'Estou em Online',
+'am_online' => 'Estou Online',
 
 'any' => 'Qualquer',
 
@@ -24,7 +24,7 @@ $lang = array(
 
 'avatar_upload_disallowed' => 'Os uploads de Avatares atualmente não estão ativados.',
 
-'avatars_not_enabled' => 'Os Avatares estão atualmente desativados',
+'avatars_not_enabled' => 'Os Avatares estão desativados no momento',
 
 'avatars_not_found' => 'Não foi possível encontrar os avatares desejados',
 
@@ -56,7 +56,7 @@ $lang = array(
 
 'confirm_new_pw' => 'Confirmar sua nova senha',
 
-'confirm_password' => 'Você deve confirmar sua senha para completar esta ação.',
+'confirm_password' => 'Você deve confirmar sua senha, para completar esta ação.',
 
 'control_panel_home' => 'Home do Painel de Controle',
 
@@ -128,11 +128,11 @@ $lang = array(
 
 'invalid_email_address' => 'Você não forneceu um endereço de e-mail válido',
 
-'invalid_existing_un_pw' => 'O nome de usuáiro existente e/ou senha que você forneceu não são válidos',
+'invalid_existing_un_pw' => 'O nome de usuário já existe ou senha que você forneceu não é válida',
 
 'invalid_image_type' => 'As imagens devem ser do tipo: jpg, jpeg, gif, png',
 
-'invalid_pw' => 'A senha que você forneceu é inválida.',
+'invalid_pw' => 'Senha inválida.',
 
 'invalid_screen_name' => 'Nome de tela inválido',
 
@@ -144,7 +144,7 @@ $lang = array(
 
 'largest' => 'Maior',
 
-'localization_disallowed' => 'As preferências de local de membro estão desativadas no momento.',
+'localization_disallowed' => 'As preferências de regionalização de membro estão desativadas no momento.',
 
 'login_required' => 'Login Necessário',
 
@@ -152,7 +152,7 @@ $lang = array(
 
 'max_image_size' => 'Tamanho Máximo de Imagem: %x X %y',
 
-'mbr_account_deleted' => 'Você excluiu sua conta e todo o conteúdo associado à ela com sucesso.',
+'mbr_account_deleted' => 'Você excluiu com sucesso sua conta e todo o conteúdo associado à ela.',
 
 'mbr_account_not_active' => 'Sua conta de membro ainda não foi ativada.',
 
@@ -192,7 +192,7 @@ $lang = array(
 
 'mbr_delete' => 'Excluir Conta',
 
-'mbr_delete_blurb' => 'Tem certeza que deseja excluir sua conta? Todos os registros, publicações, comentários e outro conteúdo associado com sua conta também será excluído.',
+'mbr_delete_blurb' => 'Tem certeza que deseja excluir sua conta? Todos os registros, publicações, comentários e qualquer outro conteúdo associado com sua conta será excluído, também.',
 
 'mbr_delete_notify_message' => 'A(s) seguinte(s) pessoa(s) excluiram sua conta: {name}',
 
@@ -214,7 +214,7 @@ $lang = array(
 
 'mbr_email_forwarding' => 'Esta mensagem foi enviada para você através da sua conta em:',
 
-'mbr_email_forwarding_cont' => 'Se você não deseja receber e-mails futuros você pode desativar esta preferência em sua página de perfil de membro.',
+'mbr_email_forwarding_cont' => 'Se você não deseja receber e-mails no futuro, você poderá desativar esta preferência em sua página de perfil de membro.',
 
 'mbr_email_has_been_updated' => 'Suas preferências de e-mail foram atualizadas com sucesso',
 
@@ -236,7 +236,7 @@ $lang = array(
 
 'mbr_forgot_password' => 'Esqueceu sua senha?',
 
-'mbr_forgotten_password' => 'Requisição de reset de senha',
+'mbr_forgotten_password' => 'Solicitação de redefinição de senha',
 
 'mbr_form_empty' => 'Você deve fornecer seu nome de usuário e senha',
 
@@ -358,7 +358,7 @@ $lang = array(
 
 'mbr_registration_completed' => 'Seu registro foi completado com sucesso.',
 
-'mbr_registration_not_allowed' => 'No momento não estamos aceitando novos registros de membros.',
+'mbr_registration_not_allowed' => 'Não estamos aceitando novos registros de membros, no momento.',
 
 'mbr_required' => 'Indica campos obrigatórios',
 
@@ -388,7 +388,7 @@ $lang = array(
 
 'mbr_terms_of_service' => 'Termos do Serviço',
 
-'mbr_terms_of_service_required' => 'Você deve clicar no marcador \'concordo com os termos do serviço\' ',
+'mbr_terms_of_service_required' => 'Você precisa clicar no marcador \'concordo com os termos do serviço\' ',
 
 'mbr_total_comments' => 'Total de Comentários',
 
@@ -408,13 +408,13 @@ $lang = array(
 
 'mbr_yahoo_short' => 'Yahoo',
 
-'mbr_you_are_logged_in' => 'Você agora está logado em.',
+'mbr_you_are_logged_in' => 'Você agora está logado(a) em.',
 
-'mbr_you_are_logged_out' => 'Você está desconectado.',
+'mbr_you_are_logged_out' => 'Você está desconectado(a).',
 
-'mbr_you_are_registered' => 'Você já está registrado e logado.',
+'mbr_you_are_registered' => 'Você já está registrado(a) e logado(a).',
 
-'mbr_your_are_logged_in' => 'Você está logado e pronto para usar sua nova conta.',
+'mbr_your_are_logged_in' => 'Você está logado(a) e pronto para usar sua nova conta.',
 
 'mbr_your_email' => 'Seu enedereço de E-mail',
 
@@ -442,7 +442,7 @@ $lang = array(
 
 'most_recent_forum_topic' => 'Tópico Mais Recente do Forum',
 
-'must_be_logged_in' => 'Esta página é acessível apenas para usuários logados com os devidos privilégios de acesso',
+'must_be_logged_in' => 'Esta página é acessível apenas para usuários logados e com privilégios de acesso',
 
 'my_avatar' => 'Meu Avatar',
 

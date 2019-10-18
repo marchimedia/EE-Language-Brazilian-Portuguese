@@ -56,7 +56,7 @@ if ( ! function_exists('admin_notify_reg'))
 	function admin_notify_reg()
 	{
 return <<<EOF
-Novo registro no site: {site_name}
+Novo registro de membro no site: {site_name}
 
 Nome de tela: {name}
 Nome de Usuário: {username}
@@ -255,7 +255,7 @@ if ( ! function_exists('validated_member_notify'))
 return <<<EOF
 {name},
 
-Sua conta de membro foi ativada e está pronta para uso.
+Sua conta de membro foi ativada e já está pronta para uso.
 
 Obrigado!
 
@@ -414,7 +414,7 @@ if ( ! function_exists('forum_post_notification_title'))
 	function forum_post_notification_title()
 	{
 return <<<EOF
-Alguém pubicou em {forum_name}
+Alguém publicou em {forum_name}
 EOF;
 	}
 }

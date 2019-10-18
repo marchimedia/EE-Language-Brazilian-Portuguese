@@ -18,7 +18,7 @@ $lang = array(
 
 'cmt_banned_email' => 'O endereço de e-mail que você forneceu foi banido no site',
 
-'cmt_comment_accepted' => 'Comentários Aceitos',
+'cmt_comment_accepted' => 'Comentário Aceito',
 
 'cmt_comment_removal' => 'Para parar de receber avisos neste comentário, clique aqui:',
 
@@ -28,7 +28,7 @@ $lang = array(
 
 'cmt_comment_title' => 'O título da publicação é:',
 
-'cmt_comment_url' => 'Você pode ver o comentário na seguinte URL:',
+'cmt_comment_url' => 'Você poderá ver o comentário na seguinte URL:',
 
 'cmt_commenting_has_expired' => 'O comentário não está disponível nesta publicação de canal.',
 
@@ -96,13 +96,13 @@ $lang = array(
 
 'comments_moved' => 'Comentários movidos',
 
-'date_range' => 'Período da Data',
+'date_range' => 'Intervalo da Data',
 
 'delete_comment_confirm' => 'Tem certeza que deseja excluir permanentemente este comentário?',
 
 'delete_comments_confirm' => 'Tem certeza que deseja excluir permanentemente estes comentários?',
 
-'delete_confirm' => 'Excluir Confirmação de Comentários',
+'delete_confirm' => 'Confirmação de Exclusão de Comentários',
 
 'delete_selected' => 'Excluir Selecionados',
 
@@ -154,9 +154,9 @@ $lang = array(
 
 'not_currently_subscribed' => 'Você não parece ter assinado para receber comentários da publicação que você enviou',
 
-'open' => 'Aberto',
+'open' => 'Publicado',
 
-'open_selected' => 'Definir Status para Aberto',
+'open_selected' => 'Definir Status para Publicado',
 
 'past_day' => 'Últimas 24 horas',
 

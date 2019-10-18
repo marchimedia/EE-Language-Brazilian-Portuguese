@@ -36,7 +36,7 @@ $lang = array(
 
 'less_than' => 'Este campo deve ser menor que: %s',
 
-'limithtml' => 'Este campo pode conter apenas as seguintes tags HTML: %s. Se você deseja usar sinas de maior/menor  < em seu texto, mas não HTML por favor tente substituir por &amp;lt; no lugar de < e &amp;gt; para substituir >.',
+'limithtml' => 'Este campo pode conter apenas as seguintes tags HTML: %s. Se você deseja utilizar sinais de maior/menor  < em seu texto, mas não HTML por favor tente substituir por &amp;lt; no lugar de < e &amp;gt; para substituir >.',
 
 'matches' => 'Este campo não combina com o campo %s.',
 

@@ -26,9 +26,9 @@ $lang = array(
 
 'template_routes_header' => 'Rotas de Template',
 
-'template_routes_header_desc' => 'Rotas são listadas na ordem que o Roteador de Template irá mesclar nos seus templates.',
+'template_routes_header_desc' => 'Rotas são listadas na ordem que o Roteador de Template mesclará nos seus templates.',
 
-'validation_failed' => 'Validação falhou.',
+'validation_failed' => 'A Validação falhou.',
 
 'variable_in_use' => 'A variável de segmento já está em uso: ',
 

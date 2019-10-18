@@ -26,11 +26,11 @@ $lang = array(
 
 'member_import' => 'Utilitário de Importação de Membro',
 
-'missing_password_type' => 'Está faltando na página solicitada um tipo de atributo no elemento de senha do usuário: %x. Por favor consulte a documentação para o formato correto de importação.',
+'missing_password_type' => 'Falta na página solicitada um tipo de atributo no elemento de senha do usuário: %x. Por favor consulte a documentação para o formato correto de importação.',
 
 'no_lang_file' => 'Não existe outro arquivo de Linguagem',
 
-'no_lang_keys' => 'Não existem Chaves de Limguagem para Tradução',
+'no_lang_keys' => 'Não existem Linguas Principais para Tradução',
 
 'no_search_results' => 'Sem resultados',
 
@@ -48,7 +48,7 @@ $lang = array(
 
 'search_and_replace' => 'Localizar e Substituir',
 
-'search_replace_disclaimer' => 'Dependendo da sintaxe utilizada, esta função pode produzir resultados indesejados. Consulte o manual e faça um backup do seu banco de dados.',
+'search_replace_disclaimer' => 'Dependendo da sintaxe utilizada, esta função poderá produzir resultados indesejados. Consulte o manual e faça um backup do seu banco de dados.',
 
 'search_results' => 'Resultados da Busca',
 
@@ -62,7 +62,7 @@ $lang = array(
 
 'sql_manager' => 'Gerenciador SQL',
 
-'tag_caching' => 'Arquivos de Cache de Tag',
+'tag_caching' => 'Arquivos de Cache de Tags',
 
 'tools' => 'Ferramentas',
 
@@ -72,7 +72,7 @@ $lang = array(
 
 'tools_utilities' => 'Utilitários',
 
-'trans_file_not_writable'=> 'O arquivo de tradução não possui permissões de gravação.',
+'trans_file_not_writable'=> 'O arquivo de tradução não possui permissões de escrita.',
 
 'translation' => 'Tradução',
 

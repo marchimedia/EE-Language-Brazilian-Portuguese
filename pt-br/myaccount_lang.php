@@ -30,7 +30,7 @@ $lang = array(
 
 'avatar_settings' => 'Configurações de Avatar',
 
-'banned_email' => 'O endereço de e-mail que você forneceu foi banido',
+'banned_email' => 'O endereço de e-mail que você forneceu foi banido deste site',
 
 'base_profile' => 'Perfil Base',
 
@@ -56,19 +56,19 @@ $lang = array(
 
 'bookmarklet_created' => 'Marcador Criado',
 
-'bookmarklet_field' => 'Campo Canal e Canal',
+'bookmarklet_field' => 'Canal e Campo do Canal',
 
-'bookmarklet_field_desc' => 'Selecione seu canal e campo preferido para esta marcação para postar conteúdo nele.',
+'bookmarklet_field_desc' => 'Selecione seu canal e campo preferido para esta marcação, para postar conteúdo nele.',
 
 'bookmarklet_info' => 'Um marcador permite que você adicione registros em seu canal sem precisar logar na versão completa do painel de controle.',
 
-'bookmarklet_instructions' => 'Arraste links para sua barra de favoritas para salvá-los.',
+'bookmarklet_instructions' => 'Arraste links para sua barra de marcadores para salvá-los.',
 
 'bookmarklet_next_step' => 'Próximo Passo',
 
-'bookmarklets' => 'Favoritos',
+'bookmarklets' => 'Marcadores',
 
-'btn_authenticate_and_login' => 'Autenticar &amp; Login',
+'btn_authenticate_and_login' => 'Autenticar &amp; Efetuar Login',
 
 'btn_login' => 'Login',
 
@@ -130,13 +130,13 @@ $lang = array(
 
 'current_avatar' => 'Avatar Atual',
 
-'current_avatar_desc' => 'Este é seu avatar que está atualmente em uso.',
+'current_avatar_desc' => 'Este é seu avatar que está em uso, atualmente.',
 
 'current_member' => 'Membro:',
 
 'customize_cp' => 'Customizar o Painel de Controle',
 
-'customize_homepage' => 'Customizar a Homepage do Painel de Control',
+'customize_homepage' => 'Customizar a Homepage do Painel de Controle',
 
 'date_format' => 'Formato de Data & Hora',
 
@@ -226,7 +226,7 @@ $lang = array(
 
 'invalid_group_id' => 'Você deve selecionar um grupo válido.',
 
-'invalid_password' => 'A senha que você forneceu não está correta',
+'invalid_password' => 'A senha está incorreta',
 
 'join_date' => 'Data de Ingresso',
 
@@ -290,7 +290,7 @@ $lang = array(
 
 'member_stats' => 'Estatísticas da Conta para:',
 
-'missing_current_password' => 'Para efetuar estas alterações você deve inserir sua senha atual',
+'missing_current_password' => 'Para efetuar estas alterações você deverá inserir sua senha atual',
 
 'missing_email' => 'Você deve fornecer um endereço de e-mail',
 
@@ -336,11 +336,11 @@ $lang = array(
 
 'no_subscriptions' => 'Você atualmente não possui nenhuma inscrição',
 
-'no_subscriptions_found' => 'Nenhuma <b>Inscrição</b> localizada.',
+'no_subscriptions_found' => 'Nenhuma <b>Inscrição</b> foi localizada.',
 
 'no_unlocked_member_groups' => 'Você não possui as permissões necessárias para adicionar novos membros em qualquer grupo.<br />Por favor <a href="%s">entre em contato com o Administrador do Sistema</a> se você achar que isto está incorreto.',
 
-'not_secure_password' => 'Password must contain at least one uppercase character, one lowercase character and one number',
+'not_secure_password' => 'A Senha deve conter pelo menos uma letra em maiúsculas, uma em minúsculas e um número',
 
 'notepad_blurb' => 'Use este formulário para armazenar notas pessoais e informações',
 
@@ -366,7 +366,7 @@ $lang = array(
 
 'password_auth' => 'Você deve fornecer sua senha atual para continuar',
 
-'password_based_on_username' => 'A senha não pode ser baseada no nome de usuário',
+'password_based_on_username' => 'A senha não pode ser baseada no seu nome de usuário',
 
 'password_change' => 'Formulário de Alteração de Senha',
 
@@ -378,7 +378,7 @@ $lang = array(
 
 'password_in_dictionary' => 'Você não pode usar uma palavra encontrada no dicionário como uma senha',
 
-'password_too_long' => 'Sua senha não pode conter mais que '.PASSWORD_MAX_LENGTH.' caracteres',
+'password_too_long' => 'Sua senha não pode ter mais que '.PASSWORD_MAX_LENGTH.' caracteres',
 
 'password_too_short' => 'Sua senha deve ter pelo menos %d caracteres',
 
@@ -412,7 +412,7 @@ $lang = array(
 
 'quick_links_ajax_reorder_fail' => 'Atenção: Falha ao salvar a ordem dos links rápidos',
 
-'quick_links_ajax_reorder_fail_desc' => 'Houve uma falha ao salvar sua nova ordem de links rápidos. Atualize a página e tenha certeza que você está logado no sistema.',
+'quick_links_ajax_reorder_fail_desc' => 'Houve uma falha ao tentar salvar sua nova ordem de links rápidos. Atualize a página e tenha certeza que você está logado no sistema.',
 
 'quick_links_removed_desc' => 'Os Links Rápidos foram removidos.',
 
@@ -434,9 +434,9 @@ $lang = array(
 
 'rte_enabled' => 'Ativar Editor de Texto Avançado?',
 
-'rte_enabled_desc' => 'Quando ativado, o editor de texto com formatação HTML irá aparecer nos formulários de publicação para este usuário.',
+'rte_enabled_desc' => 'Quando ativado, o editor de texto com formatação HTML irá aparecer nos formulários de publicação deste usuário.',
 
-'rte_settings' => 'Configirações de Editor de Texto Avançado',
+'rte_settings' => 'Configurações de Editor de Texto Avançado',
 
 'rte_toolset' => 'Conjunto de Ferramentas do Editor de Texto Avançado',
 
@@ -454,7 +454,7 @@ $lang = array(
 
 'search_subscriptions' => 'Buscar Inscrições',
 
-'select_field' => 'Padrão do campo para postar em',
+'select_field' => 'Campo-padrão para postar em',
 
 'set_display_order' => 'Definir Ordem de Visualização',
 
@@ -482,7 +482,7 @@ $lang = array(
 
 'subscriptions_removed' => 'Inscrições foram removidas',
 
-'super_admin_demotion_alert' => 'Como um Super Admin, você não possui permissão para alterar suas atribuições do seu grupo de membros',
+'super_admin_demotion_alert' => 'Como um Super Admin, você não pode alterar suas atribuições do seu grupo de membros',
 
 'system_offline_indicator' => 'Indicador de Sistema offline',
 
@@ -500,9 +500,9 @@ $lang = array(
 
 'tab_url' => 'URL da Aba',
 
-'time_format' => 'Formatação de Hora',
+'time_format' => 'Formatação de Tempo',
 
-'time_format' => 'Formatação de Hora',
+'time_format' => 'Formatação de Tempo',
 
 'timezone' => 'Fuso Horário',
 
