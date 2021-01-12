@@ -125,8 +125,7 @@ $lang = array(
 'searched_for' => 'Buscar por',
 
 
-/* Log de Desaceleração */
-'blacklist_all_ips' => 'Blacklistar Todos os IPs',
+/* Throttle Log */
 
 'clear_throttle_logs' => 'Remover todos os Logs de Desaceleração',
 
@@ -147,8 +146,6 @@ $lang = array(
 'custom_date' => 'data customizada',
 
 'custom_limit' => 'limite customizado',
-
-'date' => 'data',
 
 'filter_by_site' => 'filtrar sites',
 

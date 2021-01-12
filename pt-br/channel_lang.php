@@ -60,9 +60,9 @@ $lang = array(
 
 'channels' => 'Canais',
 
-'channels_removed' => 'Canais removidos',
+'channels_deleted' => 'Canais removidos',
 
-'channels_removed_desc' => '%d canais foram removidos.',
+'channels_deleted_desc' => '%d canais foram removidos.',
 
 'create_channel' => 'Novo Canal',
 
@@ -112,6 +112,8 @@ $lang = array(
 
 'form_layouts' => 'Layouts de Publicação',
 
+'edit_layout' => 'Editar Layout',
+
 'illegal_tab_name' => 'Os nomes de abas não podem conter os seguintes caracteres: *, >, :, +, (, ), [, ], =, |, ", \', ., #, or $',
 
 'import' => 'Importar',
@@ -120,13 +122,13 @@ $lang = array(
 
 'layout' => 'Layout',
 
-'layout_member_groups' => 'Grupo(s) de Membros?',
+'layout_roles' => 'Regra(s) de membro?',
 
 'layout_options' => 'Opções de Layout',
 
 'layouts' => 'Layouts',
 
-'layouts_removed_desc' => 'Os seguintes layouts de publicação foram removidos',
+'layouts_deleted_desc' => 'Os seguintes layouts de publicação foram removidos',
 
 'manage_channels' => 'Gerenciar Canais',
 
@@ -134,7 +136,7 @@ $lang = array(
 
 'member_group' => 'Grupo de Membros',
 
-'member_groups_desc' => 'Escolha em qual grupo de membros você aplicará este layout.',
+'roles_desc' => 'Escolha em qual grupo de membros você aplicará este layout.',
 
 'new_layout' => 'Novo Layout',
 
@@ -292,6 +294,10 @@ $lang = array(
 
 'convert_urls_emails_to_links_desc' => 'Quando ativado, as <abbr title="Unified Resource Locator">URL</abbr>s e endereços de E-mail serão renderizados como links nas publicações deste canal.',
 
+'enable_sticky' => 'Ativar publicações fixos, em destaque?',
+
+'enable_sticky_desc' => 'Quando ativado, publicações podem ser marcadas como fixas e serem as primeiras a serem exibidas na ordem de exibição.',
+
 'default_category' => 'Categoria',
 
 'default_category_desc' => 'Categoria atribuída às <b>novas</b> publicações neste canal.',
@@ -319,10 +325,6 @@ $lang = array(
 'enable_versioning' => 'Ativar versões das publicações?',
 
 'enable_versioning_desc' => 'Quando ativado, o ExpressionEngine irá salvar revisões de cada publicação deste canal.',
-
-'extra_publish_controls' => 'Mostrar controles extras de publicação?',
-
-'extra_publish_controls_desc' => 'Quando ativado, um segundo conjunto de controles da publicação será exibido na parte superior do formulário de publicação deste canal.',
 
 'html_formatting' => 'Formatação <abbr title="Linguagem de Marcação HiperTexto">HTML</abbr> ',
 
@@ -396,11 +398,11 @@ $lang = array(
 
 'cat_field_ajax_reorder_fail_desc' => 'Falhamos em salvar a ordem dos campos de categoria. Atualize a página e tenha certeza que você está logado no sistema.',
 
-'cat_group_no_member_groups_found' => 'Não existe nenhum <b>grupo de membro</b> com permissões.',
+'cat_group_no_roles_found' => 'Não existe nenhuma <b>regra</b> com permissões.',
 
 'cat_image_choose' => 'Escolha a partir do diretório',
 
-'cat_image_none' => 'Nenhuma <i>&mdash; Sem Imagem</i>',
+'cat_image_none' => 'Nenhuma <i>&mdash; Imagem</i>',
 
 'cat_require_field_desc' => 'Quando ativado, este campo será obrigatório para enviar o formulário de publicação.',
 
@@ -408,9 +410,9 @@ $lang = array(
 
 'categories_not_found' => 'Nenhuma <b>Categoria</b> encontrada.',
 
-'categories_removed' => 'Categorias removidas',
+'categories_deleted' => 'Categorias removidas',
 
-'categories_removed_desc' => '%d categorias foram removidas.',
+'categories_deleted_desc' => '%d categorias foram removidas.',
 
 'category' => 'Categoria',
 
@@ -466,9 +468,9 @@ $lang = array(
 
 'category_group_updated_desc' => 'O grupo de categorias <b>%s</b> foi atualizado.',
 
-'category_groups_removed' => 'Grupo de Categorias removido',
+'category_groups_deleted' => 'Grupo de Categorias removido',
 
-'category_groups_removed_desc' => 'O grupo de categorias <b>%s</b> foi removido.',
+'category_groups_deleted_desc' => 'O grupo de categorias <b>%s</b> foi removido.',
 
 'category_manager' => 'Gerenciador de Categorias',
 
@@ -487,6 +489,8 @@ $lang = array(
 'category_updated' => 'Categoria Atualizada',
 
 'category_updated_desc' => 'A categoria <b>%s</b> foi atualizada.',
+
+'category_parent_invalid' => 'Uma categoria superior precisa estar no mesmo grupo e ser diferente da categoria em questão',
 
 'create_category' => 'Criar Categoria',
 
@@ -599,6 +603,12 @@ $lang = array(
 'statuses_removed' => 'Status removido',
 
 'statuses_removed_desc' => '%d status foram removidos.',
+
+'channel_roles' => 'Regras permitidas',
+
+'channel_roles_desc' => 'Os Membros nessas regras podem executar cada ação selecionada neste canal.',
+
+'edit_in_full_form'	=> 'Editar no formulário completo'
 
 );
 

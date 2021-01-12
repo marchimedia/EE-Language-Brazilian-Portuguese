@@ -10,7 +10,7 @@ $lang = array(
 
 'attachment_unavailable' => 'Para que anexos sejam enviados, é necessário que seja definido um local para upload dos arquivos anexados.',
 
-'attachment_warning' => 'Anexos <strong>não são sakvos</strong> pelo ExpressionEngine, e devem ser salvos localmente.',
+'attachment_warning' => 'Anexos <strong>não são salvos</strong> pelo ExpressionEngine, e devem ser salvos localmente.',
 
 'batchmode_disabled' => 'O Modo em Lote está desativado',
 
@@ -139,8 +139,6 @@ $lang = array(
 'total_sent' => 'Total Enviado',
 
 'view' => 'Ver',
-
-'view_email_cache' => 'Enviar E-mails',
 
 'wordwrap' => 'Quebra de Palavras',
 

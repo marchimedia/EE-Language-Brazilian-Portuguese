@@ -7,17 +7,23 @@ $lang = array(
 
 /* Menu */
 
-'backup_utility' => 'Utilitário de Backup',
+'backup_database' => 'Backup do Banco de Dados',
 
 'cache_manager' => 'Gerenciar Cache',
 
 'communicate' => 'Comunicação',
 
+'general_utilities' => 'Utilitários Gerais',
+
 'cp_translation' => 'Tradução do <abbr title="Painel de Controle">CP</abbr> ',
+
+'cp_translations' => 'Traduções do Painel de Controle',
 
 'data_operations' => 'Operações de Dados',
 
-'debug_extensions' => 'Debugar Extensões',
+'manage_extensions' => 'Gerenciar Extensões',
+
+'debug_tools' => 'Ferramentas de Debug',
 
 'default' => 'Padrão',
 
@@ -57,6 +63,8 @@ $lang = array(
 
 'btn_send_email' => 'Enviar E-mail',
 
+'send_email' => 'Enviar E-mail',
+
 'btn_send_email_working' => 'Enviando...',
 
 'cc_recipients' => 'Destinatários <abbr title="Em Cópia">Em Cópia</abbr> ',
@@ -81,7 +89,7 @@ $lang = array(
 
 'primary_recipients' => 'Destinatário(s) Primário(s)',
 
-'primary_recipients_desc' => 'Para E-mail(s). Separe múltiplos destinatários com uma vírgula.',
+'primary_recipients_desc' => 'E-mail(s) do Destinatário. Separe múltiplos destinatários com uma vírgula.',
 
 'recipient_options' => 'Opções de Destinatário',
 
@@ -95,9 +103,11 @@ $lang = array(
 
 'your_email' => 'Seu e-mail',
 
+'view_email_cache' => 'Sent Emails',
 
-/* Tradução do PC */
-'cannot_access' => 'não pode ser acessado',
+
+/* CP Translation */
+'cannot_access' => 'Os arquivos de linguagem não possuem acesso. Por favor <a href="'.DOC_URL.'/control-panel/utilities.html#language-files" rel="external">consulte a documentação</a> sobre como inserir os arquivos na pasta correta.',
 
 'cannot_create_zip' => 'Não foi possível criar um arquivo .zip',
 
@@ -328,6 +338,8 @@ $lang = array(
 
 'member_group' => 'Grupo de Membros',
 
+'role' => 'Regra',
+
 'member_import_error' => 'Atenção: A importação não foi completada',
 
 'member_import_error_desc' => 'Não foi possível completar a importação, por favor revise e corrija os erros abaixo.',
@@ -336,9 +348,9 @@ $lang = array(
 
 'member_xml_file' => 'Arquivo de XML de Membro',
 
-'member_xml_file_desc' => 'O arquibo XML contendo dados de membros',
+'member_xml_file_desc' => 'O arquivo XML contendo dados de membros',
 
-'new_fields_success' => 'Os seguintes arquivos customizados de membros foram adicionados com sucesso:',
+'new_fields_success' => 'Os seguintes campos customizados de membros foram adicionados com sucesso:',
 
 'option' => 'Opção',
 
@@ -346,7 +358,7 @@ $lang = array(
 
 'xml_parse_error' => 'Não foi possivel parsear o XML',
 
-'xml_parse_error_desc' => 'Verifique o arquivo XML para qualquer sintaxe incorreta.',
+'xml_parse_error_desc' => 'Verifique o arquivo XML em busca de sintaxe incorreta.',
 
 
 /* Utilitário de Backup do Banco de Dados */
@@ -401,6 +413,8 @@ $lang = array(
 'sql_query_form' => 'Formulário de Query SQL',
 
 'sql_query_form_abbr' => 'Formulário de Query <abbr title="Linguagem Estruturada de Query">SQL</abbr>',
+
+'query' => 'Query',
 
 'sql_query_to_run' => 'Query para executar',
 
@@ -470,6 +484,30 @@ $lang = array(
 
 'uptime' => 'Tempo Online',
 
+/* Search Reindex */
+
+'search_reindex_fail' => 'A reindexação falhou',
+
+'search_reindex' => 'Reindexar Busca',
+
+'search_reindex_desc' => '%s publicações do Canal serão reindexadas',
+
+'reindex_success' => 'Reindexação Completa',
+
+'reindex_success_desc' => '',
+
+'btn_reindex' => 'Reindexar',
+
+'btn_reindex_working' => 'Reindexando',
+
+'all_sites' => 'Reindexar Todos os Sites?',
+
+'all_sites_desc' => 'Reindexar as publicações de todos os sites, ou apenas deste?',
+
+'search_reindexed_started' => 'A reindexação da busca começou.',
+
+'search_reindexed_completed' => 'Reindexação da busca completada. %s publicações foram reindexadas.',
+
 /* Exportar Endereços de E-mail */
 
 'mass_notification_export' => 'Aviso de Exportação em Massa',
@@ -493,6 +531,52 @@ $lang = array(
 'validate_addresses_desc' => 'Verifique o e-mail para o formato correto e veja se o domínio existe.',
 
 'export_email_addresses_fail' => 'A Exportação Falhou',
+
+/* Debug Tools */
+
+'debug_tools_overview' => 'Visão Geral',
+
+'debug_tools_instruction' => '<a href="%s">Clique aqui</a> para navegar Desenvolvedor &rarr; Utilitários &rarr; Ferramentas de Debug no Painel de Controle para detalhes e arrumar.',
+
+'debug_tools_debug_tags' => 'Tags de Debug de Template',
+
+'debug_tools_broken_tags_found' => 'Encontramos %s tags de template quebradas ou com problemas.',
+
+'debug_tools_corrupt_categories' => 'Categorias corrompidas',
+
+'debug_tools_corrupt_categories_found' => 'Encontramos %s categorias corrompidas.',
+
+'tag_inclusions' => 'Inclusões de Tags',
+
+'debug_tools_fix_corrupt_categories' => 'Corrigir categorias corrompidas',
+
+'debug_tools_categories_fixed' => 'As categorias corrompidas foram corrigidas',
+
+'debug_tools_duplicate_layout_tabs' => 'Duplicar Abas de Layout de Canal',
+
+'debug_tools_duplicate_layout_tabs_found' => 'Encontramos %s abas de Layout de Canal Duplicadas.',
+
+'debug_tools_remove_duplicate_layout_tabs' => 'Remover abas de layout duplicadas',
+
+'debug_tools_fieldtypes' => 'Debugar Campos',
+
+'debug_tools_show_missing_fieldtypes' => 'Exibir campos perdidos',
+
+'debug_tools_found_missing_fieldtypes' => 'Localizamos %s campos perdidos.',
+
+'debug_tools_missing_fieldtypes' => 'Campos perdidos',
+
+'debug_tools_missing_fieldtypes_desc' => 'Os seguintes tipos de campos foram encontrados no banco de dados, mas não foram instalados da forma correta. isto poderá causar problemas ao editar canais, campos e publicações. Para resolver isto, ou você instala os adicionais que estão faltando ou você remove estes campos de suas tabelas.',
+
+'debug_tools_no_missing_fieldtypes_desc' => 'NBão existem campos perdidos no banco de dados. Maravilha!',
+
+'debug_tools_installed_unused_fieldtypes' => 'Campos instalados mas não utilizados',
+
+'debug_tools_installed_unused_fieldtypes_desc' => 'Estes campos estão instalados, mas não estão em uso no momento.',
+
+'debug_tools_all_used_fieldtypes' => 'Todos os campos utilizados',
+
+'debug_tools_members' => 'Debugar Membros',
 
 );
 

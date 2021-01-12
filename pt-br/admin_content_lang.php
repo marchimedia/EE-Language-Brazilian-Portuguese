@@ -24,7 +24,7 @@ $lang = array(
 
 'alpha' => 'Alfabética',
 
-'assign_group_to_channel' => 'Nota: Para utilizar seu novo grupo, você deve designá-lo em um canal.',
+'assign_group_to_channel' => 'Nota: Para utilizar seu novo grupo, você deve atribuí-lo em um canal.',
 
 'auto_link_urls' => 'Automaticamente transformar URLs e endereços de e-mail em links?',
 
@@ -76,7 +76,7 @@ $lang = array(
 
 'channel_short_name' => 'Nome Curto',
 
-'channel_text_formatting' => 'Formatação de texto padrão nas publicações do canal',
+'channel_text_formatting' => 'Padrão da Formatação de texto nas publicações do canal',
 
 'channel_title' => 'Nome Completo do Canal',
 
@@ -244,7 +244,7 @@ $lang = array(
 
 'field_groups_desc' => 'Utilizados para agrupar campos customizados relacionados.',
 
-'field_groups_removed_desc' => 'Os seguintes grupos de campos foram removidos',
+'field_groups_deleted_desc' => 'Os seguintes grupos de campos foram removidos',
 
 'field_is_hidden' => 'Mostrar este campo por padrão?',
 
@@ -268,13 +268,13 @@ $lang = array(
 
 'fields' => 'Campos',
 
-'fields_removed_desc' => 'Os seguintes campos foram removidos',
+'fields_deleted_desc' => 'Os seguintes campos foram removidos',
 
 'filter_by_group' => 'grupo de campos',
 
-'fmt_has_changed' => 'Nota: Você optou por uma formatação de campo diferente da que estava previamente salva.',
+'fmt_has_changed' => 'Nota: Você optou por uma formatação de campo diferente do que estava salvo anteriormente.',
 
-'formatting_no_available' => 'A Formatação de Texto não está disponível para este tipo de campo selecionado',
+'formatting_no_available' => 'A Formatação de Texto não está disponível para este tipo de campo',
 
 'global_sort_order' => 'Ordem de Exibição Principal',
 
@@ -837,6 +837,12 @@ $lang = array(
 'toggle_default_value_desc_cont' => '<b>Nota</b>: Se designado para um canal com publicações existentes, estas publicações serão modificadas para este valor.',
 
 'unauthorized_for_this_channel' => 'Você não está autorizado a publicar neste canal',
+
+/* DB column type */
+
+'db_column_type' => 'Tipo da coluna no banco de dados',
+
+'db_column_type_desc' => 'Escolha o tipo de coluna no banco de dados para armazenar seus dados. TEXT (64Kb) é geralmente bom para um artigo. Se o conteúdo do seu campo for do tamanho de um livro, selecione MEDIUMTEXT (16Mb)',
 
 );
 

@@ -6,7 +6,7 @@ $lang = array(
 
 'any_date' => 'Período de Data Customizado',
 
-'blacklist' => 'Adicionar IPs na Lista Negra',
+'block_ips' => 'Adicionar IPs à lista de Bloqueados',
 
 'choose_entry_for_comment_move' => 'Escolha a Publicação para onde o comentário será movido',
 
@@ -60,6 +60,8 @@ $lang = array(
 
 'cmt_subscribe' => 'Assinar para receber atualizações deste comentário',
 
+'cmt_must_be_logged_in' => 'Esta página é acessível apenas para usuários logados.',
+
 'cmt_too_large' => 'O comentário que você postou contém %n caracteres. Apenas %x caracteres são permitidos.',
 
 'cmt_unsubscribe' => 'Cancelar inscrição de recebimento de atualizações deste comentário',
@@ -98,11 +100,7 @@ $lang = array(
 
 'date_range' => 'Intervalo da Data',
 
-'delete_comment_confirm' => 'Tem certeza que deseja excluir permanentemente este comentário?',
-
-'delete_comments_confirm' => 'Tem certeza que deseja excluir permanentemente estes comentários?',
-
-'delete_confirm' => 'Confirmação de Exclusão de Comentários',
+'delete_confirm' => 'Confdirmação de Exclusão de Comentários',
 
 'delete_selected' => 'Excluir Selecionados',
 

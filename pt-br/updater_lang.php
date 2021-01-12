@@ -47,6 +47,9 @@ $lang = array(
 'updateArquivos_step' =>
 'Atualizando arquivos',
 
+'updateAddons_step' =>
+'Verificando adicionais para atualizações automáticas',
+
 'files_not_writable' =>
 'Os seguintes caminhos não possuem permissões de gravação:
 

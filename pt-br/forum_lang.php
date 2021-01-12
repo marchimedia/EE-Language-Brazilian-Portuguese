@@ -126,8 +126,6 @@ $lang = array(
 
 'dimensions_too_big' => 'Imagens não devem exceder a largura de %x pixels por %y pixels',
 
-'display_avatars' => 'Mostrar avatares de membros nos assuntos do forum',
-
 'display_signatures' => 'Mostrar assinaturas de membros nos assuntos do forum',
 
 'downloads' => 'Downloads:',
@@ -308,7 +306,7 @@ $lang = array(
 
 'medium' => 'Médio',
 
-'member_ban_warning' => 'Tem certeza que deseja excluir permanentemente a seguinte conta de membro?',
+'member_ban_warning' => 'Tem certeza que deseja suspender a seguinte conta de membro?',
 
 'member_banning' => 'Banimento de Membro',
 
@@ -630,7 +628,7 @@ $lang = array(
 
 'topic_hidden' => 'Um tópico está oculto porque',
 
-'topic_is_closed' => 'Este assunto não está disponível para postagens, no momento',
+'topic_is_closed' => 'Este tópico não está disponível para postagens, no momento',
 
 'topic_no_exists' => 'Desculpe, esse tópico não existe mais no forum',
 

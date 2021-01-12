@@ -7,22 +7,45 @@ $lang = array(
 
 
 /* Menu Developer */
-'addon_manager' => 'Gerenciar Adicionais',
+'addon_manager' => 'Adicionais',
 
-'channel_manager' => 'Gerenciar Canais',
+'channel_manager' => 'Canais',
+
+'entries' => 'Publicações',
+
+'menu_entries' => 'Publicações',
 
 'logs' => 'Logs',
 
-'msm_manager' => 'Gerenciar Site',
+'msm_manager' => 'Sites',
+
+'nav_content' => 'Conteúdo',
 
 'nav_developer' => 'Desenvolvedor',
 
-'nav_developer_tools' => 'Ferramentas',
+'nav_developer_tools' => 'Ferramentas de Desenvolvimento',
+
+'nav_tools' => 'Ferrramentas',
+
+'nav_design' => 'Design',
 
 'template_manager' => 'Gerenciar Templates',
 
 'utilities' => 'Utilitários',
 
+'dark_theme' => 'Tema Dark',
+
+'light_theme' => 'Tema Light',
+
+'dark' => 'Dark',
+
+'light' => 'Light',
+
+'jump_menu_item' => 'Menu de Atalho',
+
+'jump_menu_input' => 'Atalho para...',
+
+'menu_manager' => 'Gerenciar Menu',
 
 /* Painel de Controle */
 'action_can_not_be_undone' => 'ESTA AÇÃO NÃO PODERÁ SER DESFEITA',
@@ -111,6 +134,8 @@ $lang = array(
 
 'password' => 'Senha',
 
+'password_for' => 'Senha para %s',
+
 'password_label' => 'Senha:',
 
 'powered_by' => 'Powered By',
@@ -153,6 +178,10 @@ $lang = array(
 
 'unauthorized_access' => 'Você não está autorizado a acessar esta página',
 
+'machines_only_request' => 'Você realmente não deveria estar aqui. Este território é apenas para bots e máquinas.',
+
+'addon_missing_jump_method' => 'O adicional não possui o método de solicitação de atalho de menu.',
+
 'update_check_btn' => 'Verificar Atualizações',
 
 'update_btn' => 'Atualizar Agora',
@@ -173,6 +202,7 @@ $lang = array(
 
 'version_update_inst' => "A versão %s do ExpressionEngine está disponível. <a href='#' data-post-url='%s'>Clique aqui para atualizar</a> ou siga as instruções do <a href='%s' rel='external'>manual de atualização</a>.",
 
+'navigation_toggle' => 'Alternar Navegação',
 
 /* Botões */
 'cancel' => 'Cancelar',
@@ -287,7 +317,11 @@ $lang = array(
 
 'recent_entries' => 'Publicações Recentes',
 
+'recent_members' => 'Membros Recentes',
+
 'results' => 'resultados',
+
+'select_row' => 'Selecionar Linha',
 
 'select_all' => 'selecionar tudo',
 
@@ -296,6 +330,10 @@ $lang = array(
 'show' => 'Mostrar',
 
 'search_in_filter' => 'buscar em',
+
+'search_titles_only' => 'Buscar apenas nos Títulos',
+
+'columns_filter' => 'Colunas',
 
 'perpage_filter' => 'mostrar',
 
@@ -337,6 +375,14 @@ $lang = array(
 
 'important' => 'Importante!',
 
+'view_as' => 'Ver como ',
+
+'viewtype_list' => 'Lista',
+
+'viewtype_thumb' => 'Miniaturas',
+
+'viewtype_hybrid' => 'Híbrido',
+
 /* Sites e Canais */
 'avatar_path' => 'Avatar Path',
 
@@ -359,6 +405,8 @@ $lang = array(
 'sites' => 'Sites',
 
 'view_site' => 'Ver Site',
+
+'add_site' => 'Adicionar Site',
 
 
 /* Variáveis de Aprendizado do EE */
@@ -432,6 +480,8 @@ $lang = array(
 
 'auto_br' => 'Quebra de Linha Automática',
 
+'btn_authenticate' => 'Autenticar',
+
 'btn_authenticate_and_save' => 'Autenticar &amp; Salvar',
 
 'btn_canceling' => 'Cancelando...',
@@ -476,7 +526,7 @@ $lang = array(
 
 'filters' => 'filtros',
 
-'form_validation_error' => 'Houve um problema ao processar o seu envio, por favor veja abaixo e corrija todos os erros.',
+'form_validation_error' => 'Houve um problema ao processar o seu envio, por favor verifique e corrija todos os erros abaixo.',
 
 'image' => 'Imagem',
 
@@ -496,6 +546,8 @@ $lang = array(
 
 'name' => 'Nome',
 
+'short_name' => 'Nome curto',
+
 'name_your_site' => 'Nome do seu site',
 
 'new' => 'Novo',
@@ -509,6 +561,8 @@ $lang = array(
 'no_channels' => 'Nenhum <b>Canal</b> encontrado.',
 
 'no_found' => 'Nenhum <b>%s</b> encontrado.',
+
+'no_roles_with_design_access_found' => 'Nenhuma <b>Regra</b> com o <b>gerenciador de acesso ao template</b> foi encontrada.',
 
 'no_rows_returned' => 'Não retornou nenhuma linha',
 
@@ -527,6 +581,8 @@ $lang = array(
 'rev_id' => '#',
 
 'revisions' => 'Revisões',
+
+'search_results' => 'Resultados da Busca',
 
 'search_results_heading' => 'Resultados da Busca<br><i>nós encontramos %d resultados para "%s"</i>',
 
@@ -550,11 +606,28 @@ $lang = array(
 
 'xhtml' => 'XHTML',
 
+/* Members Menu */
+
+'new_member' => 'Novo Membro',
+
+'all_members' => 'Todos os Membros',
+
+'pending_members' => 'Membros Pendentes',
+
+'ban_management' => 'Gerenciar Banimento',
+
+'roles' => 'Roles',
+
+'custom_member_fields' => 'Campos de Membro',
 
 /* Footer */
 'about_expressionengine' => 'Sobre o ExpressionEngine',
 
 'authenticating' => 'autenticando...',
+
+'one_click_major_update_instructions' => '<a href="https://docs.expressionengine.com/latest/installation/updating.html#upgrading-major-version" target="_blank">Leia os alertas de atualização antes de continuar!</a><br>Inisra sua senha para continuar:',
+
+'one_click_major_update_confirm_error' => '<b>Não foi posssível autenticar</b><br><br>Mais detalhes podem estar disponíveis no console do seu navegador',
 
 'checking_for_updates' => 'Verificando por atualizações...',
 
@@ -578,6 +651,8 @@ $lang = array(
 
 'out_of_date_upgrade' => 'Nova versão encontrada',
 
+'out_of_date_upgrade_major' => 'Nova versão principal encontrada',
+
 'owned_by' => 'De propriedade de',
 
 'recommended_upgrade' => 'Atualização <b>Recomendada</b> .',
@@ -585,6 +660,8 @@ $lang = array(
 'register_now' => 'Registrar Agora',
 
 'report_bug' => 'Relatar Bug',
+
+'whats_new' => 'O que há de novo?',
 
 'scroll_to_top' => 'subir',
 
@@ -608,6 +685,14 @@ $lang = array(
 
 'btn_confirm_and_save_working' => 'Salvando...',
 
+/* confirm delete modal */
+'btn_confirm_and_delete' => 'Confirmar e Excluir',
+
+'btn_confirm_and_delete_working' => 'Excluindo...',
+
+'confirm_delete' => 'Tem certeza?',
+
+'confirm_deletion_desc' => 'Você está tentando deletar os seguintes itens:',
 
 /*Modal de confirmação mostrar tudo */
 'all_items' => 'Todos os %d itens',
@@ -641,6 +726,55 @@ $lang = array(
 'html_button_ajax_reorder_fail' => 'Atenção: Falha ao salvar a ordem dos botões html',
 
 'html_button_ajax_reorder_fail_desc' => 'Falhamos ao salvar sua nova ordem de botões html. Atualize a página e tenha certeza que você está logado no sistema.',
+
+/* Search Reindex tip */
+
+'search_reindex_tip' => 'Reindexar Busca',
+
+'search_reindex_tip_desc' => "Por favor <a href='%s'> execute a ferramenta de reindexação de busca</a> um recurso para manter seus dados de busca sempre atualizados.",
+
+'reindex_not_needed' => 'Não é necessária uma Reindexação',
+
+'reindex_not_needed_desc' => 'Seu índice de busca está atualizado!',
+
+'reindex_explained_desc' => 'Seu índice de busca pode se tornar obsoleto se voc6e fez mudanças recentes ou se alguns tipos de campos não são localizáveis.<br>Por favor, veja <a href="' . DOC_URL . '/cp/utilities/reindex.html">o guia do usuário</a> para maiores detalhes.',
+
+/* Permissions */
+
+'can_create_templates' => 'Criar templates',
+
+'can_edit_templates' => 'Editar templates',
+
+'can_delete_templates' => 'Excluir templates',
+
+'can_manage_settings' => 'Gerenciar configurações e acesso',
+
+'can_create_entries' => 'Criar publicações',
+
+'can_edit_self_entries' => 'Editar as próprias publicações',
+
+'can_delete_self_entries' => 'Excluir as próprias publicações',
+
+'can_edit_other_entries' => 'Editar publicações de outros',
+
+'can_delete_all_entries' => 'Excluir publicações de outros',
+
+'can_assign_post_authors' => 'Alterar autoria da publicação',
+
+/* Dashboard Widgets */
+
+'dashboard' => 'Dashboard',
+
+'save_dashboard_layout' => 'Salvar layout',
+
+'edit_dashboard_layout' => 'Editar layout',
+
+'dashboard_layout_saved' => 'Layout salvo',
+
+'dashboard_layout_save_error' => 'Não foi possível salvar o layout',
+
+'dashboard_needs_some_widgets' => 'Por favor, ative pelo menos um widget',
+
 
 );
 

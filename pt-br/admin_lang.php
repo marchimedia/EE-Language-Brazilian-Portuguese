@@ -42,18 +42,16 @@ $lang = array(
 
 'search_preferences' => 'Preferências da Busca',
 
-'search_results' => 'Resultados da Busca',
-
 'specialty_templates_blurb' => 'Estes templates são utilizados para fins especiais, como mostrar mensagens de erro e enviar avisos por e-mail.',
 
-'system_admin_blurb' => 'A maioria dos aspectos administrativos do ExpressionEngine são gerenciados em uma das seguintes cinco áreas:',
+'system_admin_blurb' => 'A maioria dos aspectos administrativos do ExpressionEngine são gerenciados em uma das cinco áreas seguintes:',
 
 'system_preferences_blurb' => 'Esta área permite que você gerencie suas configurações de sistema e preferências gerais.',
 
 'utilities_blurb' => 'Esta área contém utilitários que ajudarão você a gerenciar o ExpressionEngine.',
 
 
-/* Configurações das Extensões */
+/* Extensions Stuff */
 'available_extensions' => 'Extensões Disponíveis',
 
 'censor_replacement' => 'Palavra Substituta de Palavras Censuradas',
@@ -142,8 +140,6 @@ $lang = array(
 
 'all_caching' => 'Todos os caches',
 
-'allow_avatar_uploads' => 'Permitir que membros possam subir seus próprios avatares?',
-
 'allow_member_loc_notes' => 'Se definido como \'não\' todas as datas e horas serão convertidas para os padrões do site.',
 
 'allow_member_localization' => 'Permitir que membros definam suas próprias configurações de regionalização?',
@@ -184,7 +180,7 @@ $lang = array(
 
 'banishment_message' => 'Mensagem Customizada',
 
-'banishment_message_exp' => 'Se você optar pela Mensagem Customizada.',
+'banishment_message_exp' => 'Se você escolher a opção de Mensagem Customizada.',
 
 'banishment_type' => 'Ação à ser executada',
 
@@ -197,8 +193,6 @@ $lang = array(
 'batch_size_explanation' => 'Para a média dos servidores, 300 é um número seguro',
 
 'batchmode_explanation' => 'O Modo em Lote divide uma grande listagem em grupos menores, que serão enviados em intervalos. Recomendável se seu site estiver hospedado em uma conta de hosting compartilhado.',
-
-'blacklist_all_ips' => 'Colocar na Lista Negra todos os IPs',
 
 'browse' => 'Abrir',
 
@@ -360,9 +354,7 @@ $lang = array(
 
 'empty_profile_trigger' => 'Você deve especificar uma Palavra de Gatilho do Perfil',
 
-'empty_stmp_fields' => 'O campo %s é orbigatório para SMTP.',
-
-'enable_avatars' => 'Ativar Avatars',
+'empty_stmp_fields' => 'O campo %s é obrigatório para SMTP.',
 
 'enable_censoring' => 'Ativar Censura de Palavras?',
 
@@ -400,7 +392,7 @@ $lang = array(
 
 'file_type' => 'Tipo de Arquivo: ',
 
-'file_upload_prefs' => 'Subir Preferências de Arquivo',
+'file_upload_prefs' => 'Preferências de Upload de Arquivo',
 
 'force_query_string' => 'Forçar strings de URL',
 
@@ -460,7 +452,7 @@ $lang = array(
 
 'invalid_status_name' => 'Os nomes de Status podem conter apenas caracteres alfanuméricos, assim como espaços, underlines e hífens.',
 
-'is_site_on' => 'Este site está online?',
+'is_site_on' => 'O site está online?',
 
 'is_site_on_explanation' => 'Se o site estiver offline, apenas Super Admins poderão visualizar este site',
 

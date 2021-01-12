@@ -22,6 +22,8 @@ $lang = array(
 
 'any_status' => 'Qualquer status',
 
+'relate_entry' => 'Relacionar Publicação',
+
 'rel_ft_allow_multi' => 'Permitir múltiplos itens relacionados?',
 
 'rel_ft_allow_multi_desc' => 'Quando ativado, os autores terão permissão para criar múltiplos itens relacionados.',
@@ -124,7 +126,9 @@ $lang = array(
 
 'file_dnd_choose_directory' => 'Por favor selecione uma pasta',
 
-'file_dnd_choose_directory_btn' => 'Selecione um Diretório',
+'file_dnd_choose_file_directory' => 'Escolha uma Pasta de Arquivos',
+
+'file_dnd_upload_to' => 'Subir para',
 
 'file_dnd_choose_directory_before_uploading' => 'Você deve selecionar uma pasta para subir seus arquivos',
 
@@ -145,6 +149,8 @@ $lang = array(
 'file_dnd_images_only' => 'Este campo aceita apenas imagens.',
 
 'file_dnd_progress' => 'Progresso',
+
+'file_dnd_conflict' => 'Erro. O arquivo já existe.',
 
 'file_dnd_resolve_conflict' => 'Resolver Conflitos',
 
@@ -246,7 +252,29 @@ $lang = array(
 
 'url_ft_url_scheme_placeholder' => 'Esquema de Substituição da URL',
 
-'url_ft_url_scheme_placeholder_desc' => 'O texto de substituição que será exibido quando nenhuma URL for inserida.',
+'url_ft_url_scheme_placeholder_desc' => 'Mostrar como placeholder de texto quando nenhuma URL for enviada.',
+
+
+/* Color Picker */
+'colorpicker_allowed_colors' => 'Cores Permitidas',
+'colorpicker_allowed_colors_desc' => 'Escolha quais cores serão permitidas para seleção.',
+
+'colorpicker_allowed_colors_any' => 'Qualquer',
+'colorpicker_allowed_colors_swatches' => 'Amostras',
+
+'colorpicker_default_color' => 'Côr Padrão',
+'colorpicker_default_color_desc' => 'Quando definido, se nenhuma cor for selecionada, a cor padrão será utilizada no lugar.',
+
+'colorpicker_color_not_allowed' => 'Esta côr não é permitida.',
+
+'no_colorpicker_swatches' => 'Não existem <b>Amostras</b> .',
+
+'swatches' => 'Amostras',
+
+'colorpicker_swatches_options_desc' => 'Defina uma lista de cores pré-definidas para serem exibidas no Seletor de Cores.',
+
+'colorpicker_swatches_populate_values' => 'Valores',
+'colorpicker_swatches_populate_manually' => 'Preencher as amostras manualmente',
 
 );
 

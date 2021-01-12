@@ -28,7 +28,9 @@ $lang = array(
 
 'auth_settings' => 'Nome de Usuário & Senha',
 
-'avatar_settings' => 'Configurações de Avatar',
+'avatar_settings' => 'Avatar',
+
+'account' => 'Conta',
 
 'banned_email' => 'O endereço de e-mail que você forneceu foi banido deste site',
 
@@ -71,6 +73,8 @@ $lang = array(
 'btn_authenticate_and_login' => 'Autenticar &amp; Efetuar Login',
 
 'btn_login' => 'Login',
+
+'btn_login_working' => 'Logando você em...',
 
 'btn_save_settings' => 'Salvar Configurações',
 
@@ -151,8 +155,6 @@ $lang = array(
 'delete_username' => 'Excluir %s',
 
 'disallowed_screen_chars' => 'O Nome de Tela contém caracteres não-permitidos',
-
-'display_avatars' => "Mostrar avatares de outros membros",
 
 'do_not_show' => 'Não Mostrar',
 
@@ -432,27 +434,17 @@ $lang = array(
 
 'right_column' => 'Coluna Direita',
 
-'rte_enabled' => 'Ativar Editor de Texto Avançado?',
-
-'rte_enabled_desc' => 'Quando ativado, o editor de texto com formatação HTML irá aparecer nos formulários de publicação deste usuário.',
-
-'rte_settings' => 'Configurações de Editor de Texto Avançado',
-
-'rte_toolset' => 'Conjunto de Ferramentas do Editor de Texto Avançado',
-
-'rte_toolset_desc' => 'Escolha seu conjunto de ferramentas predileto de Edição Avançada de Texto.',
-
 'save_bookmarklet' => 'Salvar Marcador',
 
 'screen_name' => 'Nome de Tela',
 
 'screen_name_changed' => 'O Nome de Tela foi alterado para:',
 
-'screen_name_taken' => 'O nome de tela que você escolheu não está disponível',
+'screen_name_taken' => 'O Nome de Tela que você escolheu não está disponível',
 
-'screenname_too_long' => 'Seu nome de tela não pode ter mais que '.USERNAME_MAX_LENGTH.' caracteres',
+'screenname_too_long' => 'Seu nome de tela não pode ser maior que '.USERNAME_MAX_LENGTH.' caracteres no comprimento',
 
-'search_subscriptions' => 'Buscar Inscrições',
+'search_subscriptions' => 'Buscar Assinaturass',
 
 'select_field' => 'Campo-padrão para postar em',
 
@@ -526,7 +518,8 @@ $lang = array(
 
 'unsubscribe_success' => 'Você cancelou sua inscrição com sucesso.',
 
-'update_avatar_path' => '</em><em>Por favor atualize suas confirgurações de upload de <a href="%s">avatar</a> .',
+'avatar_path_does_not_exist' => 'Sua pasta de upload de avatares não existe. Por favor, verifique suas configurações de upload de <a href="%s">avatar</a> .',
+'avatars_disabled' => 'Os Avatares estão desativados. Por favor, atualize suas configurações de upload de <a href="%s">avatar</a>.',
 
 'upload_avatar' => 'Subir — .gif, .jpg, .png (max %skb)',
 
@@ -557,6 +550,8 @@ $lang = array(
 'validating_members' => 'Membros aguardando ativação',
 
 'view_activity' => 'Ver Atividade',
+
+'info_and_activity' => 'Info & Atividade',
 
 'yahoo_im' => 'Yahoo IM',
 

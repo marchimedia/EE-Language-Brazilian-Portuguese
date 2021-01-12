@@ -8,7 +8,7 @@ $lang = array(
 
 'add_member' => 'Adicionar Membro',
 
-'add_to_buddy' => 'Adione-me em Sua Lista de Amigos',
+'add_to_buddy' => 'Adicione-me em Sua Lista de Amigos',
 
 'all_fields_required' => 'Você deve fornecer todos os campos',
 
@@ -22,17 +22,13 @@ $lang = array(
 
 'avatar_updated' => 'O Avatar foi atualizado',
 
-'avatar_upload_disallowed' => 'Os uploads de Avatares atualmente não estão ativados.',
-
-'avatars_not_enabled' => 'Os Avatares estão desativados no momento',
-
 'avatars_not_found' => 'Não foi possível encontrar os avatares desejados',
 
 'blue' => 'Azul',
 
 'brown' => 'Marrom',
 
-'browse_avatars' => 'Abrir Avatars',
+'browse_avatars' => 'Abrir Avatares',
 
 'can_not_ignore_self' => 'Você não pode ignorar a si mesmo',
 
@@ -71,8 +67,6 @@ $lang = array(
 'delete_selected_members' => 'Excluir membros selecionados',
 
 'disallowed_screen_chars' => 'O Nome de Tela contém caracteres ilegais',
-
-'display_avatars' => 'Mostrar avatares de membro nas publicações',
 
 'display_signatures' => 'Mostrar assinaturas de membros nas publicações',
 
@@ -178,7 +172,7 @@ $lang = array(
 
 'mbr_back_to_main' => 'Voltar para Principal',
 
-'mbr_bio' => 'Bio do Membro',
+'mbr_bio' => 'Bio de Membro',
 
 'mbr_birthday' => 'Aniversário',
 
@@ -400,6 +394,8 @@ $lang = array(
 
 'mbr_username' => 'Nome de Usuário',
 
+'mbr_username_email_sent' => 'O Nome de Usuário foi enviado por e-mail',
+
 'mbr_username_length' => 'Os nomes de usuário devem ter pelo menos %x caracteres de tamanho',
 
 'mbr_view_posts_by_member' => 'Ver todos os posts deste membro',
@@ -609,6 +605,7 @@ Nos reservamos ao direito de remover, editar ou mover qualquer mensagem por qual
 
 'yun_len' => 'Seu nome de usuário possui atualmente  %s caracteres',
 
+'legacy_member_templates_not_enabled' => 'Esta página não está acessível porque <a href="'.DOC_URL.'member/profile-templates.html" target="_blank" rel="external">os templates de membro legados</a> não estão ativados.',
 
 /* Usado Primariamente em Member_auth::forgot_password() through Member_auth::process_reset_password() call chain */
 'mbr_missing_confirm' => 'Você deve confirmar sua nova senha.',

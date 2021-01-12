@@ -4,7 +4,7 @@ $lang = array(
 
 'date_year' => 'Ano',
 
-'date_years' => 'Anoss',
+'date_years' => 'Anos',
 
 'date_month' => 'Mês',
 

@@ -32,9 +32,9 @@ $lang = [
 
 'consent_request_updated_desc' => 'A requisição de consentimento <b>%s</b> foi atualizada.',
 
-'consent_requests_removed' => 'Requisições de Consentimento removidas',
+'consent_requests_deleted' => 'Requisições de Consentimento removidas',
 
-'consent_requests_removed_desc' => '%d requisições de consentimento foram removidas.',
+'consent_requests_deleted_desc' => '%d requisições de consentimento foram removidas.',
 
 'consent_title' => 'Título do Consentimento',
 

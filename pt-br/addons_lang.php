@@ -5,7 +5,11 @@ $lang = array(
 /* Menu da Barra Lateral */
 'addon' => 'Adicional',
 
-'addon_manager' => 'Gerenciar Adicionais',
+'addon_manager' => 'Adicionais',
+
+'updates' => 'Atualizações',
+
+'add-on-store' => 'Loja de Adicionais',
 
 'addons' => 'Adicionais',
 
@@ -15,7 +19,7 @@ $lang = array(
 
 'available_parameters' => 'Parâmetros Disponíveis',
 
-'example_usage' => 'Exemplo de Uso',
+'example_usage' => 'Examplo de Uso',
 
 'manage_addon_extensions' => 'Gerenciar Extensões Adicionais',
 
@@ -137,7 +141,9 @@ $lang = array(
 
 'extensions_disabled_desc' => 'As extensões foram desativadas.',
 
-'extensions_disabled_warning' => 'Para poder instalar este software adicional, você precisa ativar as extensões. Você deseja ativar as extensões?',
+'extensions_disabled_message' => 'As Extensões foram desativadas na configuração do sistema, portanto elas não estão presentes nesta lista.',
+
+'extensions_disabled_warning' => 'Para poder instalar este adicional, você precisa ativar as extensões. Você deseja ativar extensões?',
 
 'extensions_enabled' => 'Extensões Ativadas',
 
@@ -145,39 +151,37 @@ $lang = array(
 
 'fieldtype' => 'Campo',
 
-'fieldtype_data_will_be_lost' => 'Todos os dados associados à este campo, incluindo todos os dados associados ao canal, serão permanentemente excluídos!',
+'fieldtype_data_will_be_lost' => 'Todos os dados associados com este campo, incluindo todos os dados de canais associados serão permanentemente excluídos!',
 
 'fieldtype_name' => 'Nome do Campo',
 
 'global_settings_saved' => 'Configurações Salvas',
 
-'member_group_assignment' => 'Grupos de Membros Atribuídos',
+'member_group_assignment' => 'Grupos de Membro Designados',
 
 'module' => 'Módulo',
 
 'modules' => 'Módulos',
 
-'no_extension_id' => 'Nenhuma Extensão foi Definida',
+'no_extension_id' => 'Nenhuma Extensão Definida',
 
-'none' => 'Nenhum',
+'none' => 'Nenhuma',
 
-'not_installed' => 'Não Instalado',
+'not_installed' => 'Não Instalada',
 
 'package_settings' => 'Configurações do Pacote',
 
-'page_assignment' => 'Páginas Atribuídas',
+'page_assignment' => 'Páginas Designadas',
 
 'plugins' => 'Plugins',
 
-'plugins_not_available' => 'Feed de Plugin Desativado na Versão Beta.',
+'plugins_not_available' => 'O feed de Plugin está desativado na versão Beta.',
 
 'remove' => 'Remover',
 
 'required_by' => 'Requerido por:',
 
-'rte_tool' => 'Editor de Texto Avançado',
-
-'specific_page' => 'Página Específica?',
+'specific_page' => 'Página específica?',
 
 'version' => 'Versão',
 

@@ -2,9 +2,7 @@
 
 $lang = array(
 
-'add_site' => 'Site Adicionado',
-
-'btn_site_limit_reached' => 'O limite de Sites foi alcançado',
+'btn_site_limit_reached' => 'Limite de Sites Atingido',
 
 'cannot_remove_site_1' => 'Você não pode remover o site <b>%s</b>.',
 

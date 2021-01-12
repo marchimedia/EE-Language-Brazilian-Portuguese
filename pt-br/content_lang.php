@@ -56,6 +56,8 @@ $lang = array(
 
 'column_comment_total' => 'Comentários',
 
+'column_categories' => 'Categorias',
+
 'column_entry_date' => 'Data',
 
 'column_entry_id' => 'ID#',
@@ -76,7 +78,7 @@ $lang = array(
 
 'comment_status_desc' => 'Status deste comentário.',
 
-'comments_removed_desc' => 'Os seguintes comentários foram removidos',
+'comments_deleted_desc' => 'Os seguintes comentários foram removidos',
 
 'comments_status_updated_desc' => 'Os seguintes comentários foram definidos para %s',
 
@@ -116,7 +118,7 @@ $lang = array(
 
 'entries' => 'publicações',
 
-'entries_removed_desc' => 'As seguintes publicações foram removidas',
+'entries_deleted_desc' => 'As seguintes publicações foram removidas',
 
 'entry' => 'Publicação',
 
@@ -130,9 +132,9 @@ $lang = array(
 
 'entry_limit_reached_one_desc' => 'Este canal está limitado a uma publicação, apenas.',
 
-'entry_manager' => 'Gerenciador de Publicações',
+'entry_manager' => 'Publicações',
 
-'entry_status' => 'Status',
+'entry_status' => 'Status da Publicação',
 
 'entry_status_desc' => 'Status da publicação.',
 
@@ -232,6 +234,8 @@ $lang = array(
 
 'calendar' => 'Calendário',
 
+'close_preview' => 'Fechar Prévia',
+
 'cancel_preview' => 'Cancelar Prévia',
 
 'category' => 'Categoria',
@@ -322,10 +326,6 @@ $lang = array(
 
 'delete_comment' => 'Excluir Comentários',
 
-'delete_comment_confirm' => 'Tem certeza que deseja excluir permanentemente este comentário?',
-
-'delete_comments_confirm' => 'Tem certeza que deseja excluir permanentemente estes comentários?',
-
 'delete_confirm' => 'Confirmação de Exclusão',
 
 'delete_entries_confirm' => 'Tem certeza que deseja excluir permanentemente estas publicações?',
@@ -373,6 +373,10 @@ $lang = array(
 'field_blank' => 'Você deixou um campo em branco.',
 
 'fields' => 'Campos',
+
+'add' => 'Adicionar',
+
+'add_field' => 'Adicionar Campo',
 
 'file_exists' => 'Já existe um arquivo com este nome',
 
@@ -614,6 +618,16 @@ $lang = array(
 
 'preview_layout' => 'Prévia do Layout',
 
+'preview_url_not_set' => 'A URL da prévia não está definida',
+
+'preview_url_not_set_desc' => "Por favor <a href='%s' target='_blank'>adicione uma configuração de Prévia de URL</a> nas suas preferências de Canal.",
+
+'preview_cannot_display' => 'A Prévia Ao Vivo não pode ser exibida',
+
+'preview_domain_mismatch_desc' => "A URL do seu site está configurada para usar <code>%1\$s</code> mas você está acessando o Painel de Controle a partir de <code>%2\$s</code>.",
+
+'preview_protocol_mismatch_desc' => "A URL do Site está definida para usar <code>%1\$s</code> mas você está acessando o Painel de Controle com <code>%2\$s</code>.",
+
 'publish' => 'Publicar',
 
 'publish_another_entry' => 'Publicar Outro Conteúdo',
@@ -798,7 +812,15 @@ $lang = array(
 
 'add_new_row' => 'Adicionar nova linha',
 
+'add_row' => 'Adicionar Linha',
+
 'collapse' => 'Comprimir',
+
+'collapse_all' => 'Comprimir Tudo',
+
+'expand' => 'Expandir',
+
+'expand_all' => 'Expandir Tudo',
 
 'creating_new_in_rel' => 'Criar uma nova publicação no canal <b>#to_channel#</b> para um relacionamento com <b>#from_channel#</b>',
 
@@ -969,6 +991,24 @@ $lang = array(
 'showing' => 'Exibindo',
 
 'unauthorized_entry_desc' => 'Você não possui permissões para editar uma das publicações selecionadas.'
+
+/* Entry Manager */
+
+'entry_manager_view_created' => 'Visualização Criada',
+
+'entry_manager_view_created_desc' => 'A visualização <b>%s</b> foi criada.',
+
+'entry_manager_view_updated' => 'Visualização Atualizada',
+
+'entry_manager_view_updated_desc' => 'A visualização <b>%s</b> foi atualizada.',
+
+'entry_manager_view_not_created' => 'Não foi possível criar a Visualização',
+
+'entry_manager_view_not_created_desc' => 'Não foi possível criar esta visualização, por favor revise e corrija os erros abaixo.',
+
+'entry_manager_view_not_updated' => 'Não foi possível Atualizar a Visualização',
+
+'entry_manager_view_not_updated_desc' => 'Não foi possível atualizar esta visualização, por favor revise e corrija os erros abaixo.',
 
 );
 

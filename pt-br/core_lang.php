@@ -77,9 +77,12 @@ $lang = array(
 
 'yes' => 'Sim',
 
+'required_fields' => 'Campos Obrigatórios',
+
+'edit_this' => 'Editar isto',
 
 /* Erros */
-'captcha_incorrect' => 'Você não forneceu a palavra exatamente como ela aparenta na imagem',
+'captcha_incorrect' => 'Você não forneceu a palavra exatamente como ela é exibida na imagem',
 
 'captcha_required' => 'Você deve digitar a palavra que aparece na imagem',
 
@@ -118,6 +121,8 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 
 'missing_encryption_key' => 'Você não possui um valor definido para <code>%s</code> em seu arquivo config.php. Isto pode deixar seu sistema aberto para falhas de segurança. Restaure as chaves ou <a href="%s">entre em contato para suporte</a> para ajuda.',
 
+'el_folder_present' => 'A pasta <code>%s</code> está presente no seu servidor. Por favor, tenha certeza que você fez a substituição do <code>index.php</code> e <code>admin.php</code> de acordo com as <a href="%s">instruções de atualização</a> e removeu esta pasta.',
+
 'missing_mime_config' => 'Não foi possível importar sua lista segura de tipos MIME: o arquivo %s não existe ou não pode ser lido.',
 
 'new_version_error' => 'Aconteceu um erro inesperado ao tentar baixar a versão atual do ExpressionEngine. Veja este <a href="%s" rel="external noreferrer">guia para resolução de problemas</a>, para maiores informações.',
@@ -137,6 +142,8 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 'unwritable_config_file' => 'Seu arquivo de configuração não possui as permissões apropriadas.<br />Para reparar: Defina as permissões do arquivo de configuração (/'.SYSDIR.'/user/config/config.php) para 666 (ou o equivalente em seu servidor).',
 
 'version_mismatch' => 'A versão de instalação do ExpressionEngine (%s) não é consistente com a versão reportada (%s). <a href="'.DOC_URL.'installation/update.html" rel="external">Por favor atualize a instalação do ExpressionEngine novamente</a>.',
+
+'php72_intl_error' => 'Sua extensão PHP <code>intl</code> está desatualizada. Por favor tenha certeza que você possui a versão <code>ICU 4.6</code> instalada, ou a mais recente.',
 
 
 /* Grupos de Membros */
@@ -176,13 +183,15 @@ Se você efetuou estas alterações, por favor aceite as modificações na homep
 /* E-mail */
 'error_sending_email' => 'Não foi possível enviar e-mail neste momento.',
 
-'forgotten_email_sent' => 'Se este endereço de e-mail estiver associado com uma conta, as instruções para resetar sua senha foram enviadas para esse e-mail.',
+'forgotten_email_sent' => 'Se este endereço de e-mail estiver associado à uma conta, as instruções para resetar sua senha foram enviadas para esse e-mail.',
 
 'no_email_found' => 'O endereço de e-mail que você forneceu não foi localizado no banco de dados.',
 
 'password_has_been_reset' => 'Sua senha foi resetada e uma nova foi enviada para você, por e-mail.',
 
 'password_reset_flood_lock' => 'Você tentou resetar sua senha muitas vezes hoje. Por favor verifique sua caixa de entrada e pastas de spam para solicitações anteriores, ou entre em contato com o administrador do site.',
+
+'forgotten_username_email_sent' => 'Se este endereço de e-mail estiver associado à uma conta, um e-mail contendo seu nome de usuário já foi enviado para você.',
 
 'your_new_login_info' => 'Informações de Login',
 

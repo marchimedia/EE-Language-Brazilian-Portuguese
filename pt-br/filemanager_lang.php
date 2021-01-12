@@ -8,6 +8,8 @@ $lang = array(
 
 'btn_cancel_upload' => 'Cancelar Upload',
 
+'delete_file' => 'Excluir Arquivo',
+
 'btn_edit_file_meta' => 'Salvar Metadados do Arquivo',
 
 'btn_finish_upload' => 'Finalizar Upload',
@@ -190,7 +192,7 @@ $lang = array(
 
 'files_not_found_desc' => 'Os arquivos em destaque não foram encontrados no servidor.',
 
-'files_removed_desc' => 'Os seguintes arquivos foram removidos',
+'files_deleted_desc' => 'Os seguintes arquivos foram removidos',
 
 'flip_horizontally' => 'Flipar, horizontalmente',
 
@@ -224,9 +226,9 @@ $lang = array(
 
 'success' => 'Sucesso',
 
-'upload_directory_removed' => 'Pasta de Upload removida',
+'upload_directory_deleted' => 'Pasta de Upload deletada',
 
-'upload_directory_removed_desc' => 'A pasta de upload <b>%s</b> foi removida.',
+'upload_directory_deleted_desc' => 'A pasta de upload <b>%s</b> foi removida.',
 
 'upload_filedata_error' => 'Não foi possível Subir o Arquivo',
 
@@ -274,11 +276,13 @@ $lang = array(
 
 'create_upload_directory' => 'Criar Pasta de Upload',
 
+'new_directory' => 'Nova Pasta',
+
 'create_watermark' => 'Criar Carimbo',
 
 'default_modal_view' => 'Visualização de Modal como Padrão?',
 
-'default_modal_view_desc' => 'Visualização Padrão para esta pasta de upload no modal de seleção de arquivo.',
+'default_modal_view_desc' => 'Como os arquivos devem ser exibidos nesta pasta de upload.',
 
 'default_modal_view_list' => 'Lista',
 
@@ -408,6 +412,10 @@ $lang = array(
 
 'upload_member_groups_desc' => 'Os seguintes grupos de usuários possuem permissão para subir arquivos nesta pasat.</em><br /><em>Super Administradores <b>sempre</b> possuem permissões.',
 
+'upload_roles' => 'Regras de Permissão de Membros',
+
+'upload_roles_desc' => 'As seguintes regras de membros são permitidas para subir arquivos nesta pasta.<br />Super Administradores possuem <b>sempre</b> permissões.',
+
 'upload_path' => 'Caminho do Upload',
 
 'upload_path_desc' => 'Caminho completo no servidor para esta pasta de <mark>upload</mark> .',
@@ -486,9 +494,9 @@ $lang = array(
 
 'watermarks' => 'Carimbos',
 
-'watermarks_removed' => 'Carimbos removidos',
+'watermarks_deleted' => 'Carimbos removidos',
 
-'watermarks_removed_desc' => '%d carimbos foram removidos.',
+'watermarks_deleted_desc' => '%d carimbos foram removidos.',
 
 'watermarks_true_type' => 'Ativar fonte True Type?',
 

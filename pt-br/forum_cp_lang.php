@@ -353,7 +353,7 @@ $lang = array(
 
 'edit_category_success_desc' => 'A categoria <b>%s</b> foi atualizada.',
 
-'hidden' => 'Oculta',
+'hidden' => 'Ocultar',
 
 'live' => 'Online',
 

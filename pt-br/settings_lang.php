@@ -17,7 +17,11 @@ $lang = array(
 
 'debugging_output' => 'Debug & Saída',
 
+'general' => 'Geral',
+
 'general_settings' => 'Configurações Gerais',
+
+'settings' => 'Configurações',
 
 'hit_tracking' => 'Monitorar Hits',
 
@@ -30,6 +34,8 @@ $lang = array(
 'messages' => 'Mensagens',
 
 'outgoing_email' => 'E-mail de Saída',
+
+'email_settings' => 'Email Settings',
 
 'pages_settings' => 'Configurações das Páginas',
 
@@ -145,7 +151,7 @@ $lang = array(
 
 'site_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr> do local do seu arquivo <mark>index.php</mark>.',
 
-'themes_path' => 'Caminho dos Temass',
+'themes_path' => 'Caminho dos Temas',
 
 'themes_path_desc' => 'Caminho completo do local da sua pasta de <mark>temas</mark>.',
 
@@ -183,7 +189,7 @@ $lang = array(
 
 'mail_format' => 'Formato de E-Mail',
 
-'mail_format_desc' => 'O formato que este e-mails são enviados. É recomendável texto puro.',
+'mail_format_desc' => 'O formato que estes e-mails serão enviados. É recomendável texto puro.',
 
 'mail_protocol' => 'Protocolo',
 
@@ -391,7 +397,7 @@ $lang = array(
 
 
 /* Hit Tracking */
-'dynamic_tracking_disabling' => 'Limite de Suspesão?',
+'dynamic_tracking_disabling' => 'Limite de Suspensão?',
 
 'dynamic_tracking_disabling_desc' => 'Todo o monitoramento será suspenso quando o número de visitantes online exceder este número.</em> <em>O tracking de usuários Online deve estar ativado para usar este recurso. <a href="%s" ref="external">Saiba mais</a>',
 
@@ -445,7 +451,7 @@ $lang = array(
 
 'declined_member_notification_desc' => 'Quando ativado, os membros receberão um aviso por e-mail se porventura seu registro de membro for negado.',
 
-'default_member_group' => 'Grupo de Membro Padrão',
+'default_primary_role' => 'Regra Primária Padrão',
 
 'mbr_notification_emails' => 'Destinatários do Aviso',
 
@@ -559,9 +565,9 @@ $lang = array(
 
 'set_assigned' => 'Atribuído',
 
-'set_member_groups' => 'Grupo(s) de Membro?',
+'set_roles' => 'Regra(s) de Membro?',
 
-'set_member_groups_desc' => 'Selecione um grupo de membros para aplicar este menu.',
+'set_roles_desc' => 'Escolha a(s) regra(s) para aplicar deste menu.',
 
 'set_name' => 'Nome',
 
@@ -608,32 +614,24 @@ $lang = array(
 'prv_msg_upload_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr> do local da sua pasta de <mark>anexos</mark> .',
 
 
-/* Avatares */
-'allow_avatar_uploads' => 'Permitir uploads de avatar?',
-
-'allow_avatar_uploads_desc' => 'Quando ativado, os membros poderão subir seus próprios avatares (imagens representativas).',
-
-'avatar_file_restrictions' => 'Restrições de Arquivo do Avatar',
+/* Avatars */
+'avatar_file_restrictions' => 'Restrições do Arquivo de Avatar',
 
 'avatar_max_height' => 'Altura máxima',
 
-'avatar_max_kb' => 'Tamanho máximo do arquivo (<abbr title="kilobytes">kb</abbr>)',
+'avatar_max_kb' => 'Tamanho máximo de arquivo (<abbr title="kilobytes">kb</abbr>)',
 
 'avatar_max_width' => 'Largura máxima',
 
 'avatar_path' => 'Caminho do Avatar',
 
-'avatar_path_desc' => 'Caminho completo do local da sua pasta de <mark>avatares</mark> .',
+'avatar_path_desc' => 'Caminho completo para sua pasta de <code>avatares</code> .',
 
 'avatar_settings' => 'Configurações de Avatar',
 
-'avatar_url' => 'Pasta de Avatares',
+'avatar_url' => 'Pasta de Avatar',
 
-'avatar_url_desc' => 'Local da <abbr title="Uniform Resource Location">URL</abbr> da sua pasta de <mark>avatares</mark> .',
-
-'enable_avatars' => 'Permitir avatares?',
-
-'enable_avatars_desc' => 'Quando ativado, os membros poderão usar avataress (imagens representativas) em comentários e forums.',
+'avatar_url_desc' => '<abbr title="Uniform Resource Location">URL</abbr> do local da pasta do seu <code>avatar</code>.',
 
 
 /* CAPTCHA */

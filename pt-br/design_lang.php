@@ -6,13 +6,13 @@ $lang = array(
 
 'all_sites' => 'Todos os Sites',
 
-'allowed_member_groups' => 'Grupos de membros permitidos',
+'allowed_roles' => 'Regras permitidas',
 
-'allowed_member_groups_desc' => 'Os seguintes grupos de usuários possuem permissões para acessar este template.',
+'allowed_roles_desc' => 'As seguintes regras são permitidas para permitir acesso às páginas que estão utilizando este template.',
 
-'allowed_member_groups_super_admin' => 'Super Administradores <b>sempre</b> possuem permissões.',
+'allowed_roles_super_admin' => 'Super Administrators <b>sempre</b> possuem todas as permissões .',
 
-'author_unknown' => 'descohecido',
+'author_unknown' => 'desconhecido',
 
 'breadcrumb_group' => 'Grupo: %s',
 
@@ -88,6 +88,8 @@ $lang = array(
 
 'edit_template' => 'Editar Template: %s',
 
+'edit_template_title' => 'Editar Template',
+
 'edit_template_group' => 'Editar Grupo de Templates',
 
 'edit_template_group_error' => 'Não foi possível Atualizar o Grupo de Templates',
@@ -156,7 +158,7 @@ $lang = array(
 
 'group_not_found' => 'Nenhum grupo de templates foi encontrado',
 
-'hit_counter' => 'Contar Hits',
+'hit_counter' => 'Contador de Hits',
 
 'hit_counter_desc' => 'Mostra o número de vezes que este template foi acessado a partir do site.',
 
@@ -168,7 +170,7 @@ $lang = array(
 
 'make_default_group_desc' => 'Quando ativado, este grupo será o grupo padrão para este site.',
 
-'member_groups' => 'Grupo de Membros',
+'roles' => 'Regras',
 
 'messages' => 'Mensagens',
 
@@ -220,15 +222,15 @@ $lang = array(
 
 'snippet_name_taken' => 'O nome do parcial de template que você forneceu já está em uso',
 
-'snippets_removed_desc' => 'Os seguintes snippets foram removidos',
+'snippets_deleted_desc' => 'Os seguintes snippets foram removidos',
 
 'sync_all_templates' => 'Sincronizar Todos os Templates',
 
 'system_templates' => 'Templates do Sistema',
 
-'template_group_removed' => 'Grupo de Templates Removido',
+'template_group_deleted' => 'Grupo de Templates Removido',
 
-'template_group_removed_desc' => 'O grupo de templates <b>%s</b> foi removido.',
+'template_group_deleted_desc' => 'O grupo de templates <b>%s</b> foi removido.',
 
 'template_group_taken' => 'o nome do grupo de templates que você forneceu já está em uso',
 
@@ -236,9 +238,9 @@ $lang = array(
 
 'template_manager' => 'Gerenciador de Template',
 
-'template_member_groups' => 'Grupos de Membros Permitidos',
+'template_roles' => 'Regras de Permissão',
 
-'template_member_groups_desc' => 'Usuários nestes grupos de membros poderão criar, editar ou excluir templates neste grupo de templates.',
+'template_roles_desc' => 'Os Membros nessas regras podem executar cada ação selecionada neste grupo de templates.',
 
 'template_name_taken' => 'O nome de template que você forneceu já está em uso',
 
@@ -270,11 +272,11 @@ $lang = array(
 
 'template_variables_header' => 'Variáveis de Template<br><i>Conteúdo estático reutilizável.</i>',
 
-'template_variables_removed_desc' => 'As seguintes variáveis de template foram removidas',
+'template_variables_deleted_desc' => 'As seguintes variáveis de template foram removidas',
 
 'templates_in_group' => 'Templates em <b>%s</b>',
 
-'templates_removed_desc' => 'Os seguintes templates foram removidos',
+'templates_deleted_desc' => 'Os seguintes templates foram removidos',
 
 'update_template_error' => 'Não foi possível Atualizar o Template',
 
@@ -305,6 +307,8 @@ $lang = array(
 'system' => 'Sistema',
 
 'system_message_templates' => 'Templates de Mensagens do Sistema',
+
+'post_install_message_template' => 'Mensagem de Pós-Instalação',
 
 
 /* System Templates -> E-mail */
@@ -562,6 +566,8 @@ $lang = array(
 
 'php_in_templates_warning2' => 'Qualquer configuração marcada com %s deverá ser utilizada com cautela.',
 
+'php_in_templates_config_warning' => 'Você precisa definir <code>$config[\'allow_php\'] = \'y\';</code> no seu arquivo <code>config.php</code> se você deseja utilizar este recurso.',
+
 'preference' => 'Preferência',
 
 'preferences' => 'Preferências',
@@ -574,7 +580,7 @@ $lang = array(
 
 'refresh_in_minutes' => 'Em minutos',
 
-'require_logged_in' => 'Ë necessário que usuários estejam logados para conseguirem visualizar esta página?',
+'require_logged_in' => 'É necessário que usuários estejam logados para conseguirem visualizar esta página?',
 
 'revision_history' => 'Ver Histórico de Revisões',
 
